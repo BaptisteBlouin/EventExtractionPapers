@@ -210,6 +210,16 @@ This repository contains resources for Natural Language Processing (NLP) with a 
 8. [Extracting Entities and Events as a Single Task Using a Transition-Based Neural Model](https://www.ijcai.org/proceedings/2019/753) by Junchi Zhang, Yanxia Qin, Yue Zhang, Mengchi Liu, Donghong Ji
 9. [Leveraging Multi-head Attention Mechanism to Improve Event Detection](https://link.springer.com/chapter/10.1007%2F978-3-030-32381-3_22) by     Meihan Tong, Bin Xu, Lei Hou, Juanzi Li, Shuai Wang
 10. [Using Mention Segmentation to Improve Event Detection with Multi-head Attention](https://ialp2019.com/files/papers/IALP2019_092.pdf) by Jiali Chen, Yu Hong, Jingli Zhang, and Jianmin Yao
+11. [Distilling Discrimination and Generalization Knowledge for Event Detection via Delta-Representation Learning](https://www.aclweb.org/anthology/P19-1429/) by Yaojie Lu, Hongyu Lin, Xianpei Han, Le Sun
+12. [Detecting Subevents using Discourse and Narrative Features](https://www.aclweb.org/anthology/P19-1471/) by Mohammed Aldawsari, Mark Finlayson
+13. [Cost-sensitive Regularization for Label Confusion-aware Event Detection](https://www.aclweb.org/anthology/P19-1521/) by Hongyu Lin, Yaojie Lu, Xianpei Han, Le Sun
+14. [Exploring Pre-trained Language Models for Event Extraction and Generation](https://www.aclweb.org/anthology/P19-1522/) by Sen Yang, Dawei Feng, Linbo Qiao, Zhigang Kan, Dongsheng Li
+15. [Open Event Extraction from Online Text using a Generative Adversarial Network](https://www.aclweb.org/anthology/D19-1027/) by Rui Wang, Deyu ZHOU, Yulan He
+16. [Cross-lingual Structure Transfer for Relation and Event Extraction](https://www.aclweb.org/anthology/D19-1030/) by Ananya Subburathinam, Di Lu, Heng Ji, Jonathan May, Shih-Fu Chang, Avirup Sil, Clare Voss
+17. [Event Detection with Trigger-Aware Lattice Neural Network](https://www.aclweb.org/anthology/D19-1033/) by Ning Ding, Ziran Li, Zhiyuan Liu, Haitao Zheng, Zibo Lin
+18. [Joint Event and Temporal Relation Extraction with Shared Representations and Structured Prediction](https://www.aclweb.org/anthology/D19-1041/) by Rujun Han, Qiang Ning, Nanyun Peng
+19. [HMEAE: Hierarchical Modular Event Argument Extraction](https://www.aclweb.org/anthology/D19-1584/) by Xiaozhi Wang, Ziqi Wang, Xu Han, Zhiyuan Liu, Juanzi Li, Peng Li, Maosong Sun, Jie Zhou, Xiang Ren
+20. [Entity, Relation, and Event Extraction with Contextualized Span Representations](https://www.aclweb.org/anthology/D19-1585/) by David Wadden, Ulme Wennberg, Yi Luan, Hannaneh Hajishirzi
 
 ## SEMI-SUPERVISED LEARNING
 
@@ -265,8 +275,8 @@ supervision](https://www.aclweb.org/anthology/C18-1075/) by Jun Araki, Teruko Mi
 2. [Joint Event Extraction Based on Hierarchical Event Schemas From FrameNet](https://ieeexplore.ieee.org/document/8643786) by  Wei Li ; Dezhi Cheng ; Lei He ; Yuanzhuo Wang ; Xiaolong Jin
 3. [Doc2EDAG: An End-to-End Document-level Framework for Chinese Financial Event Extraction](https://arxiv.org/abs/1904.07535) by Shun Zheng, Wei Cao, Wei Xu, Jiang Bian 
 4. [Multilingual Entity, Relation, Event and Human Value Extraction](https://www.aclweb.org/anthology/N19-4019/) by Manling Li, Ying Lin, Joseph Hoover, Spencer Whitehead, Clare Voss, Morteza Dehghani, Heng Ji 
-
-
+5. [Neural Cross-Lingual Event Detection with Minimal Parallel Resources](https://www.aclweb.org/anthology/D19-1068/) by Jian Liu, Yubo Chen, Kang Liu, Jun Zhao
+6. [Financial Event Extraction Using Wikipedia-Based Weak Supervision](https://www.aclweb.org/anthology/D19-5102/) by Liat Ein-Dor, Ariel Gera, Orith Toledo-Ronen, Alon Halfon, Benjamin Sznajder, Lena Dankin, Yonatan Bilu, Yoav Katz, Noam Slonim
 
 ## UNSUPERVISED LEARNING
 
