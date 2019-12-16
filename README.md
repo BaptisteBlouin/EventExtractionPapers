@@ -6,7 +6,7 @@ This repository contains resources for Natural Language Processing (NLP) with a 
 
 <details>
 
-<summary><b>Expand Table of Contents</b></summary><blockquote><p align="justify">
+<summary><b>Expand Table of Contents</b></i></summary><blockquote><p align="justify">
 
 - [Pattern Matching](#pattern-matching)
 - [Machine Learning](#machine-learning)
@@ -24,15 +24,15 @@ This repository contains resources for Natural Language Processing (NLP) with a 
 
 
 <details>
-<summary>1. <a href="https://ieeexplore.ieee.org/document/469825">Acquisition of linguistic patterns for knowledge-based information extraction</a> by  Jun-Tae Kim ; D.I. Moldovan 
-</summary><blockquote><p align="justify">
+<summary>1. <a href="https://ieeexplore.ieee.org/document/469825">Acquisition of linguistic patterns for knowledge-based information extraction</a> by<i>  Jun-Tae Kim ; D.I. Moldovan 
+</i></summary><blockquote><p align="justify">
 The paper presents an automatic acquisition of linguistic patterns that can be used for knowledge based information extraction from texts. In knowledge based information extraction, linguistic patterns play a central role in the recognition and classification of input texts. Although the knowledge based approach has been proved effective for information extraction on limited domains, there are difficulties in construction of a large number of domain specific linguistic patterns. Manual creation of patterns is time consuming and error prone, even for a small application domain. To solve the scalability and the portability problem, an automatic acquisition of patterns must be provided. We present the PALKA (Parallel Automatic Linguistic Knowledge Acquisition) system that acquires linguistic patterns from a set of domain specific training texts and their desired outputs. A specialized representation of patterns called FP structures has been defined. Patterns are constructed in the form of FP structures from training texts, and the acquired patterns are tuned further through the generalization of semantic constraints. Inductive learning mechanism is applied in the generalization step. The PALKA system has been used to generate patterns for our information extraction system developed for the fourth Message Understanding Conference (MUC-4).
 </p></blockquote></details>
 
 
 
 <details>
-<summary>2. <a href="https://www.aclweb.org/anthology/W95-0112/">Automatically Acquiring Conceptual Patterns without an Annotated Corpus</a> by Ellen Riloff, Jay Shoen </summary><blockquote><p align="justify">
+<summary>2. <a href="https://www.aclweb.org/anthology/W95-0112/">Automatically Acquiring Conceptual Patterns without an Annotated Corpus</a> by<i> Ellen Riloff, Jay Shoen </i></summary><blockquote><p align="justify">
 Previous work on automated dictionary construction for information extraction has relied on annotated text corpora. However, annotating a corpus is time-consuming and difficult. We propose that conceptual patterns for information extraction can be acquired automatically using only a preclassified training corpus and no text annotations. We describe a system called AutoSlog-TS, which is a variation of our previous AutoSlog system, that runs exhaustively on an untagged text corpus. Text classification experiments in the MUC-4 terrorism domain show that the AutoSlog-TS dictionary performs comparably to a hand-crafted dictionary, and actually achieves higher precision on one test set. For text classification, AutoSlog-TS requires no manual effort beyond the preclassified training corpus. Additional experiments suggest how a dictionary produced by AutoSlog-TS can be filtered automatically for information extraction tasks. Some manual intervention is still required in this case, but AutoSlog-TS significantly reduces the amount of effort required to create an appropriate training corpus.
 </p></blockquote></details>
 
@@ -40,12 +40,12 @@ Previous work on automated dictionary construction for information extraction ha
 ### 2000 
 
 <details>
-<summary>1. <a href="https://www.aclweb.org/anthology/A00-1011/">REES: A Large-Scale Relation and Event Extraction System</a> by Chinatsu Aone, Mila Ramos-Santacruz</summary><blockquote><p align="justify">
+<summary>1. <a href="https://www.aclweb.org/anthology/A00-1011/">REES: A Large-Scale Relation and Event Extraction System</a> by<i> Chinatsu Aone, Mila Ramos-Santacruz</i></summary><blockquote><p align="justify">
 This paper reports on a large-scale, end-to- end relation and event extraction system. At present, the system extracts a total of 100 types of relations and events, which represents a much wider coverage than is typical of extraction systems. The system consists of three specialized pattem-based tagging modules, a high-precision co- reference resolution module, and a configurable template generation module. We report quantitative evaluation results, analyze the results in detail, and discuss future directions. 
 </p></blockquote></details>
 
 <details>
-<summary>2. <a href="https://www.aclweb.org/anthology/C00-2136/">Automatic Acquisition of Domain Knowledge for Information Extraction</a> by Roman Yangarber, Ralph Grishman, Pasi Tapanainen, Silja Huttunen</summary><blockquote><p align="justify">
+<summary>2. <a href="https://www.aclweb.org/anthology/C00-2136/">Automatic Acquisition of Domain Knowledge for Information Extraction</a> by<i> Roman Yangarber, Ralph Grishman, Pasi Tapanainen, Silja Huttunen</i></summary><blockquote><p align="justify">
 In developing an Information Extraction (IE) system for a new class of events or relations, one of the major tasks is identifying the many ways in which these events or relations may be expressed in text. This has generally involved the manual analysis and, in some cases, the annotation of large quantities of text involving these events. This paper presents an alternative approach, based on an automatic discovery procedure, ExDisco, which identi es a set of relevant documents and a set of event patterns from un-annotated text, starting from a small set of seed patterns." We evaluate ExDisco by comparing the performance of discovered patterns against that of manually constructed systems on actual extraction tasks.
 </p></blockquote></details>
 
@@ -56,7 +56,7 @@ In developing an Information Extraction (IE) system for a new class of events or
 
 
 <details>
-<summary>1. <a href="https://link.springer.com/chapter/10.1007/3-540-36182-0_30">Event Pattern Discovery from the Stock Market Bulletin</a> by      Fang Li, Huanye Sheng, Dongmo Zhang</summary><blockquote><p align="justify">
+<summary>1. <a href="https://link.springer.com/chapter/10.1007/3-540-36182-0_30">Event Pattern Discovery from the Stock Market Bulletin</a> by<i>      Fang Li, Huanye Sheng, Dongmo Zhang</i></summary><blockquote><p align="justify">
 Electronic information grows rapidly as the Internet is widely used in our daily life. In order to identify the exact information for the user query, information extraction is widely researched and investigated. The template, which pertains to events or situations, and contains slots that denote who did what to whom, when, and where, is predefined by a template builder. Therefore, fixed templates are the main obstacles for the information extraction system out of the laboratory. In this paper, a method to automatically discover the event pattern in Chinese from stock market bulletin is introduced. It is based on the tagged corpus and the domain model. The pattern discovery process is independent of the domain model by introducing a link table. The table is the connection between text surface structure and semantic deep structure represented by a domain model. The method can be easily adapted to other domains by changing the link table.
 </p></blockquote></details>
 
@@ -64,19 +64,19 @@ Electronic information grows rapidly as the Internet is widely used in our daily
 ### 2005
 
 <details>
-<summary>1. <a href="https://www.aaai.org/Papers/Workshops/2006/WS-06-07/WS06-07-004.pdf">Automatic event and relation detection with seeds of varying complexity</a> by Feiyu Xu, Hans Uszkoreit and Hong Li</summary><blockquote><p align="justify">
+<summary>1. <a href="https://www.aaai.org/Papers/Workshops/2006/WS-06-07/WS06-07-004.pdf">Automatic event and relation detection with seeds of varying complexity</a> by<i> Feiyu Xu, Hans Uszkoreit and Hong Li</i></summary><blockquote><p align="justify">
 In this paper, we present an approach for automaticallydetecting events in natural language texts by learning patterns that signal the mentioning of such events.  Weconstrue the relevant event types as relations and start with aset of seeds consisting of representative event instances thath appen to be known and also to be mentioned frequently ineasily available training data.  Methods have been deve-loped for the automatic identification of event extents andevent triggers.  We have learned patterns for a particular domain,  i.e.,  prize  award  events.  Currently  we  aresystematically investigating the criteria for selecting themost effective patterns for the detection of events insentences  and  paragraphs.  Although  the  systematicinvestigation is still under way, we can already report onfirst very promising results of the method for learning ofpatterns and for using these patterns in event detection.
 </p></blockquote></details>
 
 ### 2009 
 
 <details>
-<summary>1. [Biomedical event extraction without training data]<a href="https://www.aclweb.org/anthology/W09-1405/) by Andreas Vlachos, Paula Buttery, Diarmuid Ó Séaghdha, Ted Briscoe </summary><blockquote><p align="justify">
+<summary>1. <a href="https://www.aclweb.org/anthology/W09-1405/">Biomedical event extraction without training data</a> by<i> Andreas Vlachos, Paula Buttery, Diarmuid Ó Séaghdha, Ted Briscoe </i></summary><blockquote><p align="justify">
 We describe our system for the BioNLP 2009 event detection task. It is designed to be as domain-independent and unsupervised as possible. Nevertheless, the precisions achieved for single theme event classes range from 75% to 92%, while maintaining reasonable recall. The overall F-scores achieved were 36.44% and 30.80% on the development and the test sets respectively.
 </p></blockquote></details> 
 
 <details>
-<summary>2. <a href="https://www.aclweb.org/anthology/W09-1418/">Syntactic dependency based heuristics for biological event extraction</a> by Halil Kilicoglu, Sabine Bergler</summary><blockquote><p align="justify">
+<summary>2. <a href="https://www.aclweb.org/anthology/W09-1418/">Syntactic dependency based heuristics for biological event extraction</a> by<i> Halil Kilicoglu, Sabine Bergler</i></summary><blockquote><p align="justify">
 We explore a rule-based methodology for the BioNLP'09 Shared Task on Event Extraction, using dependency parsing as the underlying principle for extracting and characterizing events. We approach the speculation and negation detection task with the same principle. Evaluation results demonstrate the utility of this syntax-based approach and point out some shortcomings that need to be addressed in future work.
 </p></blockquote></details>
 
@@ -84,12 +84,12 @@ We explore a rule-based methodology for the BioNLP'09 Shared Task on Event Extra
 ### 2010 
 
 <details>
-<summary>1. <a href="https://personal.eur.nl/frasincar/papers/IJWET2010/ijwet2010.pdf">Semi-Automatic Financial Events Discovery Based on Lexico-Semantic Patterns</a> by Jethro Borsje, Frederik Hogenboom, Flavius Frasincar </summary><blockquote><p align="justify">
+<summary>1. <a href="https://personal.eur.nl/frasincar/papers/IJWET2010/ijwet2010.pdf">Semi-Automatic Financial Events Discovery Based on Lexico-Semantic Patterns</a> by<i> Jethro Borsje, Frederik Hogenboom, Flavius Frasincar </i></summary><blockquote><p align="justify">
 Due to the market sensitivity to emerging news, investors on financial markets need to continuously monitor financial events when deciding on buying and selling equities. We propose the use of lexico-semantic patterns for financial event extraction from RSS news feeds. These patterns use financial ontologies, leveraging the commonly used lexico-syntactic patterns to a higher abstraction level, thereby enabling lexico-semantic patterns to identify more and more precisely events than lexico-syntactic patterns from text. We have developed rules based on lexico-semantic patterns used to find events, and semantic actions that allow for updating the domain ontology with the effects of the discovered events. Both the lexico-semantic patterns and the semantic actions make use of the triple paradigm that fosters their easy construction and understanding by the user. Based on precision, recall, and F1 measures, we show the effectiveness of the proposed approach.
 </p></blockquote></details>
 
 <details>
-<summary>2. <a href="https://www.aclweb.org/anthology/C10-1077/">Filtered Ranking for Bootstrapping in Event Extraction</a> by Shasha Liao, Ralph Grishman</summary><blockquote><p align="justify">
+<summary>2. <a href="https://www.aclweb.org/anthology/C10-1077/">Filtered Ranking for Bootstrapping in Event Extraction</a> by<i> Shasha Liao, Ralph Grishman</i></summary><blockquote><p align="justify">
 Several researchers have proposed semi-supervised learning methods for adapting event extraction systems to new event types. This paper investigates two kinds of bootstrapping methods used for event extraction: the document-centric and similarity-centric approaches, and proposes a filtered ranking method that combines the advantages of the two. We use a range of extraction tasks to compare the generality of this method to previous work. We analyze the results using two evaluation metrics and observe the effect of different training corpora. Experiments show that our new ranking method not only achieves higher performance on different evaluation metrics, but also is more stable across different bootstrapping corpora.
 </p></blockquote></details>
 
@@ -97,54 +97,54 @@ Several researchers have proposed semi-supervised learning methods for adapting 
 ### 2011
 
 <details>
-<summary>1. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8640.2011.00401.x">Effective bio-event extraction using trigger words and syntactic dependencies</a> by Halil Kilicoglu, Sabine Bergler
-</summary><blockquote><p align="justify">
+<summary>1. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8640.2011.00401.x">Effective bio-event extraction using trigger words and syntactic dependencies</a> by<i> Halil Kilicoglu, Sabine Bergler
+</i></summary><blockquote><p align="justify">
 The scientific literature is the main source for comprehensive, up-to-date biological knowledge. Automatic extraction of this knowledge facilitates core biological tasks, such as database curation and knowledge discovery. We present here a linguistically inspired, rule-based and syntax-driven methodology for biological event extraction. We rely on a dictionary of trigger words to detect and characterize event expressions and syntactic dependency based heuristics to extract their event arguments. We refine and extend our prior work to recognize speculated and negated events. We show that heuristics based on syntactic dependencies, used to identify event arguments, extend naturally to also identify speculation and negation scope. In the BioNLP’09 Shared Task on Event Extraction, our system placed third in the Core Event Extraction Task (F-score of 0.4462), and first in the Speculation and Negation Task (F-score of 0.4252). Of particular interest is the extraction of complex regulatory events, where it scored second place. Our system significantly outperformed other participating systems in detecting speculation and negation. These results demonstrate the utility of a syntax-driven approach. In this article, we also report on our more recent work on supervised learning of event trigger expressions and discuss event annotation issues, based on our corpus analysis.
 </p></blockquote></details>
 
 <details>
-<summary>2. <a href="https://www.aaai.org/Papers/AAAI/2002/AAAI02-118.pdf">A maximum entropy approach to information extraction from semi-structured and free text</a> by Hai Leong Chieu, Hwee Tou Ng</summary><blockquote><p align="justify">
+<summary>2. <a href="https://www.aaai.org/Papers/AAAI/2002/AAAI02-118.pdf">A maximum entropy approach to information extraction from semi-structured and free text</a> by<i> Hai Leong Chieu, Hwee Tou Ng</i></summary><blockquote><p align="justify">
 In this paper, we present a classification-based approach towards single-slot as well as multi-slot information extraction (IE). For single-slot IE, we worked on the domain of Seminar Announcements, where each document contains information on only one seminar. For multi-slot IE, we worked on the domain of Management Succession. For this domain, we restrict ourselves to extracting information sentence by sentence, in the same way as (Soderland 1999). Each sentence can contain information on several management succession events. By using a classification approach based on a maximum entropy framework, our system achieves higher accuracy than the best previously published results in both domains.
 </p></blockquote></details>
 
 ### 2012 
 
 <details>
-<summary>1. <a href="https://link.springer.com/chapter/10.1007%2F978-3-642-33185-5_10">Ontology-Based Information and Event Extraction for Business Intelligence</a> by Ernest Arendarenko, Tuomo Kakkonen</summary><blockquote><p align="justify">
+<summary>1. <a href="https://link.springer.com/chapter/10.1007%2F978-3-642-33185-5_10">Ontology-Based Information and Event Extraction for Business Intelligence</a> by<i> Ernest Arendarenko, Tuomo Kakkonen</i></summary><blockquote><p align="justify">
 We would like to introduce BEECON, an information and event extraction system for business intelligence. This is the first ontology-based system for business documents analysis that is able to detect 41 different types of business events from unstructured sources of information. The described system is intended to enhance business intelligence efficiency by automatically extracting relevant content such as business entities and events. In order to achieve it, we use natural language processing techniques, pattern recognition algorithms and hand-written detection rules. In our test set consisting of 190 documents with 550 events, the system achieved 95% precision and 67% recall in detecting all supported business event types from newspaper texts.
 </p></blockquote></details>
 
 <details>
-<summary>2. <a href="https://ieeexplore.ieee.org/document/6299414">A Real -- Time News Event Extraction Framework for Vietnamese</a> by  Mai-Vu Tran , Minh-Hoang Nguyen , Sy-Quan Nguyen , Minh-Tien Nguyen, Xuan-Hieu Phan</summary><blockquote><p align="justify">
+<summary>2. <a href="https://ieeexplore.ieee.org/document/6299414">A Real -- Time News Event Extraction Framework for Vietnamese</a> by<i>  Mai-Vu Tran , Minh-Hoang Nguyen , Sy-Quan Nguyen , Minh-Tien Nguyen, Xuan-Hieu Phan</i></summary><blockquote><p align="justify">
 Event Extraction is a complex and interesting topic in Information Extraction that includes event extraction methods from free text or web data. The result of event extraction systems can be used in several fields such as risk analysis systems, online monitoring systems or decide support tools. In this paper, we introduce a method that combines lexico -- semantic and machine learning to extract event from Vietnamese news. Furthermore, we concentrate to describe event online monitoring system named VnLoc based on the method that was proposed above to extract event in Vietnamese language. Besides, in experiment phase, we have evaluated this method based on precision, recall and F1 measure. At this time of experiment, we on investigated on three types of event: FIRE, CRIME and TRANSPORT ACCIDENT.
 </p></blockquote></details>
 
 ### 2015  
 
 <details>
-<summary>1. <a href="https://www.aclweb.org/anthology/P15-4022/">A Domain-independent Rule-based Framework for Event Extraction</a> by Marco A. Valenzuela-Escárcega, Gus Hahn-Powell, Mihai Surdeanu, Thomas Hicks</summary><blockquote><p align="justify">
+<summary>1. <a href="https://www.aclweb.org/anthology/P15-4022/">A Domain-independent Rule-based Framework for Event Extraction</a> by<i> Marco A. Valenzuela-Escárcega, Gus Hahn-Powell, Mihai Surdeanu, Thomas Hicks</i></summary><blockquote><p align="justify">
 We describe the design, development, and API of ODIN (Open Domain INformer), a domain- independent, rule-based event extraction (EE) framework. The proposed EE approach is: simple (most events are captured with simple lexico-syntactic patterns), powerful (the language can capture complex constructs, such as events taking other events as arguments, and regular expressions over syntactic graphs), robust (to recover from syntactic parsing errors, syntactic patterns can be freely mixed with surface, token-based patterns), and fast (the runtime environment processes 110 sentences/second in a real-world domain with a grammar of over 200 rules). We used this framework to develop a grammar for the bio-chemical domain, which approached human performance. Our EE framework is accompanied by a web-based user interface for the rapid development of event grammars and visualization of matches. The ODIN framework and the domain-specific grammars are available as open-source code.
 </p></blockquote></details> 
 
 <details>
-<summary>2. <a href="https://dl.acm.org/citation.cfm?doid=3008658.2994600">Minimally Supervised Chinese Event Extraction from Multiple Views</a> by Peifeng Li , Guodong Zhou, Qiaoming Zhu</summary><blockquote><p align="justify">
+<summary>2. <a href="https://dl.acm.org/citation.cfm?doid=3008658.2994600">Minimally Supervised Chinese Event Extraction from Multiple Views</a> by<i> Peifeng Li , Guodong Zhou, Qiaoming Zhu</i></summary><blockquote><p align="justify">
 Although several semi-supervised learning models have been proposed for English event extraction, there are few successful stories in Chinese due to its special characteristics. In this article, we propose a novel minimally supervised model for Chinese event extraction from multiple views. Besides the traditional pattern similarity view (PSV), a semantic relationship view (SRV) is introduced to capture the relevant event mentions from relevant documents. Moreover, a morphological structure view (MSV) is incorporated to both infer more positive patterns and help filter negative patterns via morphological structure similarity. An evaluation of the ACE 2005 Chinese corpus shows that our minimally supervised model significantly outperforms several strong baselines.
 </p></blockquote></details>
 
 <details>
-<summary>3. <a href="https://www.aclweb.org/anthology/R15-1010/">Improving Event Detection with Active Learning</a> by Kai Cao, Xiang Li, Miao Fan, Ralph Grishman</summary><blockquote><p align="justify">
+<summary>3. <a href="https://www.aclweb.org/anthology/R15-1010/">Improving Event Detection with Active Learning</a> by<i> Kai Cao, Xiang Li, Miao Fan, Ralph Grishman</i></summary><blockquote><p align="justify">
 Event Detection (ED), one aspect of Information Extraction, involves identifying instances of specified types of events in text. Much of the research on ED has been based on the specifications of the 2005 ACE [Automatic Content Extraction] event task 1 , and the associated annotated corpus. However, as the event instances in the ACE corpus are not evenly distributed, some frequent expressions involving ACE events do not appear in the training data, adversely affecting performance. In this paper, we demonstrate the effectiveness of a Pattern Expansion technique to import frequent patterns extracted from external corpora to boost ED performance. The experimental results show that our pattern-based system with the expanded patterns can achieve 70.4% (with 1.6% absolute improvement) F-measure over the baseline, an advance over current state-of-the-art systems.
 </p></blockquote></details>
 
 ### 2018 
 
 <details>
-<summary>1. <a href="https://pdfs.semanticscholar.org/dc04/f814fb210edf62a6237c52eb88ac98a5b732.pdf">Including new patterns to improve event extraction systems</a> by Kai Cao,Xiang Li,Weicheng Ma,Ralph Grishman</summary><blockquote><p align="justify">
+<summary>1. <a href="https://pdfs.semanticscholar.org/dc04/f814fb210edf62a6237c52eb88ac98a5b732.pdf">Including new patterns to improve event extraction systems</a> by<i> Kai Cao,Xiang Li,Weicheng Ma,Ralph Grishman</i></summary><blockquote><p align="justify">
 Event Extraction (EE) is a challenging Information Extraction task which aims to discover event triggers of specific types along with their arguments. Most recent research on Event Extraction relies on pattern-based or feature-based approaches, trained on annotated corpora, to recognize combi- nations of event triggers, arguments, and other contextual in- formation. However, as the event instances in the ACE corpus are not evenly distributed, some frequent expressions involving ACE event triggers do not appear in the training data, adversely affecting the performance. In this paper, we demon- strate the effectiveness of systematically importing expert-level patterns from TABARI to boost EE performance. The experimental results demonstrate that our pattern-based sys- tem with the expanded patterns can achieve 69.8% (with 1.9% absolute improvement) F-measure over the baseline, an advance over current state-of-the-art systems.
 </p></blockquote></details>
 
 <details>
-<summary>2. <a href="https://www.researchgate.net/publication/329735770_Rule_based_Event_Extraction_System_from_Newswires_and_Social_Media_Text_in_Indian_Languages_EventXtract-IL_for_English_and_Hindi_Data">Rule Based Event Extraction System from Newswires and Social Media Text in Indian Languages (EventXtract-IL) for English and Hindi data</a> by Anita Saroj, Rajesh kumar Munodtiya, and Sukomal Pal </summary><blockquote><p align="justify">
+<summary>2. <a href="https://www.researchgate.net/publication/329735770_Rule_based_Event_Extraction_System_from_Newswires_and_Social_Media_Text_in_Indian_Languages_EventXtract-IL_for_English_and_Hindi_Data">Rule Based Event Extraction System from Newswires and Social Media Text in Indian Languages (EventXtract-IL) for English and Hindi data</a> by<i> Anita Saroj, Rajesh kumar Munodtiya, and Sukomal Pal </i></summary><blockquote><p align="justify">
 Due to today’s information overload, the user is particularly finding it difficult to access the right information through the World Wide Web. The situation becomes worse when this information is in multiple languages. In this paper we present a model for information extraction. Our model mainly works on the concept of speech tagging and named entity recognization. We represent each word with the POS tag and the entity identified for that term. We assume that the event exists in the first line of the document. If we do not find it in the first line, then we take the help of emotion analysis. If it has negative polarity, then it is associated with an unexpected event which has negative meaning. We use NLTK for emotion analysis.
 </p></blockquote></details>
 
@@ -155,95 +155,95 @@ Due to today’s information overload, the user is particularly finding it diffi
 ### 2006 
 
 <details>
-<summary>1. <a href="https://www.aclweb.org/anthology/W06-0901/">The stages of event extraction</a> by David Ahn</summary><blockquote><p align="justify">
+<summary>1. <a href="https://www.aclweb.org/anthology/W06-0901/">The stages of event extraction</a> by<i> David Ahn</i></summary><blockquote><p align="justify">
 Event detection and recognition is a complex task consisting of multiple sub-tasks of varying difficulty. In this paper, we present a simple, modular approach to event extraction that allows us to experiment with a variety of machine learning methods for these sub-tasks, as well as to evaluate the impact on performance these sub-tasks have on the overall task. 
 </p></blockquote></details>
 
 ### 2008
 
 <details>
-<summary>1. <a href="https://www.researchgate.net/publication/255646580_Research_on_Chinese_Event_Extraction">Research on Chinese Event Extraction</a> by Yanyan Zhao, Bing Qin, Wanxiang Che, Ting Liu</summary><blockquote><p align="justify">
+<summary>1. <a href="https://www.researchgate.net/publication/255646580_Research_on_Chinese_Event_Extraction">Research on Chinese Event Extraction</a> by<i> Yanyan Zhao, Bing Qin, Wanxiang Che, Ting Liu</i></summary><blockquote><p align="justify">
 Event Extraction is an important research point in the area of Information Extraction. This paper makes an intensive study of the two stages of Chinese event extraction, namely event type recognition and event argument recognition. A novel method combining event trigger expansion and a binary classifier is presented in the step of event type recognition while in the step of argument recognition, one with multi-class classification based on maximum entropy is introduced. The above methods solved the data unbalanced problem in training model and the data sparseness problem brought by the small set of training data effectively, and finally our event extraction system achieved a better performance.
 </p></blockquote></details> 
 
 <details>
-<summary>2. <a href="https://www.aclweb.org/anthology/P08-1030/">Refining Event Extraction through Cross-Document Inference</a> by Heng Ji, Ralph Grishman</summary><blockquote><p align="justify">
+<summary>2. <a href="https://www.aclweb.org/anthology/P08-1030/">Refining Event Extraction through Cross-Document Inference</a> by<i> Heng Ji, Ralph Grishman</i></summary><blockquote><p align="justify">
 We apply the hypothesis of "One Sense Per Discourse" (Yarowsky, 1995) to information extraction (IE), and extend the scope of "dis- course" from one single document to a cluster of topically-related documents. We employ a similar approach to propagate consistent event arguments across sentences and documents. Combining global evidence from related doc- uments with local decisions, we design a sim- ple scheme to conduct cross-document inference for improving the ACE event ex- traction task 1 . Without using any additional labeled data this new approach obtained 7.6% higher F-Measure in trigger labeling and 6% higher F-Measure in argument labeling over a state-of-the-art IE system which extracts events independently for each sentence.
 </p></blockquote></details>
 
 ### 2009
 
 <details>
-<summary>1. <a href="https://www.aclweb.org/anthology/W09-1402/">Extracting Complex Biological Events with Rich Graph-Based Feature Sets</a> by Jari Björne, Juho Heimonen, Filip Ginter, Antti Airola, Tapio Pahikkala, Tapio Salakoski</summary><blockquote><p align="justify">
+<summary>1. <a href="https://www.aclweb.org/anthology/W09-1402/">Extracting Complex Biological Events with Rich Graph-Based Feature Sets</a> by<i> Jari Björne, Juho Heimonen, Filip Ginter, Antti Airola, Tapio Pahikkala, Tapio Salakoski</i></summary><blockquote><p align="justify">
 We describe a system for extracting complex events among genes and proteins from biomedical literature, developed in context of the BioNLP’09 Shared Task on Event Extraction. For each event, the system extracts its text trigger, class, and arguments. In contrast to the approaches prevailing prior to the shared task, events can be arguments of other events, resulting in a nested structure that better captures the underlying biological statements. We divide the task into independent steps which we approach as machine learning problems. We define a wide array of features and in particular make extensive use of dependency parse graphs. A rule‐based postprocessing step is used to refine the output in accordance with the restrictions of the extraction task. In the shared task evaluation, the system achieved an F‐score of 51.95% on the primary task, the best performance among the participants. Currently, with modifications and improvements described in this article, the system achieves 52.86% F‐score on Task 1, the primary task, improving on its original performance. In addition, we extend the system also to Tasks 2 and 3, gaining F‐scores of 51.28% and 50.18%, respectively. The system thus addresses the BioNLP’09 Shared Task in its entirety and achieves the best performance on all three subtasks.
 </p></blockquote></details>
 
 <details>
-<summary>2. <a href="https://pdfs.semanticscholar.org/b6ce/13412a9cadb6c57f1349ad389affbdea2321.pdf">Language Specific Issue and Feature Exploration in  Chinese Event Extraction</a> by Zheng Chen, Heng Ji</summary><blockquote><p align="justify">
+<summary>2. <a href="https://pdfs.semanticscholar.org/b6ce/13412a9cadb6c57f1349ad389affbdea2321.pdf">Language Specific Issue and Feature Exploration in  Chinese Event Extraction</a> by<i> Zheng Chen, Heng Ji</i></summary><blockquote><p align="justify">
 In this paper, we present a Chinese event ex- traction system. We point out a language spe- cific issue in Chinese trigger labeling, and then commit to discussing the contributions of lexical, syntactic and semantic features ap- plied in trigger labeling and argument labeling. As a result, we achieved competitive perform- ance, specifically, F-measure of 59.9 in trigger labeling and F-measure of 43.8 in argument labeling.
 </p></blockquote></details>
 
 <details>
-<summary>3. <a href="https://www.aclweb.org/anthology/W09-1406/">A Markov Logic Approach to Bio-Molecular Event Extraction</a> by Sebastian Riedel, Hong-Woo Chun, Toshihisa Takagi, Jun’ichi Tsujii </summary><blockquote><p align="justify">
+<summary>3. <a href="https://www.aclweb.org/anthology/W09-1406/">A Markov Logic Approach to Bio-Molecular Event Extraction</a> by<i> Sebastian Riedel, Hong-Woo Chun, Toshihisa Takagi, Jun’ichi Tsujii </i></summary><blockquote><p align="justify">
 In this paper we describe our entry to the BioNLP 2009 Shared Task regarding biomolecular event extraction. Our work can be described by three design decisions: (1) instead of building a pipeline using local classifier technology, we design and learn a joint probabilistic model over events in a sentence; (2) instead of developing specific inference and learning algorithms for our joint model, we apply Markov Logic, a general purpose Statistical Relation Learning language, for this task; (3) we represent events as relational structures over the tokens of a sentence, as opposed to structures that explicitly mention abstract event entities. Our results are competitive: we achieve the 4th best scores for task 1 (in close range to the 3rd place) and the best results for task 2 with a 13 percent point margin.
 </p></blockquote></details>
 
 ### 2010 
 
 <details>
-<summary>1. <a href="https://www.worldscientific.com/doi/abs/10.1142/S0219720010004586">Event Extraction with Complex Event Classification Using Rich Features</a> by MAKOTO MIWA, RUNE SÆTRE, JIN-DONG KIM and JUN'ICHI TSUJII </summary><blockquote><p align="justify">
+<summary>1. <a href="https://www.worldscientific.com/doi/abs/10.1142/S0219720010004586">Event Extraction with Complex Event Classification Using Rich Features</a> by<i> MAKOTO MIWA, RUNE SÆTRE, JIN-DONG KIM and JUN'ICHI TSUJII </i></summary><blockquote><p align="justify">
 Biomedical Natural Language Processing (BioNLP) attempts to capture biomedical phenomena from texts by extracting relations between biomedical entities (i.e. proteins andgenes).  Traditionally,  only binary relations  have  been  extracted  from large numbersof published papers. Recently, more complex relations (biomolecular events) have also been extracted. Such events may include several entities or other relations. To evaluatethe performance of the text mining systems, several shared task challenges have been arranged for the BioNLP community. With a common and consistent task setting, theBioNLP’09 shared task evaluated complex biomolecular events such as binding and reg-ulation.Finding these events automatically is important in order to improve biomedical event extraction systems. In the present paper, we propose an automatic event extractionsystem, which contains a model for complex events, by solving a classification problemwith rich features. The main contributions of the present paper are: (1) the proposalof an effective bio-event detection method using machine learning, (2) provision of a high-performance event extraction system, and (3) the execution of a quantitative erroranalysis. The proposed complex (binding and regulation) event detector outperformsthe best system from the BioNLP’09 shared task challenge.
 </p></blockquote></details>
 
 <details>
-<summary>2. <a href="https://academic.oup.com/bioinformatics/article/26/12/i382/282442">Complex event extraction at PubMed scale</a> by Björne J, Ginter F, Pyysalo S, Tsujii J, Salakoski T.</summary><blockquote><p align="justify">
+<summary>2. <a href="https://academic.oup.com/bioinformatics/article/26/12/i382/282442">Complex event extraction at PubMed scale</a> by<i> Björne J, Ginter F, Pyysalo S, Tsujii J, Salakoski T.</i></summary><blockquote><p align="justify">
 There has recently been a notable shift in biomedical information extraction (IE) from relation models toward the more expressive event model, facilitated by the maturation of basic tools for biomedical text analysis and the availability of manually annotated resources. The event model allows detailed representation of complex natural language statements and can support a number of advanced text mining applications ranging from semantic search to pathway extraction. A recent collaborative evaluation demonstrated the potential of event extraction systems, yet there have so far been no studies of the generalization ability of the systems nor the feasibility of large-scale extraction. This study considers event-based IE at PubMed scale. We introduce a system combining publicly available, state-of-the-art methods for domain parsing, named entity recognition and event extraction, and test the system on a representative 1% sample of all PubMed citations. We present the first evaluation of the generalization performance of event extraction systems to this scale and show that despite its computational complexity, event extraction from the entire PubMed is feasible. We further illustrate the value of the extraction approach through a number of analyses of the extracted information. The event detection system and extracted data are open source licensed and available at http://bionlp.utu.fi/.
 </p></blockquote></details>
 
 <details>
-<summary>3. <a href="https://www.aclweb.org/anthology/P10-1081/">Using Document Level Cross-Event Inference to Improve Event Extraction</a> by Shasha Liao, Ralph Grishman</summary><blockquote><p align="justify">
+<summary>3. <a href="https://www.aclweb.org/anthology/P10-1081/">Using Document Level Cross-Event Inference to Improve Event Extraction</a> by<i> Shasha Liao, Ralph Grishman</i></summary><blockquote><p align="justify">
 Event extraction is a particularly challenging type of information extraction (IE). Most current event extraction systems rely on local information at the phrase or sentence level. However, this local context may be insufficient to resolve ambiguities in identifying particular types of events; information from a wider scope can serve to resolve some of these ambiguities. In this paper, we use document level information to improve the performance of ACE event extraction. In contrast to previous work, we do not limit ourselves to information about events of the same type, but rather use information about other types of events to make predictions or resolve ambiguities regarding a given event. We learn such relationships from the training corpus and use them to help predict the occurrence of events and event arguments in a text. Experiments show that we can get 9.0% (absolute) gain in trigger (event) classification, and more than 8% gain for argument (role) classification in ACE event extraction.
 </p></blockquote></details>
 
 ### 2011
 
 <details>
-<summary>1. <a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-S2-S4">Word sense disambiguation for event trigger word detection in biomedicine</a> by David Martinez , Timothy Baldwin </summary><blockquote><p align="justify">
+<summary>1. <a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-S2-S4">Word sense disambiguation for event trigger word detection in biomedicine</a> by<i> David Martinez , Timothy Baldwin </i></summary><blockquote><p align="justify">
 This paper describes a method for detecting event trigger words in biomedical text based on a word sense disambiguation (WSD) approach. We first investigate the applicability of existing WSD techniques to trigger word disambiguation in the BioNLP 2009 shared task data, and find that we are able to outperform a traditional CRF-based approach for certain word types. On the basis of this finding, we combine the WSD approach with the CRF, and obtain significant improvements over the standalone CRF, gaining particularly in recall.
 </p></blockquote></details>
 
 <details>
-<summary>2. <a href="https://www.aclweb.org/anthology/P11-1113/">Using Cross-Entity Inference to Improve Event Extraction</a> by Yu Hong, Jianfeng Zhang, Bin Ma, Jianmin Yao, Guodong Zhou, Qiaoming Zhu</summary><blockquote><p align="justify">
+<summary>2. <a href="https://www.aclweb.org/anthology/P11-1113/">Using Cross-Entity Inference to Improve Event Extraction</a> by<i> Yu Hong, Jianfeng Zhang, Bin Ma, Jianmin Yao, Guodong Zhou, Qiaoming Zhu</i></summary><blockquote><p align="justify">
 Event extraction is the task of detecting certain specified types of events that are mentioned in the source language data. The state-of-the-art research on the task is transductive inference (e.g. cross-event inference). In this paper, we propose a new method of event extraction by well using cross-entity inference. In contrast to previous inference methods, we regard entity-type consistency as key feature to predict event mentions. We adopt this inference method to improve the traditional sentence-level event extraction system. Experiments show that we can get 8.6% gain in trigger (event) identification, and more than 11.8% gain for argument (role) classification in ACE event extraction.
 </p></blockquote></details>
 
 <details>
-<summary>3. <a href="https://www.aclweb.org/anthology/R11-1002/">Acquiring Topic Features to improve Event Extraction: in Pre-selected and Balanced Collections</a> by Shasha Liao, Ralph Grishman</summary><blockquote><p align="justify">
+<summary>3. <a href="https://www.aclweb.org/anthology/R11-1002/">Acquiring Topic Features to improve Event Extraction: in Pre-selected and Balanced Collections</a> by<i> Shasha Liao, Ralph Grishman</i></summary><blockquote><p align="justify">
 Event extraction is a particularly challenging type of information extraction (IE) that may require inferences from the whole article. However, most current event extraction systems rely on local information at the phrase or sentence level, and do not consider the article as a whole, thus limiting extraction performance. Moreover, most annotated corpora are artificially enriched to include enough positive samples of the events of interest; event identification on a more balanced collection, such as unfiltered newswire, may perform much worse. In this paper, we investigate the use of unsupervised topic models to extract topic features to improve event extraction both on test data similar to training data, and on more balanced collections. We compare this unsupervised approach to a supervised multi-label text classifier, and show that unsupervised topic modeling can get better results for both collections, and especially for a more balanced collection. We show that the unsupervised topic model can improve trigger, argument and role labeling by 3.5%, 6.9% and 6% respectively on a pre-selected corpus, and by 16.8%, 12.5% and 12.7% on a balanced corpus.
 </p></blockquote></details>
 
 <details>
-<summary>4. <a href="https://www.aclweb.org/anthology/D11-1001/">Fast and Robust Joint Models for Biomedical Event Extraction</a> by Sebastian Riedel, Andrew McCallum</summary><blockquote><p align="justify">
+<summary>4. <a href="https://www.aclweb.org/anthology/D11-1001/">Fast and Robust Joint Models for Biomedical Event Extraction</a> by<i> Sebastian Riedel, Andrew McCallum</i></summary><blockquote><p align="justify">
 Extracting biomedical events from literature has attracted much recent attention. The best-performing systems so far have been pipelines of simple subtask-specific local classifiers. A natural drawback of such approaches are cascading errors introduced in early stages of the pipeline. We present three joint models of increasing complexity designed to overcome this problem. The first model performs joint trigger and argument extraction, and lends itself to a simple, efficient and exact inference algorithm. The second model captures correlations between events, while the third model ensures consistency between arguments of the same event. Inference in these models is kept tractable through dual decomposition. The first two models outperform the previous best joint approaches and are very competitive with respect to the current state-of-the-art. The third model yields the best results reported so far on the BioNLP 2009 shared task, the BioNLP 2011 Genia task and the BioNLP 2011 Infectious Diseases task.
 </p></blockquote></details>
 
 <details>
-<summary>5. <a href="https://jbiomedsem.biomedcentral.com/articles/10.1186/2041-1480-2-S5-S6">Coreference based event-argument relation extraction on biomedical text</a> by Katsumasa Yoshikawa, Sebastian Riedel, Tsutomu Hirao, Masayuki Asahara & Yuji Matsumoto</summary><blockquote><p align="justify">
+<summary>5. <a href="https://jbiomedsem.biomedcentral.com/articles/10.1186/2041-1480-2-S5-S6">Coreference based event-argument relation extraction on biomedical text</a> by<i> Katsumasa Yoshikawa, Sebastian Riedel, Tsutomu Hirao, Masayuki Asahara & Yuji Matsumoto</i></summary><blockquote><p align="justify">
 This paper presents a new approach to exploit coreference information for extracting event-argument (E-A) relations from biomedical documents. This approach has two advantages: (1) it can extract a large number of valuable E-A relations based on the concept of salience in discourse; (2) it enables us to identify E-A relations over sentence boundaries (cross-links) using transitivity of coreference relations. We propose two coreference-based models: a pipeline based on Support Vector Machine (SVM) classifiers, and a joint Markov Logic Network (MLN). We show the effectiveness of these models on a biomedical event corpus. Both models outperform the systems that do not use coreference information. When the two proposed models are compared to each other, joint MLN outperforms pipeline SVM with gold coreference information.
 </p></blockquote></details> 
 
 <details>
-<summary>6. <a href="https://www.aclweb.org/anthology/W11-1805/">Biomedical Event Extraction from Abstracts and Full Papers using Search-based Structured Prediction</a> by Andreas Vlachos, Mark Craven</summary><blockquote><p align="justify">
+<summary>6. <a href="https://www.aclweb.org/anthology/W11-1805/">Biomedical Event Extraction from Abstracts and Full Papers using Search-based Structured Prediction</a> by<i> Andreas Vlachos, Mark Craven</i></summary><blockquote><p align="justify">
 Biomedical event extraction has attracted substantial attention as it can assist researchers in understanding the plethora of interactions among genes that are described in publications in molecular biology. While most recent work has focused on abstracts, the BioNLP 2011 shared task evaluated the submitted systems on both abstracts and full papers. In this article, we describe our submission to the shared task which decomposes event extraction into a set of classification tasks that can be learned either independently or jointly using the search-based structured prediction framework. Our intention is to explore how these two learning paradigms compare in the context of the shared task. We report that models learned using search-based structured prediction exceed the accuracy of independently learned classifiers by 8.3 points in F-score, with the gains being more pronounced on the more complex Regulation events (13.23 points). Furthermore, we show how the trade-off between recall and precision can be adjusted in both learning paradigms and that search-based structured prediction achieves better recall at all precision points. Finally, we report on experiments with a simple domain-adaptation method, resulting in the second-best performance achieved by a single system. We demonstrate that joint inference using the search-based structured prediction framework can achieve better performance than independently learned classifiers, thus demonstrating the potential of this learning paradigm for event extraction and other similarly complex information-extraction tasks.
 </p></blockquote></details> 
 
 <details>
-<summary>7. <a href="https://www.sciencedirect.com/science/article/pii/S0933365711001060?via%3Dihub">Biomedical events extraction using the hidden vector state model</a> by Deyu Zhou, Yulan He</summary><blockquote><p align="justify">
+<summary>7. <a href="https://www.sciencedirect.com/science/article/pii/S0933365711001060?via%3Dihub">Biomedical events extraction using the hidden vector state model</a> by<i> Deyu Zhou, Yulan He</i></summary><blockquote><p align="justify">
 Biomedical events extraction concerns about events describing changes on the state of bio-molecules from literature. Comparing to the protein-protein interactions (PPIs) extraction task which often only involves the extraction of binary relations between two proteins, biomedical events extraction is much harder since it needs to deal with complex events consisting of embedded or hierarchical relations among proteins, events, and their textual triggers. In this paper, we propose an information extraction system based on the hidden vector state (HVS) model, called HVS-BioEvent, for biomedical events extraction, and investigate its capability in extracting complex events. HVS has been previously employed for extracting PPIs. In HVS-BioEvent, we propose an automated way to generate abstract annotations for HVS training and further propose novel machine learning approaches for event trigger words identification, and for biomedical events extraction from the HVS parse results. Our proposed system achieves an F-score of 49.57% on the corpus used in the BioNLP'09 shared task, which is only 2.38% lower than the best performing system by UTurku in the BioNLP'09 shared task. Nevertheless, HVS-BioEvent outperforms UTurku's system on complex events extraction with 36.57% vs. 30.52% being achieved for extracting regulation events, and 40.61% vs. 38.99% for negative regulation events. The results suggest that the HVS model with the hierarchical hidden state structure is indeed more suitable for complex event extraction since it could naturally model embedded structural context in sentences.
 </p></blockquote></details>
 
 <details>
-<summary>8. <a href="https://www.aclweb.org/anthology/P11-1163/">Event Extraction as Dependency Parsing</a> by David McClosky, Mihai Surdeanu, Christopher Manning</summary><blockquote><p align="justify">
+<summary>8. <a href="https://www.aclweb.org/anthology/P11-1163/">Event Extraction as Dependency Parsing</a> by<i> David McClosky, Mihai Surdeanu, Christopher Manning</i></summary><blockquote><p align="justify">
 
 
 Nested event structures are a common occurrence in both open domain and domain specific extraction tasks, e.g., a "crime" event can cause a "investigation" event, which can lead to an "arrest" event. However, most current approaches address event extraction with highly local models that extract each event and argument independently. We propose a simple approach for the extraction of such structures by taking the tree of event-argument relations and using it directly as the representation in a reranking dependency parser. This provides a simple framework that captures global properties of both nested and flat event structures. We explore a rich feature space that models both the events to be parsed and context from the original supporting text. Our approach obtains competitive results in the extraction of biomedical events from the BioNLP'09 shared task with a F1 score of 53.5% in development and 48.6% in testing.
@@ -251,7 +251,7 @@ Nested event structures are a common occurrence in both open domain and domain s
 </p></blockquote></details> 
 
 <details>
-<summary>9. <a href="https://www.aclweb.org/anthology/W11-1807/">Robust Biomedical Event Extraction with Dual Decomposition and Minimal Domain Adaptation</a> by Sebastian Riedel, Andrew McCallum</summary><blockquote><p align="justify">
+<summary>9. <a href="https://www.aclweb.org/anthology/W11-1807/">Robust Biomedical Event Extraction with Dual Decomposition and Minimal Domain Adaptation</a> by<i> Sebastian Riedel, Andrew McCallum</i></summary><blockquote><p align="justify">
 We present a joint model for biomedical event extraction and apply it to four tracks of the BioNLP 2011 Shared Task. Our model decomposes into three sub-models that concern (a) event triggers and outgoing arguments, (b) event triggers and incoming arguments and (c) protein-protein bindings. For efficient decoding we employ dual decomposition. Our results are very competitive: With minimal adaptation of our model we come in second for two of the tasks---right behind a version of the system presented here that includes predictions of the Stanford event extractor as features. We also show that for the Infectious Diseases task using data from the Genia track is a very effective way to improve accuracy.
 </p></blockquote></details>
 
@@ -259,75 +259,75 @@ We present a joint model for biomedical event extraction and apply it to four tr
  
 
 <details>
-<summary>1. <a href="https://academic.oup.com/bioinformatics/article/28/13/1759/234417">Boosting automatic event extraction from the literature using domain adaptation and coreference resolution</a> by Makoto Miwa, Paul Thompson, Sophia Ananiadou</summary><blockquote><p align="justify">
+<summary>1. <a href="https://academic.oup.com/bioinformatics/article/28/13/1759/234417">Boosting automatic event extraction from the literature using domain adaptation and coreference resolution</a> by<i> Makoto Miwa, Paul Thompson, Sophia Ananiadou</i></summary><blockquote><p align="justify">
 In recent years, several biomedical event extraction (EE) systems have been developed. However, the nature of the annotated training corpora, as well as the training process itself, can limit the performance levels of the trained EE systems. In particular, most event-annotated corpora do not deal adequately with coreference. This impacts on the trained systems' ability to recognize biomedical entities, thus affecting their performance in extracting events accurately. Additionally, the fact that most EE systems are trained on a single annotated corpus further restricts their coverage. We have enhanced our existing EE system, EventMine, in two ways. First, we developed a new coreference resolution (CR) system and integrated it with EventMine. The standalone performance of our CR system in resolving anaphoric references to proteins is considerably higher than the best ranked system in the COREF subtask of the BioNLP'11 Shared Task. Secondly, the improved EventMine incorporates domain adaptation (DA) methods, which extend EE coverage by allowing several different annotated corpora to be used during training. Combined with a novel set of methods to increase the generality and efficiency of EventMine, the integration of both CR and DA have resulted in significant improvements in EE, ranging between 0.5% and 3.4% F-Score. The enhanced EventMine outperforms the highest ranked systems from the BioNLP'09 shared task, and from the GENIA and Infectious Diseases subtasks of the BioNLP'11 shared task. The improved version of EventMine, incorporating the CR system and DA methods, is available at: http://www.nactem.ac.uk/EventMine/.
 </p></blockquote></details>
 
 <details>
-<summary>2. <a href="https://www.aclweb.org/anthology/D12-1092/">Employing Compositional Semantics and Discourse Consistency in Chinese Event Extraction</a> by Peifeng Li, Guodong Zhou, Qiaoming Zhu, Libin Hou </summary><blockquote><p align="justify">
+<summary>2. <a href="https://www.aclweb.org/anthology/D12-1092/">Employing Compositional Semantics and Discourse Consistency in Chinese Event Extraction</a> by<i> Peifeng Li, Guodong Zhou, Qiaoming Zhu, Libin Hou </i></summary><blockquote><p align="justify">
 Current Chinese event extraction systems suffer much from two problems in trigger identification: unknown triggers and word segmentation errors to known triggers. To resolve these problems, this paper proposes two novel inference mechanisms to explore special characteristics in Chinese via compositional semantics inside Chinese triggers and discourse consistency between Chinese trigger mentions. Evaluation on the ACE 2005 Chinese corpus justifies the effectiveness of our approach over a strong baseline.
 </p></blockquote></details>  
 
 <details>
-<summary>3. <a href="https://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/viewPaper/5113">Modeling Textual Cohesion for Event Extraction</a> by Ruihong Huang, Ellen Riloff</summary><blockquote><p align="justify">
+<summary>3. <a href="https://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/viewPaper/5113">Modeling Textual Cohesion for Event Extraction</a> by<i> Ruihong Huang, Ellen Riloff</i></summary><blockquote><p align="justify">
 Event extraction systems typically locate the role fillers for an event by analyzing sentences in isolation and identifying each role filler independently of the others. We argue that more ac-curate event extraction requires a view of the larger context to decide whether an entity is related to a relevant event. We propose a bottom-up approach to event extraction that ini-tially identifies candidate role fillers independently and then uses that information as well as discourse properties to model textual cohesion. The novel component of the architecture is a sequentially structured sentence classifier that identifies event-related story contexts. The sentence classifier uses lex-ical associations and discourse relations across sentences, as well as domain-specific distributions of candidate role fillers within and across sentences. This approach yields state-of-the-art performance on the MUC-4 data set, achieving sub-stantially higher precision than previous systems.
 </p></blockquote></details>
 
 <details>
-<summary>4. <a href="https://www.aclweb.org/anthology/C12-1100/">Joint Modeling of Trigger Identification and Event Type Determination in Chinese Event Extraction</a> by Peifeng Li, Qiaoming Zhu, Hongjun Diao, Guodong Zhou</summary><blockquote><p align="justify">
+<summary>4. <a href="https://www.aclweb.org/anthology/C12-1100/">Joint Modeling of Trigger Identification and Event Type Determination in Chinese Event Extraction</a> by<i> Peifeng Li, Qiaoming Zhu, Hongjun Diao, Guodong Zhou</i></summary><blockquote><p align="justify">
 Currently, Chinese event extraction systems suffer much from the low quality of annotated event corpora and the high ratio of pseudo trigger mentions to true ones. To resolve these two issues, this paper proposes a joint model of trigger identification and event type determination. Besides, several trigger filtering schemas are introduced to filter out those pseudo trigger mentions as many as possible. Evaluation on the ACE 2005 Chinese corpus justifies the effectiveness of our approach over a strong baseline.
 </p></blockquote></details>
 
 <details>
-<summary>5. <a href="https://www.aclweb.org/anthology/C12-1033/">Joint Modeling for Chinese Event Extraction with Rich Linguistic Features</a> by Chen Chen, Vincent Ng</summary><blockquote><p align="justify">
+<summary>5. <a href="https://www.aclweb.org/anthology/C12-1033/">Joint Modeling for Chinese Event Extraction with Rich Linguistic Features</a> by<i> Chen Chen, Vincent Ng</i></summary><blockquote><p align="justify">
 Compared to the amount of research that has been done on English event extraction, there exists relatively little work on Chinese event extraction. We seek to push the frontiers of supervised Chinese event extraction research by proposing two extension to Li et al.'s (2012) state-of-the-art event extraction system. First, we employ a joint modeling approach to event extraction, aiming to address the error propagation problem inherent in Li et al.'s pipeline system architecture. Second, we investigate a variety of rich knowledge sources for Chinese event extraction that encode knowledge ranging from the character level to the discourse level. Experimental results on the ACE 2005 dataset show that our joint-modeling, knowledge-rich approach significantly outperforms Li et al.'s approach.
 </p></blockquote></details>
 
 ### 2013 
 
 <details>
-<summary>1. <a href="https://www.aclweb.org/anthology/W13-2017/">A Hybrid approach for biomedical event extraction</a> by Xuan Quang Pham, Minh Quang Le, Bao Quoc Ho </summary><blockquote><p align="justify">
+<summary>1. <a href="https://www.aclweb.org/anthology/W13-2017/">A Hybrid approach for biomedical event extraction</a> by<i> Xuan Quang Pham, Minh Quang Le, Bao Quoc Ho </i></summary><blockquote><p align="justify">
 In this paper we propose a system which uses hybrid methods that combine both rule-based and machine learning (ML)-based approaches to solve GENIA Event Extraction of BioNLP Shared Task 2013. We apply UIMA 1 Framework to support coding. There are three main stages in model: Pre-processing, trigger detection and biomedical event detection. We use dictionary and support vector machine classifier to detect event triggers. Event detection is applied on syntactic patterns which are combined with features extracted for classification.
 </p></blockquote></details>
 
 <details>
-<summary>2. [Argument Inference from Relevant Event Mentions in Chinese Argument Extraction]<a href="https://www.aclweb.org/anthology/P13-1145/) by Peifeng Li, Qiaoming Zhu, Guodong Zhou</summary><blockquote><p align="justify">
+<summary>2. <a href="https://www.aclweb.org/anthology/P13-1145/">Argument Inference from Relevant Event Mentions in Chinese Argument Extraction</a> by<i> Peifeng Li, Qiaoming Zhu, Guodong Zhou</i></summary><blockquote><p align="justify">
 As a paratactic language, sentence-level argument extraction in Chinese suffers much from the frequent occurrence of ellipsis with regard to inter-sentence arguments. To resolve such problem, this paper proposes a novel global argument inference model to explore specific relationships, such as Coreference, Sequence and Parallel, among relevant event mentions to recover those intersentence arguments in the sentence, discourse and document layers which represent the cohesion of an event or a topic. Evaluation on the ACE 2005 Chinese corpus justifies the effectiveness of our global argument inference model over a state-of-the-art baseline.
 </p></blockquote></details>
 
 <details>
-<summary>3. <a href="https://www.ijcai.org/Proceedings/13/Papers/313.pdf">Joint Modeling of Argument Identification and Role Determination in Chinese Event Extraction with Discourse-Level Information</a> by Peifeng Li, Qiaoming Zhu and Guodong Zhou</summary><blockquote><p align="justify">
+<summary>3. <a href="https://www.ijcai.org/Proceedings/13/Papers/313.pdf">Joint Modeling of Argument Identification and Role Determination in Chinese Event Extraction with Discourse-Level Information</a> by<i> Peifeng Li, Qiaoming Zhu and Guodong Zhou</i></summary><blockquote><p align="justify">
 Argument extraction is a challenging task in event extraction. However, most of previous studies focused on intra-sentence information and failed to extract inter-sentence arguments. This paper proposes a discourse-level joint model of argument identification and role determination to infer those inter-sentence arguments in a discourse. Moreover, to better represent the relationship among relevant event mentions and the relationship between an event mention and its arguments in a discourse, this paper introduces various kinds of corpus-based and discourse-based constraints in the joint model, either automatically learned or linguistically motivated. Evaluation on the ACE 2005 Chinese corpus justifies the effectiveness of our joint model over a strong baseline in Chinese argument extraction, in particular argument identification.
 </p></blockquote></details> 
 
 <details>
-<summary>4. <a href="https://www.aclweb.org/anthology/P13-1008/">Joint Event Extraction via Structured Prediction with Global Features</a> by Qi Li, Heng Ji, Liang Huang</summary><blockquote><p align="justify">
+<summary>4. <a href="https://www.aclweb.org/anthology/P13-1008/">Joint Event Extraction via Structured Prediction with Global Features</a> by<i> Qi Li, Heng Ji, Liang Huang</i></summary><blockquote><p align="justify">
 Traditional approaches to the task of ACE event extraction usually rely on sequential pipelines with multiple stages, which suffer from error propagation since event triggers and arguments are predicted in isolation by independent local classifiers. By contrast, we propose a joint framework based on structured prediction which extracts triggers and arguments together so that the local predictions can be mutually improved. In addition, we propose to incorporate global features which explicitly capture the dependencies of multiple triggers and arguments. Experimental results show that our joint approach with local features outperforms the pipelined baseline, and adding global features further improves the performance significantly. Our approach advances state-ofthe-art sentence-level event extraction, and even outperforms previous argument labeling methods which use external knowledge from other sentences and documents.
 </p></blockquote></details>
 
 <details>
-<summary>5. <a href="https://www.aclweb.org/anthology/W13-2006/">Biomedical Event Extraction by Multi-class Classification of Pairs of Text Entities</a> by Xiao Liu, Antoine Bordes, Yves Grandvalet</summary><blockquote><p align="justify">
+<summary>5. <a href="https://www.aclweb.org/anthology/W13-2006/">Biomedical Event Extraction by Multi-class Classification of Pairs of Text Entities</a> by<i> Xiao Liu, Antoine Bordes, Yves Grandvalet</i></summary><blockquote><p align="justify">
 Biomedical event extraction from articles as become a popular research topic driven by important applications, such as the automatic update of dedicated knowledge base. Most existing approaches are either pipeline models of specific classifiers, usually subject to cascading errors, or joint structured models, more efficient but also more costly and more involved to train. We propose here a system based on a pairwise model that transforms event extraction into a simple multi-class problem of classifying pairs of text entities. Such pairs are recursively provided to the classifier, so as to extract events involving other events as arguments. Our model is more direct than the usual pipeline approaches, and speeds up inference compared to joint models. We report here the best results reported so far on the BioNLP 2011 and 2013 Genia tasks.
 </p></blockquote></details>
 
 ### 2014
 
 <details>
-<summary>1. <a href="https://www.hindawi.com/journals/bmri/2014/205239/">A Novel Feature Selection Strategy for Enhanced Biomedical Event Extraction Using the Turku System</a> by Jingbo Xia, Alex Chengyu Fang, and Xing Zhang</summary><blockquote><p align="justify">
+<summary>1. <a href="https://www.hindawi.com/journals/bmri/2014/205239/">A Novel Feature Selection Strategy for Enhanced Biomedical Event Extraction Using the Turku System</a> by<i> Jingbo Xia, Alex Chengyu Fang, and Xing Zhang</i></summary><blockquote><p align="justify">
 Feature selection is of paramount importance for text-mining classifiers with high-dimensional features. The Turku Event Extraction System (TEES) is the best performing tool in the GENIA BioNLP 2009/2011 shared tasks, which relies heavily on high-dimensional features. This paper describes research which, based on an implementation of an accumulated effect evaluation (AEE) algorithm applying the greedy search strategy, analyses the contribution of every single feature class in TEES with a view to identify important features and modify the feature set accordingly. With an updated feature set, a new system is acquired with enhanced performance which achieves an increased -score of 53.27% up from 51.21% for Task 1 under strict evaluation criteria and 57.24% according to the approximate span and recursive criterion.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>2. <a href="https://www.aclweb.org/anthology/D14-1090/">Relieving the Computational Bottleneck: Joint Inference for Event Extraction with High-Dimensional Features</a> by Deepak Venugopal, Chen Chen, Vibhav Gogate, Vincent Ng</summary><blockquote><p align="justify">
+<summary>2. <a href="https://www.aclweb.org/anthology/D14-1090/">Relieving the Computational Bottleneck: Joint Inference for Event Extraction with High-Dimensional Features</a> by<i> Deepak Venugopal, Chen Chen, Vibhav Gogate, Vincent Ng</i></summary><blockquote><p align="justify">
 Feature selection is of paramount importance for text-mining classifiers with high-dimensional features. The Turku Event Extraction System (TEES) is the best performing tool in the GENIA BioNLP 2009/2011 shared tasks, which relies heavily on high-dimensional features. This paper describes research which, based on an implementation of an accumulated effect evaluation (AEE) algorithm applying the greedy search strategy, analyses the contribution of every single feature class in TEES with a view to identify important features and modify the feature set accordingly. With an updated feature set, a new system is acquired with enhanced performance which achieves an increased -score of 53.27% up from 51.21% for Task 1 under strict evaluation criteria and 57.24% according to the approximate span and recursive criterion.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>3. <a href="https://www.cs.cmu.edu/~hovy/papers/14LREC-event-coref.pdf">Supervised Within-Document Event Coreference using Information Propagation</a> by Zhengzhong Liu, Jun Araki, Eduard Hovy, Teruko Mitamura</summary><blockquote><p align="justify">
+<summary>3. <a href="https://www.cs.cmu.edu/~hovy/papers/14LREC-event-coref.pdf">Supervised Within-Document Event Coreference using Information Propagation</a> by<i> Zhengzhong Liu, Jun Araki, Eduard Hovy, Teruko Mitamura</i></summary><blockquote><p align="justify">
 Event coreference is an important task for full text analysis. However, previous work uses a variety of approaches, sources and evaluation,making the literature confusing and the results incommensurate. We provide a description of the differences to facilitate future research.Second,  we  present  a  supervised  method  for  event  coreference  resolution  that  uses  a  rich  feature  set  and  propagates  informationalternatively between events and their arguments, adapting appropriately for each type of argument.
 </p></blockquote></details>
 
@@ -336,28 +336,28 @@ Event coreference is an important task for full text analysis. However, previous
 
 
 <details>
-<summary>1. <a href="https://www.aclweb.org/anthology/P15-3005/">Disease event detection based on deep modality analysis</a> by Yoshiaki Kitagawa, Mamoru Komachi, Eiji Aramaki, Naoaki Okazaki, Hiroshi Ishikawa</summary><blockquote><p align="justify">
+<summary>1. <a href="https://www.aclweb.org/anthology/P15-3005/">Disease event detection based on deep modality analysis</a> by<i> Yoshiaki Kitagawa, Mamoru Komachi, Eiji Aramaki, Naoaki Okazaki, Hiroshi Ishikawa</i></summary><blockquote><p align="justify">
 Social media has attracted attention because of its potential for extraction of information of various types. For example, information collected from Twitter enables us to build useful applications such as predicting an epidemic of influenza. However, using text information from social media poses challenges for event detection because of the unreliable nature of user-generated texts, which often include counter-factual statements. Consequently, this study proposes the use of modality features to improve disease event detection from Twitter messages, or "tweets". Experimental results demonstrate that the combination of a modality dictionary and a modality analyzer improves the F1-score by 3.5 points.
 </p></blockquote></details>
 
  
 
 <details>
-<summary>2. <a href="https://www.aclweb.org/anthology/S15-1018/">Event Extraction as Frame-Semantic Parsing</a> by Alex Judea, Michael Strube</summary><blockquote><p align="justify">
+<summary>2. <a href="https://www.aclweb.org/anthology/S15-1018/">Event Extraction as Frame-Semantic Parsing</a> by<i> Alex Judea, Michael Strube</i></summary><blockquote><p align="justify">
 Based on the hypothesis that frame-semantic parsing  and  event  extraction  are structurally identical tasks, we retrain SEMAFOR, a state-of-the-art  frame-semantic  parsing  system  to predict event triggers and arguments.  We de-scribe how we change SEMAFOR to be better suited for the new task and show that it performs comparable to one of the best systems in event extraction. We also describe a bias in one of its models and propose a feature factorization which is better suited for this model.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>3. <a href="https://ieeexplore.ieee.org/document/7244210">Extracting Biomedical Event with Dual Decomposition Integrating Word Embeddings</a> by  Lishuang Li ; Shanshan Liu ; Meiyue Qin ; Yiwen Wang ; Degen Huang</summary><blockquote><p align="justify">
+<summary>3. <a href="https://ieeexplore.ieee.org/document/7244210">Extracting Biomedical Event with Dual Decomposition Integrating Word Embeddings</a> by<i>  Lishuang Li ; Shanshan Liu ; Meiyue Qin ; Yiwen Wang ; Degen Huang</i></summary><blockquote><p align="justify">
 Extracting biomedical event from literatures has attracted much attention recently. By now, most of the state-of-the-art systems have been based on pipelines which suffer from cascading errors, and the words encoded by one-hot are unable to represent the semantic information. Joint inference with dual decomposition and novel word embeddings are adopted to address the two problems, respectively, in this work. Word embeddings are learnt from large scale unlabeled texts and integrated as an unsupervised feature into other rich features based on dependency parse graphs to detect triggers and arguments. The proposed system consists of four components: trigger detector, argument detector, jointly inference with dual decomposition, and rule-based semantic post-processing, and outperforms the state-of-the-art systems. On the development set of BioNLP'09, the F-score is 59.77 percent on the primary task, which is 0.96 percent higher than the best system. On the test set of BioNLP'11, the F-score is 56.09 and 0.89 percent higher than the best published result that do not adopt additional techniques. On the test set of BioNLP'13, the F-score reaches 53.19 percent which is 2.22 percent higher than the best result.
 </p></blockquote></details>
 
  
 
 <details>
-<summary>4. <a href="https://www.aclweb.org/anthology/D15-1247/">Joint event trigger identification and event coreference resolution with structured perceptron</a> by Jun Araki, Teruko Mitamura</summary><blockquote><p align="justify">
+<summary>4. <a href="https://www.aclweb.org/anthology/D15-1247/">Joint event trigger identification and event coreference resolution with structured perceptron</a> by<i> Jun Araki, Teruko Mitamura</i></summary><blockquote><p align="justify">
 Events and their coreference offer useful semantic and discourse resources. We show that the semantic and discourse aspects of events interact with each other. However, traditional approaches addressed event extraction and event coreference resolution either separately or sequentially, which limits their interactions. This paper proposes a document-level structured learning model that simultaneously identifies event triggers and resolves event coreference. We demonstrate that the joint model outperforms a pipelined model by 6.9 BLANC F1 and 1.8 CoNLL F1 points in event coreference resolution using a corpus in the biology domain.
 </p></blockquote></details>
 
@@ -366,35 +366,35 @@ Events and their coreference offer useful semantic and discourse resources. We s
  
 
 <details>
-<summary>1. <a href="https://www.aclweb.org/anthology/W16-6308/">Biomolecular Event Extraction using a Stacked Generalization based Classifier</a> by Amit Majumder, Asif Ekbal, Sudip Kumar Naskar</summary><blockquote><p align="justify">
+<summary>1. <a href="https://www.aclweb.org/anthology/W16-6308/">Biomolecular Event Extraction using a Stacked Generalization based Classifier</a> by<i> Amit Majumder, Asif Ekbal, Sudip Kumar Naskar</i></summary><blockquote><p align="justify">
 In this paper we propose a stacked generalization (or stacking) model for event extraction in bio-medical text. Event extraction deals with the process of extracting detailed biological phenomenon, which is more challenging compared to the traditional binary relation extraction such as protein-protein interaction. The overall process consists of mainly three steps: event trigger detection, argument extraction by edge detection and finding correct combination of arguments. In stacking, we use Linear Support Vector Classification (Linear SVC), Logistic Regression (LR) and Stochastic Gradient Descent (SGD) as base-level learning algorithms. As meta-level learner we use Linear SVC. In edge detection step, we find out the arguments of triggers detected in trigger detection step using a SVM classifier. To find correct combination of arguments, we use rules generated by studying the properties of bio-molecular event expressions, and form an event expression consisting of event trigger, its class and arguments. The output of trigger detection is fed to edge detection for argument extraction. Experiments on benchmark datasets of BioNLP2011 show the recall, precision and Fscore of 48.96%, 66.46% and 56.38%, respectively. Comparisons with the existing systems show that our proposed model attains state-of-the-art performance.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>2. <a href="https://www.aclweb.org/anthology/P16-1116/">RBPB: Regularization-Based Pattern Balancing Method for Event Extraction</a> by Lei Sha, Jing Liu, Chin-Yew Lin, Sujian Li, Baobao Chang, Zhifang Sui </summary><blockquote><p align="justify">
+<summary>2. <a href="https://www.aclweb.org/anthology/P16-1116/">RBPB: Regularization-Based Pattern Balancing Method for Event Extraction</a> by<i> Lei Sha, Jing Liu, Chin-Yew Lin, Sujian Li, Baobao Chang, Zhifang Sui </i></summary><blockquote><p align="justify">
 Event extraction is a particularly challenging information extraction task, which intends to identify and classify event triggers and arguments from raw text. In recent works, when determining event types (trigger classification), most of the works are either pattern-only or feature-only. However, although patterns cannot cover all representations of an event, it is still a very important feature. In addition, when identifying and classifying arguments, previous works consider each candidate argument separately while ignoring the relationship between arguments. This paper proposes a Regularization-Based Pattern Balancing Method (RBPB). Inspired by the progress in representation learning, we use trigger embedding, sentence-level embedding and pattern features together as our features for trigger classification so that the effect of patterns and other useful features can be balanced. In addition, RBPB uses a regularization method to take advantage of the relationship between arguments. Experiments show that we achieve results better than current state-of-art equivalents.
 </p></blockquote></details>
 
  
 
 <details>
-<summary>3. <a href="https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/viewPaper/11990">A Probabilistic Soft Logic Based Approach to Exploiting Latent and Global Information in Event Classification</a> by Shulin Liu, Kang Liu, Shizhu He, Jun Zhao</summary><blockquote><p align="justify">
+<summary>3. <a href="https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/viewPaper/11990">A Probabilistic Soft Logic Based Approach to Exploiting Latent and Global Information in Event Classification</a> by<i> Shulin Liu, Kang Liu, Shizhu He, Jun Zhao</i></summary><blockquote><p align="justify">
 Global information such as event-event association, and latent local information such as fine-grained entity types, are crucial to event classification. However, existing methods typically focus on sophisticated local features such as part-of-speech tags, either fully or partially ignoring the aforementioned information. By contrast, this paper focuses on fully employing them for event classification. We notice that it is difficult to encode some global information such as event-event association for previous methods. To resolve this problem, we propose a feasible approach which encodes global information in the form of logic using Probabilistic Soft Logic model. Experimental results show that, our proposed approach advances state-of-the-art methods, and achieves the best F1 score to date on the ACE data set.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>4. <a href="https://www.aclweb.org/anthology/C16-1215/">Incremental Global Event Extraction</a> by Alex Judea, Michael Strube</summary><blockquote><p align="justify">
+<summary>4. <a href="https://www.aclweb.org/anthology/C16-1215/">Incremental Global Event Extraction</a> by<i> Alex Judea, Michael Strube</i></summary><blockquote><p align="justify">
 Event extraction is a difficult information extraction task. Li et al. (2014) explore the benefits of modeling event extraction and two related tasks, entity mention and relation extraction, jointly. This joint system achieves state-of-the-art performance in all tasks. However, as a system operating only at the sentence level, it misses valuable information from other parts of the document. In this paper, we present an incremental easy-first approach to make the global context of the entire document available to the intra-sentential, state-of-the-art event extractor. We show that our method robustly increases performance on two datasets, namely ACE 2005 and TAC 2015.
 </p></blockquote></details>
 
  
 
 <details>
-<summary>5. <a href="https://www.aclweb.org/anthology/N16-1033/">Joint Extraction of Events and Entities within a Document Context</a> by Bishan Yang, Tom M. Mitchell</summary><blockquote><p align="justify">
+<summary>5. <a href="https://www.aclweb.org/anthology/N16-1033/">Joint Extraction of Events and Entities within a Document Context</a> by<i> Bishan Yang, Tom M. Mitchell</i></summary><blockquote><p align="justify">
 Events and entities are closely related; entities are often actors or participants in events and events without entities are uncommon. The interpretation of events and entities is highly contextually dependent. Existing work in information extraction typically models events separately from entities, and performs inference at the sentence level, ignoring the rest of the document. In this paper, we propose a novel approach that models the dependencies among variables of events, entities, and their relations, and performs joint inference of these variables across a document. The goal is to enable access to document-level contextual information and facilitate context-aware predictions. We demonstrate that our approach substantially outperforms the state-of-the-art methods for event extraction as well as a strong baseline for entity extraction.
 </p></blockquote></details>
 
@@ -405,14 +405,14 @@ Events and entities are closely related; entities are often actors or participan
 
 
 <details>
-<summary>1. <a href="https://www.aclweb.org/anthology/P15-2060/">Event detection and domain adaptation with convolutional neural networks</a> by Thien Huu Nguyen, Ralph Grishman </summary><blockquote><p align="justify">
+<summary>1. <a href="https://www.aclweb.org/anthology/P15-2060/">Event detection and domain adaptation with convolutional neural networks</a> by<i> Thien Huu Nguyen, Ralph Grishman </i></summary><blockquote><p align="justify">
 We study the event detection problem us-ing convolutional neural networks (CNNs) that overcome the two fundamental limi-tations of the traditional feature-based ap-proaches to this task: complicated feature engineering for rich feature sets and er-ror propagation from the preceding stages which generate these features. The experi-mental results show that the CNNs outper-form the best reported feature-based sys-tems in the general setting as well as the domain adaptation setting without resort-ing to extensive external resources.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>2. <a href="https://www.aclweb.org/anthology/P15-1017/">Event Extraction via Dynamic Multi-Pooling Convolutional Neural Networks</a> by  Yubo Chen, Liheng Xu, Kang Liu, Daojian Zeng, Jun Zhao</summary><blockquote><p align="justify">
+<summary>2. <a href="https://www.aclweb.org/anthology/P15-1017/">Event Extraction via Dynamic Multi-Pooling Convolutional Neural Networks</a> by<i>  Yubo Chen, Liheng Xu, Kang Liu, Daojian Zeng, Jun Zhao</i></summary><blockquote><p align="justify">
 Traditional approaches to the task of ACE event extraction primarily rely on elaborately designed features and complicated natural language processing (NLP) tools. These traditional approaches lack generalization, take a large amount of human effort and are prone to error propagation and data sparsity problems. This paper proposes a novel event-extraction method, which aims to automatically extract lexical-level and sentence-level features without using complicated NLP tools. We introduce a word-representation model to capture meaningful semantic regularities for words and adopt a framework based on a convolutional neural network (CNN) to capture sentence-level clues. However, CNN can only capture the most important information in a sentence and may miss valuable facts when considering multiple-event sentences. We propose a dynamic multi-pooling convolutional neural network (DMCNN), which uses a dynamic multi-pooling layer according to event triggers and arguments, to reserve more crucial information. The experimental results show that our approach significantly outperforms other state-of-the-art methods.
 </p></blockquote></details>
 
@@ -421,56 +421,56 @@ Traditional approaches to the task of ACE event extraction primarily rely on ela
  
 
 <details>
-<summary>1. <a href="https://www.aclweb.org/anthology/D16-1085/">Modeling Skip-Grams for Event Detection with Convolutional Neural Networks</a> by Thien Huu Nguyen, Ralph Grishman</summary><blockquote><p align="justify">
+<summary>1. <a href="https://www.aclweb.org/anthology/D16-1085/">Modeling Skip-Grams for Event Detection with Convolutional Neural Networks</a> by<i> Thien Huu Nguyen, Ralph Grishman</i></summary><blockquote><p align="justify">
 Convolutional neural networks (CNN) have achieved the top performance for event detection due to their capacity to induce the underlying structures of the k-grams in the sentences. However, the current CNN-based event detectors only model the consecutive k-grams and ignore the non-consecutive kgrams that might involve important structures for event detection. In this work, we propose to improve the current CNN models for ED by introducing the non-consecutive convolution. Our systematic evaluation on both the general setting and the domain adaptation setting demonstrates the effectiveness of the nonconsecutive CNN model, leading to the significant performance improvement over the current state-of-the-art systems.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>2. <a href="https://link.springer.com/chapter/10.1007%2F978-3-319-50496-4_27">Joint Event Extraction Based on Skip-Window Convolutional Neural Networks</a> by Zhengkuan Zhang, Weiran Xu, Qianqian Chen</summary><blockquote><p align="justify">
+<summary>2. <a href="https://link.springer.com/chapter/10.1007%2F978-3-319-50496-4_27">Joint Event Extraction Based on Skip-Window Convolutional Neural Networks</a> by<i> Zhengkuan Zhang, Weiran Xu, Qianqian Chen</i></summary><blockquote><p align="justify">
 Traditional approaches to the task of ACE event extraction are either the joint model with elaborately designed features which may lead to generalization and data-sparsity problems, or the word-embedding model based on a two-stage, multi-class classification architecture, which suffers from error propagation since event triggers and arguments are predicted in isolation. This paper proposes a novel event-extraction method that not only extracts triggers and arguments simultaneously, but also adopts a framework based on convolutional neural networks (CNNs) to extract features automatically. However, CNNs can only capture sentence-level features, so we propose the skip-window convolution neural networks (S-CNNs) to extract global structured features, which effectively capture the global dependencies of every token in the sentence. The experimental results show that our approach outperforms other state-of-the-art methods.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>3. <a href="https://www.aclweb.org/anthology/N16-1034/">Joint Event Extraction via Recurrent Neural Networks</a> by Thien Huu Nguyen, Kyunghyun Cho, Ralph Grishman </summary><blockquote><p align="justify">
+<summary>3. <a href="https://www.aclweb.org/anthology/N16-1034/">Joint Event Extraction via Recurrent Neural Networks</a> by<i> Thien Huu Nguyen, Kyunghyun Cho, Ralph Grishman </i></summary><blockquote><p align="justify">
 Event extraction is a particularly challenging problem in information extraction. The stateof-the-art models for this problem have either applied convolutional neural networks in a pipelined framework (Chen et al., 2015) or followed the joint architecture via structured prediction with rich local and global features (Li et al., 2013). The former is able to learn hidden feature representations automatically from data based on the continuous and generalized representations of words. The latter, on the other hand, is capable of mitigating the error propagation problem of the pipelined approach and exploiting the inter-dependencies between event triggers and argument roles via discrete structures. In this work, we propose to do event extraction in a joint framework with bidirectional recurrent neural networks, thereby benefiting from the advantages of the two models as well as addressing issues inherent in the existing approaches. We systematically investigate different memory features for the joint model and demonstrate that the proposed model achieves the state-of-the-art performance on the ACE 2005 dataset.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>4. <a href="https://www.aclweb.org/anthology/P16-2060/">Event Nugget Detection with Forward-Backward Recurrent Neural Networks</a> by Reza Ghaeini, Xiaoli Fern, Liang Huang, Prasad Tadepalli</summary><blockquote><p align="justify">
+<summary>4. <a href="https://www.aclweb.org/anthology/P16-2060/">Event Nugget Detection with Forward-Backward Recurrent Neural Networks</a> by<i> Reza Ghaeini, Xiaoli Fern, Liang Huang, Prasad Tadepalli</i></summary><blockquote><p align="justify">
 Traditional event detection methods heavily rely on manually engineered rich features. Recent deep learning approaches alleviate this problem by automatic feature engineering. But such efforts, like tradition methods, have so far only focused on single-token event mentions, whereas in practice events can also be a phrase. We instead use forward-backward recurrent neural networks (FBRNNs) to detect events that can be either words or phrases. To the best our knowledge, this is one of the first efforts to handle multi-word events and also the first attempt to use RNNs for event detection. Experimental results demonstrate that FBRNN is competitive with the state-of-the-art methods on the ACE 2005 and the Rich ERE 2015 event detection tasks.
 </p></blockquote></details>
 
  
 
 <details>
-<summary>5. <a href="https://link.springer.com/chapter/10.1007/978-3-319-47674-2_17">Event Extraction via Bidirectional Long Short-Term Memory Tensor Neural Network</a> by     Yubo Chen, Shulin Liu, Shizhu He, Kang LiuJun Zhao</summary><blockquote><p align="justify">
+<summary>5. <a href="https://link.springer.com/chapter/10.1007/978-3-319-47674-2_17">Event Extraction via Bidirectional Long Short-Term Memory Tensor Neural Network</a> by<i>     Yubo Chen, Shulin Liu, Shizhu He, Kang LiuJun Zhao</i></summary><blockquote><p align="justify">
 Traditional approaches to the task of ACE event extraction usually rely on complicated natural language processing (NLP) tools and elaborately designed features. Which suffer from error propagation of the existing tools and take a large amount of human effort. And nearly all of approaches extract each argument of an event separately without considering the interaction between candidate arguments. By contrast, we propose a novel event-extraction method, which aims to automatically extract valuable clues without using complicated NLP tools and predict all arguments of an event simultaneously. In our model, we exploit a context-aware word representation model based on Long Short-Term Memory Networks (LSTM) to capture the semantics of words from plain texts. In addition, we propose a tensor layer to explore the interaction between candidate arguments and predict all arguments simultaneously. The experimental results show that our approach significantly outperforms other state-of-the-art methods.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>6. <a href="https://tac.nist.gov/publications/2016/participant.papers/TAC2016.wip.proceedings.pdf">WIP Event Detection System at TAC KBP 2016 Event Nugget Track</a> by Ying  Zeng, Bingfeng Luo, Yansong Feng, Dongyan Zhao</summary><blockquote><p align="justify">
+<summary>6. <a href="https://tac.nist.gov/publications/2016/participant.papers/TAC2016.wip.proceedings.pdf">WIP Event Detection System at TAC KBP 2016 Event Nugget Track</a> by<i> Ying  Zeng, Bingfeng Luo, Yansong Feng, Dongyan Zhao</i></summary><blockquote><p align="justify">
 Event detection aims to extract events with specific types from unstructured data, which is the crucial and challenging task in event related applications, such as event coreference resolution and event argument extraction. In this paper, we propose an event detection system that combines traditional feature-based methods and novel neural network (NN) models. Experiments show that our ensemble approaches can achieve promising performance in the Event Nugget Detection task. 
 </p></blockquote></details>
 
 
 
 <details>
-<summary>7. <a href="https://link.springer.com/chapter/10.1007%2F978-3-319-50496-4_23">A Convolution BiLSTM Neural Network Model for Chinese Event Extraction</a> by     Ying Zeng, Honghui Yang, Yansong Feng, Zheng Wang, Dongyan Zhao</summary><blockquote><p align="justify">
+<summary>7. <a href="https://link.springer.com/chapter/10.1007%2F978-3-319-50496-4_23">A Convolution BiLSTM Neural Network Model for Chinese Event Extraction</a> by<i>     Ying Zeng, Honghui Yang, Yansong Feng, Zheng Wang, Dongyan Zhao</i></summary><blockquote><p align="justify">
 Chinese event extraction is a challenging task in information extraction. Previous approaches highly depend on sophisticated feature engineering and complicated natural language processing (NLP) tools. In this paper, we first come up with the language specific issue in Chinese event extraction, and then propose a convolution bidirectional LSTM neural network that combines LSTM and CNN to capture both sentence-level and lexical information without any hand-craft features. Experiments on ACE 2005 dataset show that our approaches can achieve competitive performances in both trigger labeling and argument role labeling.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>8. <a href="https://www.aclweb.org/anthology/P16-2011/">A Language-Independent Neural Network for Event Detection</a> by Xiaocheng Feng, Lifu Huang, Duyu Tang, Heng Ji, Bing Qin, Ting Liu</summary><blockquote><p align="justify">
+<summary>8. <a href="https://www.aclweb.org/anthology/P16-2011/">A Language-Independent Neural Network for Event Detection</a> by<i> Xiaocheng Feng, Lifu Huang, Duyu Tang, Heng Ji, Bing Qin, Ting Liu</i></summary><blockquote><p align="justify">
 Event detection remains a challenge because of the difficulty of encoding the word semantics in various contexts. Previous approaches have heavily depended on language-specific knowledge and preexisting natural language processing tools. However, not all languages have such resources and tools available compared with English language. A more promising approach is to automatically learn effective features from data, without relying on language-specific resources. In this study, we develop a language-independent neural network to capture both sequence and chunk information from specific contexts and use them to train an event detector for multiple languages without any manually encoded features. Experiments show that our approach can achieve robust, efficient and accurate results for various languages. In the ACE 2005 English event detection task, our approach achieved a 73.4% F-score with an average of 3.0% absolute improvement compared with state-of-the-art. Additionally, our experimental results are competitive for Chinese and Spanish.
 </p></blockquote></details>
 
@@ -479,35 +479,35 @@ Event detection remains a challenge because of the difficulty of encoding the wo
  
 
 <details>
-<summary>1. <a href="https://link.springer.com/chapter/10.1007%2F978-3-319-69005-6_11">Improving Event Detection via Information Sharing among Related Event Types</a> by Shulin Liu, Yubo Chen, Kang Liu, Jun Zhao, Zhunchen Luo, Wei Luo</summary><blockquote><p align="justify">
+<summary>1. <a href="https://link.springer.com/chapter/10.1007%2F978-3-319-69005-6_11">Improving Event Detection via Information Sharing among Related Event Types</a> by<i> Shulin Liu, Yubo Chen, Kang Liu, Jun Zhao, Zhunchen Luo, Wei Luo</i></summary><blockquote><p align="justify">
 Event detection suffers from data sparseness and label imbalance problem due to the expensive cost of manual annotations of events. To address this problem, we propose a novel approach that allows for information sharing among related event types. Specifically, we employ a fully connected three-layer artificial neural network as our basic model and propose a type-group regularization term to achieve the goal of information sharing. We conduct experiments with different configurations of type groups, and the experimental results show that information sharing among related event types remarkably improves the detecting performance. Compared with state-of-the-art methods, our proposed approach achieves a better \(F_1\) score on the widely used ACE 2005 event evaluation dataset.
 </p></blockquote></details>
 
  
 
 <details>
-<summary>2. <a href="http://oro.open.ac.uk/49639/">On semantics and deep learning for event detection in crisis situations</a> by Burel Grégoire; Saif Hassan; Fernandez Miriam and Alani Harith</summary><blockquote><p align="justify">
+<summary>2. <a href="http://oro.open.ac.uk/49639/">On semantics and deep learning for event detection in crisis situations</a> by<i> Burel Grégoire; Saif Hassan; Fernandez Miriam and Alani Harith</i></summary><blockquote><p align="justify">
 In this paper, we introduce Dual-CNN, a semantically-enhanced deep learning model to target the problem of event detection in crisis situations from social media data. A layer of semantics is added to a traditional Convolutional Neural Network (CNN) model to capture the contextual information that is generally scarce in short, ill-formed social media messages. Our results show that our methods are able to successfully identify the existence of events, and event types (hurricane, floods, etc.) accurately (> 79% F-measure), but the performance of the model significantly drops (61% F-measure) when identifying fine-grained event-related information (affected individuals, damaged infrastructures, etc.). These results are competitive with more traditional Machine Learning models, such as SVM.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>3. <a href="https://www.aclweb.org/anthology/I17-1036/">Exploiting Document Level Information to Improve Event Detection via Recurrent Neural Networks</a> by Shaoyang Duan, Ruifang He, Wenli Zhao</summary><blockquote><p align="justify">
+<summary>3. <a href="https://www.aclweb.org/anthology/I17-1036/">Exploiting Document Level Information to Improve Event Detection via Recurrent Neural Networks</a> by<i> Shaoyang Duan, Ruifang He, Wenli Zhao</i></summary><blockquote><p align="justify">
 This paper tackles the task of event detection, which involves identifying and categorizing events. The previous work mainly exist two problems: (1) the traditional feature-based methods apply cross-sentence information, yet need taking a large amount of human effort to design complicated feature sets and inference rules; (2) the representation-based methods though overcome the problem of manually extracting features, while just depend on local sentence representation. Considering local sentence context is insufficient to resolve ambiguities in identifying particular event types, therefore, we propose a novel document level Recurrent Neural Networks (DLRNN) model, which can automatically extract cross-sentence clues to improve sentence level event detection without designing complex reasoning rules. Experiment results show that our approach outperforms other state-of-the-art methods on ACE 2005 dataset without external knowledge base.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>4. <a href="https://www.aclweb.org/anthology/W17-2315/">Biomedical Event Extraction using Abstract Meaning Representation</a> by  Sudha Rao, Daniel Marcu, Kevin Knight, Hal Daumé III</summary><blockquote><p align="justify">
+<summary>4. <a href="https://www.aclweb.org/anthology/W17-2315/">Biomedical Event Extraction using Abstract Meaning Representation</a> by<i>  Sudha Rao, Daniel Marcu, Kevin Knight, Hal Daumé III</i></summary><blockquote><p align="justify">
 We propose a novel, Abstract Meaning Representation (AMR) based approach to identifying molecular events/interactions in biomedical text. Our key contributions are: (1) an empirical validation of our hypothesis that an event is a subgraph of the AMR graph, (2) a neural network-based model that identifies such an event subgraph given an AMR, and (3) a distant supervision based approach to gather additional training data. We evaluate our approach on the 2013 Genia Event Extraction dataset and show promising results.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>5. <a href="https://www.aclweb.org/anthology/P17-1164/">Exploiting Argument Information to Improve Event Detection via Supervised Attention Mechanisms</a> by Shulin Liu, Yubo Chen, Kang Liu, Jun Zhao</summary><blockquote><p align="justify">
+<summary>5. <a href="https://www.aclweb.org/anthology/P17-1164/">Exploiting Argument Information to Improve Event Detection via Supervised Attention Mechanisms</a> by<i> Shulin Liu, Yubo Chen, Kang Liu, Jun Zhao</i></summary><blockquote><p align="justify">
 This paper tackles the task of event detection (ED), which involves identifying and categorizing events. We argue that arguments provide significant clues to this task, but they are either completely ignored or exploited in an indirect manner in existing detection approaches. In this work, we propose to exploit argument information explicitly for ED via supervised attention mechanisms. In specific, we systematically investigate the proposed model under the supervision of different attention strategies. Experimental results show that our approach advances state-of-the-arts and achieves the best F1 score on ACE 2005 dataset.
 </p></blockquote></details>
 
@@ -516,154 +516,154 @@ This paper tackles the task of event detection (ED), which involves identifying 
  
 
 <details>
-<summary>1. <a href="https://www.aclweb.org/anthology/D18-1517/">Similar but not the Same: Word Sense Disambiguation Improves Event Detection via Neural Representation Matching</a> by Weiyi Lu, Thien Huu Nguyen</summary><blockquote><p align="justify">
+<summary>1. <a href="https://www.aclweb.org/anthology/D18-1517/">Similar but not the Same: Word Sense Disambiguation Improves Event Detection via Neural Representation Matching</a> by<i> Weiyi Lu, Thien Huu Nguyen</i></summary><blockquote><p align="justify">
 Event detection (ED) and word sense disambiguation (WSD) are two similar tasks in that they both involve identifying the classes (i.e. event types or word senses) of some word in a given sentence. It is thus possible to extract the knowledge hidden in the data for WSD, and utilize it to improve the performance on ED. In this work, we propose a method to transfer the knowledge learned on WSD to ED by matching the neural representations learned for the two tasks. Our experiments on two widely used datasets for ED demonstrate the effectiveness of the proposed method.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>2. <a href="https://www.aclweb.org/anthology/D18-1127/">Exploiting Contextual Information via Dynamic Memory Network for Event Detection</a> by Shaobo Liu, Rui Cheng, Xiaoming Yu, Xueqi Cheng </summary><blockquote><p align="justify">
+<summary>2. <a href="https://www.aclweb.org/anthology/D18-1127/">Exploiting Contextual Information via Dynamic Memory Network for Event Detection</a> by<i> Shaobo Liu, Rui Cheng, Xiaoming Yu, Xueqi Cheng </i></summary><blockquote><p align="justify">
 The task of event detection involves identifying and categorizing event triggers. Contextual information has been shown effective on the task. However, existing methods which utilize contextual information only process the context once. We argue that the context can be better exploited by processing the context multiple times, allowing the model to perform complex reasoning and to generate better context representation, thus improving the overall performance. Meanwhile, dynamic memory network (DMN) has demonstrated promising capability in capturing contextual information and has been applied successfully to various tasks. In light of the multi-hop mechanism of the DMN to model the context, we propose the trigger detection dynamic memory network (TD-DMN) to tackle the event detection problem. We performed a five-fold cross-validation on the ACE-2005 dataset and experimental results show that the multi-hop mechanism does improve the performance and the proposed model achieves best F1 score compared to the state-of-the-art methods.
 </p></blockquote></details>
 
  
 
 <details>
-<summary>3. <a href="https://www.aclweb.org/anthology/P18-1145/">Nugget Proposal Networks for Chinese Event Detection</a> by Hongyu Lin, Yaojie Lu, Xianpei Han, Le Sun</summary><blockquote><p align="justify">
+<summary>3. <a href="https://www.aclweb.org/anthology/P18-1145/">Nugget Proposal Networks for Chinese Event Detection</a> by<i> Hongyu Lin, Yaojie Lu, Xianpei Han, Le Sun</i></summary><blockquote><p align="justify">
 Neural network based models commonly regard event detection as a word-wise classification task, which suffer from the mismatch problem between words and event triggers, especially in languages without natural word delimiters such as Chinese. In this paper, we propose Nugget Proposal Networks (NPNs), which can solve the word-trigger mismatch problem by directly proposing entire trigger nuggets centered at each character regardless of word boundaries. Specifically, NPNs perform event detection in a character-wise paradigm, where a hybrid representation for each character is first learned to capture both structural and semantic information from both characters and words. Then based on learned representations, trigger nuggets are proposed and categorized by exploiting character compositional structures of Chinese event triggers. Experiments on both ACE2005 and TAC KBP 2017 datasets show that NPNs significantly outperform the state-of-the-art methods.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>4. <a href="https://ieeexplore.ieee.org/document/8453008">Extracting Biomedical Events with Parallel Multi-Pooling Convolutional Neural Networks</a> by  Lishuang Li ; Yang Liu ; Meiyue Qin</summary><blockquote><p align="justify">
+<summary>4. <a href="https://ieeexplore.ieee.org/document/8453008">Extracting Biomedical Events with Parallel Multi-Pooling Convolutional Neural Networks</a> by<i>  Lishuang Li ; Yang Liu ; Meiyue Qin</i></summary><blockquote><p align="justify">
 Biomedical event extraction is important for medical research and disease prevention, which has attracted much attention in recent years. Traditionally, most of the state-of-the-art systems have been based on shallow machine learning methods, which require many complex, hand-designed features. In addition, the words encoded by one-hot are unable to represent semantic information. Therefore, we utilize dependency-based embeddings to represent words semantically and syntactically. Then, we propose a parallel multi-pooling convolutional neural network (PMCNN) model to capture the compositional semantic features of sentences. Furthermore, we employ a rectified linear unit, which creates sparse representations with true zeros, and which is adapted to the biomedical event extraction, as a nonlinear function in PMCNN architecture. The experimental results from MLEE dataset show that our approach achieves an F1 score of 80.27% in trigger identification and an F1 score of 59.65% in biomedical event extraction, which performs better than other state-of-the-art methods.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>5. <a href="https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16222">Jointly Extracting Event Triggers and Arguments by Dependency-Bridge RNN and Tensor-Based Argument Interaction</a> by Lei Sha, Feng Qian, Baobao Chang, Zhifang Sui</summary><blockquote><p align="justify">
+<summary>5. <a href="https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16222">Jointly Extracting Event Triggers and Arguments by Dependency-Bridge RNN and Tensor-Based Argument Interaction</a> by<i> Lei Sha, Feng Qian, Baobao Chang, Zhifang Sui</i></summary><blockquote><p align="justify">
 Event extraction plays an important role in natural language processing (NLP) applications including question answering and information retrieval. Traditional event extraction relies heavily on lexical and syntactic features, which require intensive human engineering and may not generalize to different datasets. Deep neural networks, on the other hand, are able to automatically learn underlying features, but existing networks do not make full use of syntactic relations. In this paper, we propose a novel dependency bridge recurrent neural network (dbRNN) for event extraction. We build our model upon a recurrent neural network, but enhance it with dependency bridges, which carry syntactically related information when modeling each word. We illustrates that simultaneously applying tree structure and sequence structure in RNN brings much better performance than only uses sequential RNN. In addition, we use a tensor layer to simultaneously capture the various types of latent interaction between candidate arguments as well as identify/classify all arguments of an event. Experiments show that our approach achieves competitive results compared with previous work.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>6. <a href="https://link.springer.com/chapter/10.1007/978-3-030-01012-6_20">Learning Target-Dependent Sentence Representations for Chinese Event Detection</a> by Wenbo Zhang, Xiao Ding, Ting Liu </summary><blockquote><p align="justify">
+<summary>6. <a href="https://link.springer.com/chapter/10.1007/978-3-030-01012-6_20">Learning Target-Dependent Sentence Representations for Chinese Event Detection</a> by<i> Wenbo Zhang, Xiao Ding, Ting Liu </i></summary><blockquote><p align="justify">
 Chinese event detection is a particularly challenging task in information extraction. Previous work mainly consider the sequential representation of sentences. However, long-range dependencies between words in the sentences may hurt the performance of these approaches. We believe that syntactic representations can provide an effective mechanism to directly link words to their informative context in the sentences. In this paper, we propose a novel event detection model based on dependency trees. In particular, we propose transforming dependency trees to target-dependent trees where leaf nodes are words and internal nodes are dependency relations, to distinguish the target words. Experimental results on the ACE 2005 corpus show that our approach significantly outperforms state-of-the-art baseline methods.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>7. <a href="https://arxiv.org/abs/1812.00195">One for All: Neural Joint Modeling of Entities and Events</a> by Trung Minh Nguyen, Thien Huu Nguyen</summary><blockquote><p align="justify">
+<summary>7. <a href="https://arxiv.org/abs/1812.00195">One for All: Neural Joint Modeling of Entities and Events</a> by<i> Trung Minh Nguyen, Thien Huu Nguyen</i></summary><blockquote><p align="justify">
 The previous work for event extraction has mainly focused on the predictions for event triggers and argument roles, treating entity mentions as being provided by human annotators. This is unrealistic as entity mentions are usually predicted by some existing toolkits whose errors might be propagated to the event trigger and argument role recognition. Few of the recent work has addressed this problem by jointly predicting entity mentions, event triggers and arguments. However, such work is limited to using discrete engineering features to represent contextual information for the individual tasks and their interactions. In this work, we propose a novel model to jointly perform predictions for entity mentions, event triggers and arguments based on the shared hidden representations from deep learning. The experiments demonstrate the benefits of the proposed method, leading to the state-of-the-art performance for event extraction.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>8. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0950705119300097?via%3Dihub">Empower event detection with bi-directional neural language model</a> by Yunyan Zhang , Guangluan Xu , Yang Wang, Xiao Liang, Lei Wang, Tinglei Huang</summary><blockquote><p align="justify">
+<summary>8. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0950705119300097?via%3Dihub">Empower event detection with bi-directional neural language model</a> by<i> Yunyan Zhang , Guangluan Xu , Yang Wang, Xiao Liang, Lei Wang, Tinglei Huang</i></summary><blockquote><p align="justify">
 Event detection is an essential and challenging task in Information Extraction (IE). Recent advances in neural networks make it possible to build reliable models without complicated feature engineering. However, data scarcity hinders their further performance. Moreover, training data has been underused since majority of labels in datasets are not event triggers and contribute very little to the training process. In this paper, we propose a novel multi-task learning framework to extract more general patterns from raw data and make better use of the training data. Specifically, we present two paradigms to incorporate neural language model into event detection model on both word and character levels: (1) we use the features extracted by language model as an additional input to event detection model. (2) We use a hard parameter sharing approach between language model and event detection model. The extensive experiments demonstrate the benefits of the proposed multi-task learning framework for event detection. Compared to the previous methods, our method does not rely on any additional supervision but still beats the majority of them and achieves a competitive performance on the ACE 2005 benchmark.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>9. <a href="https://arxiv.org/abs/1809.09078">Jointly Multiple Events Extraction via Attention-based Graph Information Aggregation</a> by Xiao Liu, Zhunchen Luo, Heyan Huang</summary><blockquote><p align="justify">
+<summary>9. <a href="https://arxiv.org/abs/1809.09078">Jointly Multiple Events Extraction via Attention-based Graph Information Aggregation</a> by<i> Xiao Liu, Zhunchen Luo, Heyan Huang</i></summary><blockquote><p align="justify">
 Event extraction is of practical utility in natural language processing. In the real world, it is a common phenomenon that multiple events existing in the same sentence, where extracting them are more difficult than extracting a single event. Previous works on modeling the associations between events by sequential modeling methods suffer a lot from the low efficiency in capturing very long-range dependencies. In this paper, we propose a novel Jointly Multiple Events Extraction (JMEE) framework to jointly extract multiple event triggers and arguments by introducing syntactic shortcut arcs to enhance information flow and attention-based graph convolution networks to model graph information. The experiment results demonstrate that our proposed framework achieves competitive results compared with state-of-the-art methods.
 </p></blockquote></details>
 
  
 
 <details>
-<summary>10. <a href="https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16329">Graph Convolutional Networks With Argument-Aware Pooling for Event Detection</a> by Thien Huu Nguyen, Ralph Grishman</summary><blockquote><p align="justify">
+<summary>10. <a href="https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16329">Graph Convolutional Networks With Argument-Aware Pooling for Event Detection</a> by<i> Thien Huu Nguyen, Ralph Grishman</i></summary><blockquote><p align="justify">
 The current neural network models for event detection have only considered the sequential representation of sentences. Syntactic representations have not been explored in this area although they provide an effective mechanism to directly link words to their informative context for event detection in the sentences. In this work, we investigate a convolutional neural network based on dependency trees to perform event detection. We propose a novel pooling method that relies on entity mentions to aggregate the convolution vectors. The extensive experiments demonstrate the benefits of the dependency based convolutional neural networks and the entity mentionbased pooling method for event detection. We achieve the state-of-the-art performance on widely used datasets with both perfect and predicted entity mentions.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>11. <a href="https://link.springer.com/chapter/10.1007%2F978-3-030-04221-9_23">Chinese Event Recognition via Ensemble Model</a> by Wei Liu, Zhenyu Yang, Zongtian Liu</summary><blockquote><p align="justify">
+<summary>11. <a href="https://link.springer.com/chapter/10.1007%2F978-3-030-04221-9_23">Chinese Event Recognition via Ensemble Model</a> by<i> Wei Liu, Zhenyu Yang, Zongtian Liu</i></summary><blockquote><p align="justify">
 Event recognition is one of the most fundamental and critical field in information extraction. In this paper, Event recognition task can be divided into two sub-problems containing candidate event triggers identification and the classification of candidate event trigger words. Firstly, we use trigger vocabulary generated by trigger expansion to identify candidate event trigger, and then input sequences are generated according to the following three features: word embedding, POS (part of speech) and DP (dependency parsing). Finally multiclass classifier based on joint neural networks is introduced in the step of candidate trigger classification. The experiments in CEC (Chinese Emergency Corpus) have shown the superiority of our proposal model with a maximum F-measure of 80.55%.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>12. <a href="http://ceur-ws.org/Vol-2266/T5-2.pdf">A neural network based Event extraction system for Indian languages</a> by Alapan Kuila, Sarath chandra Bussa, Sudeshna Sarkar</summary><blockquote><p align="justify">
+<summary>12. <a href="http://ceur-ws.org/Vol-2266/T5-2.pdf">A neural network based Event extraction system for Indian languages</a> by<i> Alapan Kuila, Sarath chandra Bussa, Sudeshna Sarkar</i></summary><blockquote><p align="justify">
 In this paper we have described a neural network based approach for Event extraction(EE) task which aims to discover different types of events along with the event arguments form the text documents written in Indian languages like Hindi, Tamil and English as part of our participation in the task on Event Extraction from Newswires and Social Media Text in Indian Languages at Forum for Information Retrieval Evaluation (FIRE) in 2018. A neural netork model which is a combination of Convolution neural network(CNN) and Recurrent neural network(RNN) is employed for the Event identification task. In addition to event detection, the system also extracts the event arguments which contain the information related to the events(i.e. when[Time], where[Place], Reason, Casualty, After-effect etc.). Our proposed Event Extraction model achieves f-score of 39.71, 37.42 and 39.91 on Hindi, Tamil and English dataset respectively which shows the overall performance of Event identification and argument extraction task in these three language domain.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>13. <a href="https://iopscience.iop.org/article/10.1088/1742-6596/978/1/012078">5W1H Information Extraction with CNN-Bidirectional LSTM</a> by A Nurdin1, N U Maulidevi</summary><blockquote><p align="justify">
+<summary>13. <a href="https://iopscience.iop.org/article/10.1088/1742-6596/978/1/012078">5W1H Information Extraction with CNN-Bidirectional LSTM</a> by<i> A Nurdin1, N U Maulidevi</i></summary><blockquote><p align="justify">
 In this work, information about who, did what, when, where, why, and how on Indonesian news articles were extracted by combining Convolutional Neural Network and Bidirectional Long Short-Term Memory. Convolutional Neural Network can learn semantically meaningful representations of sentences. Bidirectional LSTM can analyze the relations among words in the sequence. We also use word embedding word2vec for word representation. By combining these algorithms, we obtained F-measure 0.808. Our experiments show that CNN-BLSTM outperforms other shallow methods, namely IBk, C4.5, and Naïve Bayes with the F-measure 0.655, 0.645, and 0.595, respectively.
 </p></blockquote></details>
 
 <details>
-<summary>14. <a href="https://www.aclweb.org/anthology/P18-1048/">Self-regulation: Employing a Generative Adversarial Network to Improve Event Detection</a> by Yu Hong, Wenxuan Zhou, Jingli Zhang, Guodong Zhou, Qiaoming Zhu</summary><blockquote><p align="justify">
+<summary>14. <a href="https://www.aclweb.org/anthology/P18-1048/">Self-regulation: Employing a Generative Adversarial Network to Improve Event Detection</a> by<i> Yu Hong, Wenxuan Zhou, Jingli Zhang, Guodong Zhou, Qiaoming Zhu</i></summary><blockquote><p align="justify">
 Due to the ability of encoding and mapping semantic information into a high-dimensional latent feature space, neural networks have been successfully used for detecting events to a certain extent. However, such a feature space can be easily contaminated by spurious features inherent in event detection. In this paper, we propose a self-regulated learning approach by utilizing a generative adversarial network to generate spurious features. On the basis, we employ a recurrent network to eliminate the fakes. Detailed experiments on the ACE 2005 and TAC-KBP 2015 corpora show that our proposed method is highly effective and adaptable.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>15. <a href="http://tcci.ccf.org.cn/conference/2018/papers/51.pdf">Event Detection via Recurrent Neural Networkand Argument Prediction</a> by Wentao Wu, Xiaoxu Zhu, Jiaming Tao, and Peifeng Li</summary><blockquote><p align="justify">
+<summary>15. <a href="http://tcci.ccf.org.cn/conference/2018/papers/51.pdf">Event Detection via Recurrent Neural Networkand Argument Prediction</a> by<i> Wentao Wu, Xiaoxu Zhu, Jiaming Tao, and Peifeng Li</i></summary><blockquote><p align="justify">
 This paper tackles the task of event detection, which involves identifying and categorizing the events. Currently event detection remains a challenging task due to the difficulty at encoding the event semantics in complicate contexts. The core semantics of an event may derive from its trigger and arguments. However, most of previous studies failed to capture the argument semantics in event detection. To address this issue, this paper first provides a rule-based method to predict candidate arguments on the event types of possibilities, and then proposes a recurrent neural network model RNN-ARG with the attention mechanism for event detection to capture meaningful semantic regularities form these predicted candidate arguments. The experimental results on the ACE 2005 English corpus show that our approach achieves competitive results compared with previous work.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>16. <a href="https://arxiv.org/abs/1808.08504">Event Detection with Neural Networks: A Rigorous Empirical Evaluation</a> by J. Walker Orr, Prasad Tadepalli, Xiaoli Fern</summary><blockquote><p align="justify">
+<summary>16. <a href="https://arxiv.org/abs/1808.08504">Event Detection with Neural Networks: A Rigorous Empirical Evaluation</a> by<i> J. Walker Orr, Prasad Tadepalli, Xiaoli Fern</i></summary><blockquote><p align="justify">
      Detecting events and classifying them into predefined types is an important step in knowledge extraction from natural language texts. While the neural network models have generally led the state-of-the-art, the differences in performance between different architectures have not been rigorously studied. In this paper we present a novel GRU-based model that combines syntactic information along with temporal structure through an attention mechanism. We show that it is competitive with other neural network architectures through empirical evaluations under different random initializations and training-validation-test splits of ACE2005 dataset. 
 </p></blockquote></details>
 
  
 
 <details>
-<summary>17. <a href="https://link.springer.com/chapter/10.1007/978-3-319-99495-6_15">Using Entity Relation to Improve Event Detection via Attention Mechanism</a> by     Jingli Zhang, Wenxuan Zhou, Yu Hong, Jianmin Yao, Min Zhang</summary><blockquote><p align="justify">
+<summary>17. <a href="https://link.springer.com/chapter/10.1007/978-3-319-99495-6_15">Using Entity Relation to Improve Event Detection via Attention Mechanism</a> by<i>     Jingli Zhang, Wenxuan Zhou, Yu Hong, Jianmin Yao, Min Zhang</i></summary><blockquote><p align="justify">
 Identifying event instance in texts plays a critical role in the field of Information Extraction (IE). The currently proposed methods that employ neural networks have successfully solve the problem to some extent, by encoding a series of linguistic features, such as lexicon, part-of-speech and entity. However, so far, the entity relation hasn’t yet been taken into consideration. In this paper, we propose a novel event extraction method to exploit relation information for event detection (ED), due to the potential relevance between entity relation and event type. Methodologically, we combine relation and those widely used features in an attention-based network with Bidirectional Long Short-term Memory (Bi-LSTM) units. In particular, we systematically investigate the effect of relation representation between entities. In addition, we also use different attention strategies in the model. Experimental results show that our approach outperforms other state-of-the-art methods
 </p></blockquote></details>
 
 <details>
-<summary>18. <a href="https://link.springer.com/chapter/10.1007/978-3-030-05090-0_17">Event Extraction with Deep Contextualized Word Representation and Multi-attention Layer</a> by  Ruixue Ding, Zhoujun Li</summary><blockquote><p align="justify">
+<summary>18. <a href="https://link.springer.com/chapter/10.1007/978-3-030-05090-0_17">Event Extraction with Deep Contextualized Word Representation and Multi-attention Layer</a> by<i>  Ruixue Ding, Zhoujun Li</i></summary><blockquote><p align="justify">
 One common application of text mining is event extraction. The purpose of an event extraction task is to identify event triggers of a certain event type in the text and to find related arguments. In recent years, the technology to automatically extract events from text has drawn researchers’ attention. However, the existing works including feature based systems and neural network base models don’t capture the contextual information well. Besides, it is still difficult to extract deep semantic relations when finding related arguments for events. To address these issues, we propose a novel model for event extraction using multi-attention layers and deep contextualized word representation. Furthermore, we put forward an attention function suitable for event extraction tasks. Experimental results show that our model outperforms the state-of-the-art models on ACE2005.
 </p></blockquote></details> 
 
 <details>
-<summary>19. <a href="https://www.mdpi.com/1999-5903/10/10/95">Chinese Event Extraction Based on Attention and Semantic Features: A Bidirectional Circular Neural Network</a> by Yue Wu; Junyi Zhang</summary><blockquote><p align="justify">
+<summary>19. <a href="https://www.mdpi.com/1999-5903/10/10/95">Chinese Event Extraction Based on Attention and Semantic Features: A Bidirectional Circular Neural Network</a> by<i> Yue Wu; Junyi Zhang</i></summary><blockquote><p align="justify">
 Chinese event extraction uses word embedding to capture similarity, but suffers when handling previously unseen or rare words. From the test, we know that characters may provide some information that we cannot obtain in words, so we propose a novel architecture for combining word representations: character–word embedding based on attention and semantic features. By using an attention mechanism, our method is able to dynamically decide how much information to use from word or character level embedding. With the semantic feature, we can obtain some more information about a word from the sentence. We evaluate different methods on the CEC Corpus, and this method is found to improve performance.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>20. <a href="https://www.aclweb.org/anthology/P18-2066/">Document Embedding Enhanced Event Detection with Hierarchical and Supervised Attention</a> by Yue Zhao, Xiaolong Jin, Yuanzhuo Wang, Xueqi Cheng</summary><blockquote><p align="justify">
+<summary>20. <a href="https://www.aclweb.org/anthology/P18-2066/">Document Embedding Enhanced Event Detection with Hierarchical and Supervised Attention</a> by<i> Yue Zhao, Xiaolong Jin, Yuanzhuo Wang, Xueqi Cheng</i></summary><blockquote><p align="justify">
 Document-level information is very important for event detection even at sentence level. In this paper, we propose a novel Document Embedding Enhanced Bi-RNN model, called DEEB-RNN, to detect events in sentences. This model first learns event detection oriented embeddings of documents through a hierarchical and supervised attention based RNN, which pays word-level attention to event triggers and sentence-level attention to those sentences containing events. It then uses the learned document embedding to enhance another bidirectional RNN model to identify event triggers and their types in sentences. Through experiments on the ACE-2005 dataset, we demonstrate the effectiveness and merits of the proposed DEEB-RNN model via comparison with state-of-the-art methods.
 </p></blockquote></details>
 
 
 <details>
-<summary>21. <a href="https://www.aclweb.org/anthology/D18-1158/">Collective Event Detection via a Hierarchical and Bias Tagging Networks with Gated Multi-level Attention Mechanisms</a> by Yubo Chen, Hang Yang, Kang Liu, Jun Zhao, Yantao Jia</summary><blockquote><p align="justify">
+<summary>21. <a href="https://www.aclweb.org/anthology/D18-1158/">Collective Event Detection via a Hierarchical and Bias Tagging Networks with Gated Multi-level Attention Mechanisms</a> by<i> Yubo Chen, Hang Yang, Kang Liu, Jun Zhao, Yantao Jia</i></summary><blockquote><p align="justify">
 Traditional approaches to the task of ACE event detection primarily regard multiple events in one sentence as independent ones and recognize them separately by using sentence-level information. However, events in one sentence are usually interdependent and sentence-level information is often insufficient to resolve ambiguities for some types of events. This paper proposes a novel framework dubbed as Hierarchical and Bias Tagging Networks with Gated Multi-level Attention Mechanisms (HBTNGMA) to solve the two problems simultaneously. Firstly, we propose a hierachical and bias tagging networks to detect multiple events in one sentence collectively. Then, we devise a gated multi-level attention to automatically extract and dynamically fuse the sentence-level and document-level information. The experimental results on the widely used ACE 2005 dataset show that our approach significantly outperforms other state-of-the-art methods.
 </p></blockquote></details>
 
  
 
 <details>
-<summary>22. <a href="http://www.nlpr.ia.ac.cn/cip/~liukang/liukangPageFile/Liu_aaai2018.pdf">Event Detection via Gated Multilingual Attention Mechanism</a> by Jian Liu, Yubo Chen1, Kang Liu, Jun Zhao</summary><blockquote><p align="justify">
+<summary>22. <a href="http://www.nlpr.ia.ac.cn/cip/~liukang/liukangPageFile/Liu_aaai2018.pdf">Event Detection via Gated Multilingual Attention Mechanism</a> by<i> Jian Liu, Yubo Chen1, Kang Liu, Jun Zhao</i></summary><blockquote><p align="justify">
 Identifying event instance in text plays a critical role in building NLP applications such as Information Extraction (IE) system. However, most existing methods for this task focus only on monolingual clues of a specific language and ignore the massive information provided by other languages. Data scarcity and monolingual ambiguity hinder the performance of these monolingual approaches. In this paper, we propose a novel multilingual approach — dubbed as Gated MultiLingual Attention (GMLATT) framework — to address the two issues simultaneously. In specific, to alleviate data scarcity problem, we exploit the consistent information in multilingual data via context attention mechanism. Which takes advantage of the consistent evidence in multilingual data other than learning only from monolingual data. To deal with monolingual ambiguity problem, we propose gated cross-lingual attention to exploit the complement information conveyed by multilingual data, which is helpful for the disambiguation. The cross-lingual attention gate serves as a sentinel modelling the confidence of the clues provided by other languages and controls the information integration of various languages. We have conducted extensive experiments on the ACE 2005 benchmark. Experimental results show that our approach significantly outperforms state-of-the-art methods.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>23. <a href="https://link.springer.com/chapter/10.1007/978-3-030-01012-6_21">Prior Knowledge Integrated with Self-attention for Event Detection</a> by Yan Li, Chenliang Li, Weiran Xu, Junliang Li</summary><blockquote><p align="justify">
+<summary>23. <a href="https://link.springer.com/chapter/10.1007/978-3-030-01012-6_21">Prior Knowledge Integrated with Self-attention for Event Detection</a> by<i> Yan Li, Chenliang Li, Weiran Xu, Junliang Li</i></summary><blockquote><p align="justify">
 Recently, end-to-end models based on recurrent neural networks (RNN) have gained great success in event detection. However these methods cannot deal with long-distance dependency and internal structure information well. They are also hard to be controlled in process of learning since lacking of prior knowledge integration. In this paper, we present an effective framework for event detection which aims to address these problems. Our model based on self-attention can ignore the distance between any two words to obtain their relationship and leverage internal event argument information to improve event detection. In order to control the process of learning, we first collect keywords from corpus and then use a prior knowledge integration network to encode keywords to a prior knowledge representation. Experimental results demonstrate that our model has significant improvement of 3.9 F1 over the previous state-of-the-art on ACE 2005 dataset.
 </p></blockquote></details>
 
@@ -673,135 +673,135 @@ Recently, end-to-end models based on recurrent neural networks (RNN) have gained
  
 
 <details>
-<summary>1. <a href="https://arxiv.org/abs/1906.06003">Cost-sensitive Regularization for Label Confusion-aware Event Detection</a> by Hongyu Lin, Yaojie Lu, Xianpei Han, Le Sun</summary><blockquote><p align="justify">
+<summary>1. <a href="https://arxiv.org/abs/1906.06003">Cost-sensitive Regularization for Label Confusion-aware Event Detection</a> by<i> Hongyu Lin, Yaojie Lu, Xianpei Han, Le Sun</i></summary><blockquote><p align="justify">
 In supervised event detection, most of the mislabeling occurs between a small number of confusing type pairs, including trigger-NIL pairs and sibling sub-types of the same coarse type. To address this label confusion problem, this paper proposes cost-sensitive regularization, which can force the training procedure to concentrate more on optimizing confusing type pairs. Specifically, we introduce a cost-weighted term into the training loss, which penalizes more on mislabeling between confusing label pairs. Furthermore, we also propose two estimators which can effectively measure such label confusion based on instance-level or population-level statistics. Experiments on TAC-KBP 2017 datasets demonstrate that the proposed method can significantly improve the performances of different models in both English and Chinese event detection.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>2. <a href="https://link.springer.com/chapter/10.1007/978-3-030-15712-8_51">Exploiting a More Global Context for Event Detection Through Bootstrapping</a> by Dorian Kodelja, Romaric Besançon, Olivier Ferret</summary><blockquote><p align="justify">
+<summary>2. <a href="https://link.springer.com/chapter/10.1007/978-3-030-15712-8_51">Exploiting a More Global Context for Event Detection Through Bootstrapping</a> by<i> Dorian Kodelja, Romaric Besançon, Olivier Ferret</i></summary><blockquote><p align="justify">
 Over the last few years, neural models for event extraction have obtained interesting results. However, their application is generally limited to sentences, which can be an insufficient scope for disambiguating some occurrences of events. In this article, we propose to integrate into a convolutional neural network the representation of contexts beyond the sentence level. This representation is built following a bootstrapping approach by exploiting an intra-sentential convolutional model. Within the evaluation framework of TAC 2017, we show that our global model significantly outperforms the intra-sentential model while the two models are competitive with the results obtained by TAC 2017 participants.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>3. <a href="https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btz607/5544930?redirectedFrom=fulltext">Context awareness and embedding for biomedical event extraction</a> by Shankai Yan, Ka-Chun Wong</summary><blockquote><p align="justify">
+<summary>3. <a href="https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btz607/5544930?redirectedFrom=fulltext">Context awareness and embedding for biomedical event extraction</a> by<i> Shankai Yan, Ka-Chun Wong</i></summary><blockquote><p align="justify">
 Motivation: Biomedical event detection is fundamental for information extraction in molecular biology and biomedical research. The detected events form the central basis for comprehensive biomedical knowledge fusion, facilitating the digestion of massive information influx from literature. Limited by the feature context, the existing event detection models are mostly applicable for a single task. A general and scalable computational model is desiderated for biomedical knowledge management. Results: We consider and propose a bottom-up detection framework to identify the events from recognized arguments. To capture the relations between the arguments, we trained a bi-directional Long Short-Term Memory (LSTM) network to model their context embedding. Leveraging the compositional attributes, we further derived the candidate samples for training event classifiers. We built our models on the datasets from BioNLP Shared Task for evaluations. Our method achieved the average F-scores of 0.81 and 0.92 on BioNLPST-BGI and BioNLPST-BB datasets respectively. Comparing with 7 state-of-the-art methods, our method nearly doubled the existing F-score performance (0.92 vs 0.56) on the BioNLPST-BB dataset. Case studies were conducted to reveal the underlying reasons. Availability: https://github.com/cskyan/evntextrc
 </p></blockquote></details>
 
  
 
 <details>
-<summary>4. <a href="https://www.aclweb.org/anthology/N19-1145/">Biomedical Event Extraction based on Knowledge-driven Tree-LSTM</a> by Diya Li, Lifu Huang, Heng Ji, Jiawei Han</summary><blockquote><p align="justify">
+<summary>4. <a href="https://www.aclweb.org/anthology/N19-1145/">Biomedical Event Extraction based on Knowledge-driven Tree-LSTM</a> by<i> Diya Li, Lifu Huang, Heng Ji, Jiawei Han</i></summary><blockquote><p align="justify">
 Event extraction for the biomedical domain is more challenging than that in the general news domain since it requires broader acquisition of domain-specific knowledge and deeper understanding of complex contexts. To better encode contextual information and external background knowledge, we propose a novel knowledge base (KB)-driven tree-structured long short-term memory networks (Tree-LSTM) framework, incorporating two new types of features: (1) dependency structures to capture wide contexts; (2) entity properties (types and category descriptions) from external ontologies via entity linking. We evaluate our approach on the BioNLP shared task with Genia dataset and achieve a new state-of-the-art result. In addition, both quantitative and qualitative studies demonstrate the advancement of the Tree-LSTM and the external knowledge representation for biomedical event extraction.
 </p></blockquote></details>
 
 <details>
-<summary>5. <a href="https://aaai.org/ojs/index.php/AAAI/article/view/4649">Exploiting the Ground-Truth: An Adversarial Imitation Based Knowledge Distillation Approach for Event Detection</a> by  Jian Liu,  Yubo Chen,  Kang Liu </summary><blockquote><p align="justify">
+<summary>5. <a href="https://aaai.org/ojs/index.php/AAAI/article/view/4649">Exploiting the Ground-Truth: An Adversarial Imitation Based Knowledge Distillation Approach for Event Detection</a> by<i>  Jian Liu,  Yubo Chen,  Kang Liu </i></summary><blockquote><p align="justify">
 The ambiguity in language expressions poses a great challenge for event detection. To disambiguate event types, current approaches rely on external NLP toolkits to build knowledge representations. Unfortunately, these approaches work in a pipeline paradigm and suffer from error propagation problem. In this paper, we propose an adversarial imitation based knowledge distillation approach, for the first time, to tackle the challenge of acquiring knowledge from rawsentences for event detection. In our approach, a teacher module is first devised to learn the knowledge representations from the ground-truth annotations. Then, we set up a student module that only takes the raw-sentences as the input. The student module is taught to imitate the behavior of the teacher under the guidance of an adversarial discriminator. By this way, the process of knowledge distillation from rawsentence has been implicitly integrated into the feature encoding stage of the student module. To the end, the enhanced student is used for event detection, which processes raw texts and requires no extra toolkits, naturally eliminating the error propagation problem faced by pipeline approaches. We conduct extensive experiments on the ACE 2005 datasets, and the experimental results justify the effectiveness of our approach.
 </p></blockquote></details>
  
 
 <details>
-<summary>6. <a href="http://nlp.cs.rpi.edu/paper/imitation2019.pdf">Joint Entity and Event Extraction with Generative Adversarial Imitation Learning</a> by Tongtao Zhang, Heng Ji, Avirup Sil</summary><blockquote><p align="justify">
+<summary>6. <a href="http://nlp.cs.rpi.edu/paper/imitation2019.pdf">Joint Entity and Event Extraction with Generative Adversarial Imitation Learning</a> by<i> Tongtao Zhang, Heng Ji, Avirup Sil</i></summary><blockquote><p align="justify">
 We propose a new framework for entity and event extraction based on generative adversarial imitation learning-an inverse reinforcement learning method using a generative adversarial network (GAN). We assume that instances and labels yield to various extents of difficulty and the gains and penalties (rewards) are expected to be diverse. We utilize discriminators to estimate proper rewards according to the difference between the labels committed by the ground-truth (expert) and the extractor (agent). Our experiments demonstrate that the proposed framework outperforms state-of-the-art methods.
 </p></blockquote></details>
 
  
 
 <details>
-<summary>7. <a href="https://dl.acm.org/citation.cfm?doid=3308558.3313659">Event Detection using Hierarchical Multi-Aspect Attention</a> by Sneha Mehta, Mohammad Raihanul Islam, Huzefa Rangwala, Naren Ramakrishnan</summary><blockquote><p align="justify">
+<summary>7. <a href="https://dl.acm.org/citation.cfm?doid=3308558.3313659">Event Detection using Hierarchical Multi-Aspect Attention</a> by<i> Sneha Mehta, Mohammad Raihanul Islam, Huzefa Rangwala, Naren Ramakrishnan</i></summary><blockquote><p align="justify">
 Classical event encoding and extraction methods rely on fixed dictionaries of keywords and templates or require ground truth labels for phrase/sentences. This hinders widespread application of information encoding approaches to large-scale free form (unstructured) text available on the web. Event encoding can be viewed as a hierarchical task where the coarser level task is event detection, i.e., identification of documents containing a specific event, and where the fine-grained task is one of event encoding, i.e., identifying key phrases, key sentences. Hierarchical models with attention seem like a natural choice for this problem, given their ability to differentially attend to more or less important features when constructing document representations. In this work we present a novel factorized bilinear multi-aspect attention mechanism (FBMA) that attends to different aspects of text while constructing its representation. We find that our approach outperforms state-of-the-art baselines for detecting civil unrest, military action, and non-state actor events from corpora in two different languages.
 </p></blockquote></details>
 
 <details>
-<summary>8. <a href="https://www.ijcai.org/proceedings/2019/753">Extracting Entities and Events as a Single Task Using a Transition-Based Neural Model</a> by Junchi Zhang, Yanxia Qin, Yue Zhang, Mengchi Liu, Donghong Ji</summary><blockquote><p align="justify">
+<summary>8. <a href="https://www.ijcai.org/proceedings/2019/753">Extracting Entities and Events as a Single Task Using a Transition-Based Neural Model</a> by<i> Junchi Zhang, Yanxia Qin, Yue Zhang, Mengchi Liu, Donghong Ji</i></summary><blockquote><p align="justify">
 The task of event extraction contains subtasks including detections for entity mentions, event triggers and argument roles. Traditional methods solve them as a pipeline, which does not make use of task correlation for their mutual benefits. There have been recent efforts towards building a joint model for all tasks. However, due to technical challenges, there has not been work predicting the joint output structure as a single task. We build a first model to this end using a neural transition-based framework, incrementally predicting complex joint structures in a state-transition process. Results on standard benchmarks show the benefits of the joint model, which gives the best result in the literature. 
 </p></blockquote></details>
 
 
 
 <details>
-<summary>9. <a href="https://link.springer.com/chapter/10.1007%2F978-3-030-32381-3_22">Leveraging Multi-head Attention Mechanism to Improve Event Detection</a> by     Meihan Tong, Bin Xu, Lei Hou, Juanzi Li, Shuai Wang</summary><blockquote><p align="justify">
+<summary>9. <a href="https://link.springer.com/chapter/10.1007%2F978-3-030-32381-3_22">Leveraging Multi-head Attention Mechanism to Improve Event Detection</a> by<i>     Meihan Tong, Bin Xu, Lei Hou, Juanzi Li, Shuai Wang</i></summary><blockquote><p align="justify">
 Event detection (ED) task aims to automatically identify trigger words from unstructured text. In recent years, neural models with attention mechanism have achieved great success on this task. However, existing attention methods tend to focus on meaningless context words and ignore the semantically rich words, which weakens their ability to recognize trigger words. In this paper, we propose MANN, a multi-head attention mechanism model enhanced by argument knowledge to address the above issues. The multi-head mechanism gives MANN the ability to detect a variety of information in a sentence while argument knowledge acts as a supervisor to further improve the quality of attention. Experimental results show that our approach is significantly superior to existing attention-based models.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>10. <a href="https://ialp2019.com/files/papers/IALP2019_092.pdf">Using Mention Segmentation to Improve Event Detection with Multi-head Attention</a> by Jiali Chen, Yu Hong, Jingli Zhang, and Jianmin Yao</summary><blockquote><p align="justify">
+<summary>10. <a href="https://ialp2019.com/files/papers/IALP2019_092.pdf">Using Mention Segmentation to Improve Event Detection with Multi-head Attention</a> by<i> Jiali Chen, Yu Hong, Jingli Zhang, and Jianmin Yao</i></summary><blockquote><p align="justify">
 Sentence-level event detection (ED) is a task ofdetecting words that describe specific types of events, in-cluding the subtasks of trigger word identification and eventtype classification. Previous work straight forwardly inputs asentence into neural classification models and analyzes deepsemantics of words in the sentence one by one. Relying on the semantics, probabilities of event classes can be predicted foreach word, including the carefully defined ACE event classesand a ”N/A” class(i.e., non-trigger word). The models achieve remarkable successes nowadays. However, our findings show that a natural sentence may posses more than one trigger word and thus entail different types of events. In particular,the closely related information of each event only lies in a unique sentence segment but has nothing to do with other segments. In order to reduce negative influences from noises in other segments, we propose to perform semantics learning for event detection only in the scope of segment instead of the whole sentence. Accordingly, we develop a novel ED method which integrates sentence segmentation into the neural event classification architecture. Bidirectional Long Short-Term Memory (Bi-LSTM) with multi-head attention is used as the classification model. Sentence segmentation is boiled down to a sequence labeling problem, where BERT is used. We combine embeddings, and use them as the input of the neural classification model. The experimental results show that the performance of our method reaches 76.8% and 74.2% F1-scores for trigger identification and event type classification, which outperforms the state-of-the-art
 </p></blockquote></details>
 
 
 
 <details>
-<summary>11. <a href="https://www.aclweb.org/anthology/P19-1429/">Distilling Discrimination and Generalization Knowledge for Event Detection via Delta-Representation Learning</a> by Yaojie Lu, Hongyu Lin, Xianpei Han, Le Sun</summary><blockquote><p align="justify">
+<summary>11. <a href="https://www.aclweb.org/anthology/P19-1429/">Distilling Discrimination and Generalization Knowledge for Event Detection via Delta-Representation Learning</a> by<i> Yaojie Lu, Hongyu Lin, Xianpei Han, Le Sun</i></summary><blockquote><p align="justify">
 Event detection systems rely on discrimination knowledge to distinguish ambiguous trigger words and generalization knowledge to detect unseen/sparse trigger words. Current neural event detection approaches focus on trigger-centric representations, which work well on distilling discrimination knowledge, but poorly on learning generalization knowledge. To address this problem, this paper proposes a Delta-learning approach to distill discrimination and generalization knowledge by effectively decoupling, incrementally learning and adaptively fusing event representation. Experiments show that our method significantly outperforms previous approaches on unseen/sparse trigger words, and achieves state-of-the-art performance on both ACE2005 and KBP2017 datasets.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>12. <a href="https://www.aclweb.org/anthology/P19-1471/">Detecting Subevents using Discourse and Narrative Features</a> by Mohammed Aldawsari, Mark Finlayson</summary><blockquote><p align="justify">
+<summary>12. <a href="https://www.aclweb.org/anthology/P19-1471/">Detecting Subevents using Discourse and Narrative Features</a> by<i> Mohammed Aldawsari, Mark Finlayson</i></summary><blockquote><p align="justify">
 Recognizing the internal structure of events is a challenging language processing task of great importance for text understanding. We present a supervised model for automatically identifying when one event is a subevent of another. Building on prior work, we introduce several novel features, in particular discourse and narrative features, that significantly improve upon prior state-of-the-art performance. Error analysis further demonstrates the utility of these features. We evaluate our model on the only two annotated corpora with event hierarchies: HiEve and the Intelligence Community corpus. No prior system has been evaluated on both corpora. Our model outperforms previous systems on both corpora, achieving 0.74 BLANC F1 on the Intelligence Community corpus and 0.70 F1 on the HiEve corpus, respectively a 15 and 5 percentage point improvement over previous models.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>13. <a href="https://www.aclweb.org/anthology/P19-1521/">Cost-sensitive Regularization for Label Confusion-aware Event Detection</a> by Hongyu Lin, Yaojie Lu, Xianpei Han, Le Sun</summary><blockquote><p align="justify">
+<summary>13. <a href="https://www.aclweb.org/anthology/P19-1521/">Cost-sensitive Regularization for Label Confusion-aware Event Detection</a> by<i> Hongyu Lin, Yaojie Lu, Xianpei Han, Le Sun</i></summary><blockquote><p align="justify">
 In supervised event detection, most of the mislabeling occurs between a small number of confusing type pairs, including trigger-NIL pairs and sibling sub-types of the same coarse type. To address this label confusion problem, this paper proposes cost-sensitive regularization, which can force the training procedure to concentrate more on optimizing confusing type pairs. Specifically, we introduce a cost-weighted term into the training loss, which penalizes more on mislabeling between confusing label pairs. Furthermore, we also propose two estimators which can effectively measure such label confusion based on instance-level or population-level statistics. Experiments on TAC-KBP 2017 datasets demonstrate that the proposed method can significantly improve the performances of different models in both English and Chinese event detection.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>14. <a href="https://www.aclweb.org/anthology/P19-1522/">Exploring Pre-trained Language Models for Event Extraction and Generation</a> by Sen Yang, Dawei Feng, Linbo Qiao, Zhigang Kan, Dongsheng Li</summary><blockquote><p align="justify">
+<summary>14. <a href="https://www.aclweb.org/anthology/P19-1522/">Exploring Pre-trained Language Models for Event Extraction and Generation</a> by<i> Sen Yang, Dawei Feng, Linbo Qiao, Zhigang Kan, Dongsheng Li</i></summary><blockquote><p align="justify">
 Traditional approaches to the task of ACE event extraction usually depend on manually annotated data, which is often laborious to create and limited in size. Therefore, in addition to the difficulty of event extraction itself, insufficient training data hinders the learning process as well. To promote event extraction, we first propose an event extraction model to overcome the roles overlap problem by separating the argument prediction in terms of roles. Moreover, to address the problem of insufficient training data, we propose a method to automatically generate labeled data by editing prototypes and screen out generated samples by ranking the quality. Experiments on the ACE2005 dataset demonstrate that our extraction model can surpass most existing extraction methods. Besides, incorporating our generation method exhibits further significant improvement. It obtains new state-of-the-art results on the event extraction task, including pushing the F1 score of trigger classification to 81.1%, and the F1 score of argument classification to 58.9%.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>15. <a href="https://www.aclweb.org/anthology/D19-1027/">Open Event Extraction from Online Text using a Generative Adversarial Network</a> by Rui Wang, Deyu ZHOU, Yulan He</summary><blockquote><p align="justify">
+<summary>15. <a href="https://www.aclweb.org/anthology/D19-1027/">Open Event Extraction from Online Text using a Generative Adversarial Network</a> by<i> Rui Wang, Deyu ZHOU, Yulan He</i></summary><blockquote><p align="justify">
 To extract the structured representations of open-domain events, Bayesian graphical models have made some progress. However, these approaches typically assume that all words in a document are generated from a single event. While this may be true for short text such as tweets, such an assumption does not generally hold for long text such as news articles. Moreover, Bayesian graphical models often rely on Gibbs sampling for parameter inference which may take long time to converge. To address these limitations, we propose an event extraction model based on Generative Adversarial Nets, called Adversarial-neural Event Model (AEM). AEM models an event with a Dirichlet prior and uses a generator network to capture the patterns underlying latent events. A discriminator is used to distinguish documents reconstructed from the latent events and the original documents. A byproduct of the discriminator is that the features generated by the learned discriminator network allow the visualization of the extracted events. Our model has been evaluated on two Twitter datasets and a news article dataset. Experimental results show that our model outperforms the baseline approaches on all the datasets, with more significant improvements observed on the news article dataset where an increase of 15\% is observed in F-measure. 
 </p></blockquote></details>
 
 
 
 <details>
-<summary>16. <a href="https://www.aclweb.org/anthology/D19-1030/">Cross-lingual Structure Transfer for Relation and Event Extraction</a> by Ananya Subburathinam, Di Lu, Heng Ji, Jonathan May, Shih-Fu Chang, Avirup Sil, Clare Voss</summary><blockquote><p align="justify">
+<summary>16. <a href="https://www.aclweb.org/anthology/D19-1030/">Cross-lingual Structure Transfer for Relation and Event Extraction</a> by<i> Ananya Subburathinam, Di Lu, Heng Ji, Jonathan May, Shih-Fu Chang, Avirup Sil, Clare Voss</i></summary><blockquote><p align="justify">
 The identification of complex semantic structures such as events and entity relations, already a challenging Information Extraction task, is doubly difficult from sources written in under-resourced and under-annotated languages. We investigate the suitability of cross-lingual structure transfer techniques for these tasks. We exploit relation- and event-relevant language-universal features, leveraging both symbolic (including part-of-speech and dependency path) and distributional (including type representation and contextualized representation) information. By representing all entity mentions, event triggers, and contexts into this complex and structured multilingual common space, using graph convolutional networks, we can train a relation or event extractor from source language annotations and apply it to the target language. Extensive experiments on cross-lingual relation and event transfer among English, Chinese, and Arabic demonstrate that our approach achieves performance comparable to state-of-the-art supervised models trained on up to 3,000 manually annotated mentions: up to 62.6% F-score for Relation Extraction, and 63.1% F-score for Event Argument Role Labeling. The event argument role labeling model transferred from English to Chinese achieves similar performance as the model trained from Chinese. We thus find that language-universal symbolic and distributional representations are complementary for cross-lingual structure transfer.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>17. <a href="https://www.aclweb.org/anthology/D19-1033/">Event Detection with Trigger-Aware Lattice Neural Network</a> by Ning Ding, Ziran Li, Zhiyuan Liu, Haitao Zheng, Zibo Lin</summary><blockquote><p align="justify">
+<summary>17. <a href="https://www.aclweb.org/anthology/D19-1033/">Event Detection with Trigger-Aware Lattice Neural Network</a> by<i> Ning Ding, Ziran Li, Zhiyuan Liu, Haitao Zheng, Zibo Lin</i></summary><blockquote><p align="justify">
 Event detection (ED) aims to locate trigger words in raw text and then classify them into correct event types. In this task, neural net- work based models became mainstream in re- cent years. However, two problems arise when it comes to languages without natural delim- iters, such as Chinese. First, word-based mod- els severely suffer from the problem of word- trigger mismatch, limiting the performance of the methods. In addition, even if trigger words could be accurately located, the ambi- guity of polysemy of triggers could still af- fect the trigger classification stage. To ad- dress the two issues simultaneously, we pro- pose the Trigger-aware Lattice Neural Net- work (TLNN). (1) The framework dynami- cally incorporates word and character informa- tion so that the trigger-word mismatch issue can be avoided. (2) Moreover, for polysemous characters and words, we model all senses of them with the help of an external linguistic knowledge base, so as to alleviate the prob- lem of ambiguous triggers. Experiments on two benchmark datasets show that our model could effectively tackle the two issues and outperforms previous state-of-the-art methods significantly, giving the best results. The source code of this paper can be obtained from https://github.com/thunlp/TLNN.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>18. <a href="https://www.aclweb.org/anthology/D19-1041/">Joint Event and Temporal Relation Extraction with Shared Representations and Structured Prediction</a> by Rujun Han, Qiang Ning, Nanyun Peng</summary><blockquote><p align="justify">
+<summary>18. <a href="https://www.aclweb.org/anthology/D19-1041/">Joint Event and Temporal Relation Extraction with Shared Representations and Structured Prediction</a> by<i> Rujun Han, Qiang Ning, Nanyun Peng</i></summary><blockquote><p align="justify">
 We propose a joint event and temporal relation extraction model with shared representation learning and structured prediction. The proposed method has two advantages over existing work. First, it improves event representation by allowing the event and relation modules to share the same contextualized embeddings and neural representation learner. Second, it avoids error propagation in the conventional pipeline systems by leveraging structured inference and learning methods to assign both the event labels and the temporal relation labels jointly. Experiments show that the proposed method can improve both event extraction and temporal relation extraction over state-of-the-art systems, with the end-to-end F1 improved by 10% and 6.8% on two benchmark datasets respectively. 
 </p></blockquote></details>
 
 
 
 <details>
-<summary>19. <a href="https://www.aclweb.org/anthology/D19-1584/">HMEAE: Hierarchical Modular Event Argument Extraction</a> by Xiaozhi Wang, Ziqi Wang, Xu Han, Zhiyuan Liu, Juanzi Li, Peng Li, Maosong Sun, Jie Zhou, Xiang Ren</summary><blockquote><p align="justify">
+<summary>19. <a href="https://www.aclweb.org/anthology/D19-1584/">HMEAE: Hierarchical Modular Event Argument Extraction</a> by<i> Xiaozhi Wang, Ziqi Wang, Xu Han, Zhiyuan Liu, Juanzi Li, Peng Li, Maosong Sun, Jie Zhou, Xiang Ren</i></summary><blockquote><p align="justify">
 Existing event extraction methods classify each argument role independently, ignoring the conceptual correlations between different argument roles. In this paper, we propose a Hierarchical Modular Event Argument Extraction (HMEAE) model, to provide effective inductive bias from the concept hierarchy of event argument roles. Specifically, we design a neural module network for each basic unit of the concept hierarchy, and then hierarchically compose relevant unit modules with logical operations into a role-oriented modular network to classify a specific argument role. As many argument roles share the same high-level unit module, their correlation can be utilized to extract specific event arguments better. Experiments on real-world datasets show that HMEAE can effectively leverage useful knowledge from the concept hierarchy and significantly outperform the state-of-the-art baselines. The source code can be obtained from https://github.com/thunlp/HMEAE.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>20. <a href="https://www.aclweb.org/anthology/D19-1585/">Entity, Relation, and Event Extraction with Contextualized Span Representations</a> by David Wadden, Ulme Wennberg, Yi Luan, Hannaneh Hajishirzi</summary><blockquote><p align="justify">
+<summary>20. <a href="https://www.aclweb.org/anthology/D19-1585/">Entity, Relation, and Event Extraction with Contextualized Span Representations</a> by<i> David Wadden, Ulme Wennberg, Yi Luan, Hannaneh Hajishirzi</i></summary><blockquote><p align="justify">
 We examine the capabilities of a unified, multi-task framework for three information extraction tasks: named entity recognition, relation extraction, and event extraction. Our framework (called DyGIE++) accomplishes all tasks by enumerating, refining, and scoring text spans designed to capture local (within-sentence) and global (cross-sentence) context. Our framework achieves state-of-the-art results across all tasks, on four datasets from a variety of domains. We perform experiments comparing different techniques to construct span representations. Contextualized embeddings like BERT perform well at capturing relationships among entities in the same or adjacent sentences, while dynamic span graph updates model long-range cross-sentence relationships. For instance, propagating span representations via predicted coreference links can enable the model to disambiguate challenging entity mentions. Our code is publicly available at this https URL and can be easily adapted for new tasks or datasets. 
 </p></blockquote></details>
 
@@ -813,7 +813,7 @@ We examine the capabilities of a unified, multi-task framework for three informa
 
 
 <details>
-<summary>1. <a href="https://www.aclweb.org/anthology/W09-2209/">Can One Language Bootstrap the Other: A Case Study on Event Extraction</a> by Zheng Chen, Heng Ji</summary><blockquote><p align="justify">
+<summary>1. <a href="https://www.aclweb.org/anthology/W09-2209/">Can One Language Bootstrap the Other: A Case Study on Event Extraction</a> by<i> Zheng Chen, Heng Ji</i></summary><blockquote><p align="justify">
 This paper proposes a new bootstrapping framework using cross-lingual information pro- jection. We demonstrate that this framework is particularly effective for a challenging NLP task which is situated at the end of a pipeline and thus suffers from the errors propagated from up- stream processing and has low-performance baseline. Using Chinese event extraction as a case study and bitexts as a new source of infor- mation, we present three bootstrapping tech- niques. We first conclude that the standard mono-lingual bootstrapping approach is not so effective. Then we exploit a second approach that potentially benefits from the extra informa- tion captured by an English event extraction sys- tem and projected into Chinese. Such a cross- lingual scheme produces significant performance gain. Finally we show that the combination of mono-lingual and cross-lingual information in bootstrapping can further enhance the perfor- mance. Ultimately this new framework obtained 10.1% relative improvement in trigger labeling (F-measure) and 9.5% relative improvement in argument-labeling.
 </p></blockquote></details>
 
@@ -822,7 +822,7 @@ This paper proposes a new bootstrapping framework using cross-lingual informatio
  
 
 <details>
-<summary>1. <a href="https://www.aclweb.org/anthology/P11-2045/">Can Document Selection Help Semi-supervised Learning? A Case Study On Event Extraction</a> by Shasha Liao, Ralph Grishman</summary><blockquote><p align="justify">
+<summary>1. <a href="https://www.aclweb.org/anthology/P11-2045/">Can Document Selection Help Semi-supervised Learning? A Case Study On Event Extraction</a> by<i> Shasha Liao, Ralph Grishman</i></summary><blockquote><p align="justify">
 Annotating training data for event extraction is tedious and labor-intensive. Most current event extraction tasks rely on hundreds of annotated documents, but this is often not enough. In this paper, we present a novel self-training strategy, which uses Information Retrieval (IR) to collect a cluster of related documents as the resource for bootstrapping. Also, based on the particular characteristics of this corpus, global inference is applied to provide more confident and informative data selection. We compare this approach to self-training on a normal newswire corpus and show that IR can provide a better corpus for bootstrapping and that global inference can further improve instance selection. We obtain gains of 1.7% in trigger labeling and 2.3% in role labeling through IR and an additional 1.1% in trigger labeling and 1.3% in role labeling by applying global inference.
 </p></blockquote></details>
 
@@ -830,7 +830,7 @@ Annotating training data for event extraction is tedious and labor-intensive. Mo
  
 
 <details>
-<summary>2. <a href="https://www.aclweb.org/anthology/I11-1080/">Using Prediction from Sentential Scope to Build a Pseudo Co-Testing Learner for Event Extraction</a> by Shasha Liao, Ralph Grishman</summary><blockquote><p align="justify">
+<summary>2. <a href="https://www.aclweb.org/anthology/I11-1080/">Using Prediction from Sentential Scope to Build a Pseudo Co-Testing Learner for Event Extraction</a> by<i> Shasha Liao, Ralph Grishman</i></summary><blockquote><p align="justify">
 Event extraction involves the identification of instances of a type of event, along with their attributes and participants. Developing a training corpus by annotating events in text is very labor intensive, and so selecting informative instances to annotate can save a great deal of manual work. We present an active learning (AL) strategy, pseudo co-testing, based on one view from a classifier aiming to solve the original problem of event extraction, and another view from a classifier aiming to solve a coarser granularity task. As the second classifier can provide more graded matching from a wider scope, we can build a set of pseudocontention-points which are very informative, and can speed up the AL process. Moreover, we incorporate multiple selection criteria into the pseudo cotesting, seeking training examples that are informative, representative, and varied. Experiments show that pseudo co-testing can reduce annotation labor by 81%; incorporating multiple selection criteria reduces the labor by a further 7%.
 </p></blockquote></details>
 
@@ -839,7 +839,7 @@ Event extraction involves the identification of instances of a type of event, al
 
 
 <details>
-<summary>1. <a href="https://www.ncbi.nlm.nih.gov/pubmed/24565105">Semi-supervised method for biomedical event extraction</a> by Wang J, Xu Q, Lin H, Yang Z, Li Y</summary><blockquote><p align="justify">
+<summary>1. <a href="https://www.ncbi.nlm.nih.gov/pubmed/24565105">Semi-supervised method for biomedical event extraction</a> by<i> Wang J, Xu Q, Lin H, Yang Z, Li Y</i></summary><blockquote><p align="justify">
 Background
 
 Biomedical extraction based on supervised machine learning still faces the problem that a limited labeled dataset does not saturate the learning method. Many supervised learning algorithms for bio-event extraction have been affected by the data sparseness. 
@@ -860,7 +860,7 @@ Limited labeled data could be combined with unlabeled data to tackle the data sp
 
 
 <details>
-<summary>2. <a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-175">Wide coverage biomedical event extraction using multiple partially overlapping corpora</a>	 by Makoto Miwa, Sampo Pyysalo, Tomoko Ohta , Sophia Ananiadou </summary><blockquote><p align="justify">
+<summary>2. <a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-175">Wide coverage biomedical event extraction using multiple partially overlapping corpora</a>	 by Makoto Miwa, Sampo Pyysalo, Tomoko Ohta , Sophia Ananiadou </i></summary><blockquote><p align="justify">
 Background
 
 Biomedical events are key to understanding physiological processes and disease, and wide coverage extraction is required for comprehensive automatic analysis of statements describing biomedical systems in the literature. In turn, the training and evaluation of extraction methods requires manually annotated corpora. However, as manual annotation is time-consuming and expensive, any single event-annotated corpus can only cover a limited number of semantic types. Although combined use of several such corpora could potentially allow an extraction system to achieve broad semantic coverage, there has been little research into learning from multiple corpora with partially overlapping semantic annotation scopes.
@@ -879,14 +879,14 @@ The proposed method allows the training of a wide-coverage, state-of-the-art eve
  
 
 <details>
-<summary>1. <a href="https://www.aclweb.org/anthology/L14-1091/">Event Extraction Using Distant Supervision</a> by Kevin Reschke, Martin Jankowiak, Mihai Surdeanu, Christopher Manning, Daniel Jurafsky</summary><blockquote><p align="justify">
+<summary>1. <a href="https://www.aclweb.org/anthology/L14-1091/">Event Extraction Using Distant Supervision</a> by<i> Kevin Reschke, Martin Jankowiak, Mihai Surdeanu, Christopher Manning, Daniel Jurafsky</i></summary><blockquote><p align="justify">
 Distant supervision is a successful paradigm that gathers training data for information extraction systems by automatically aligning vast databases of facts with text. Previous work has demonstrated its usefulness for the extraction of binary relations such as a person’s employer or a film’s director. Here, we extend the distant supervision approach to template-based event extraction, focusing on the extraction of passenger counts, aircraft types, and other facts concerning airplane crash events. We present a new publicly available dataset and event extraction task in the plane crash domain based on Wikipedia infoboxes and newswire text. Using this dataset, we conduct a preliminary evaluation of four distantly supervised extraction models which assign named entity mentions in text to entries in the event template. Our results indicate that joint inference over sequences of candidate entity mentions is beneficial. Furthermore, we demonstrate that the SEARN algorithm outperforms a linear-chain CRF and strong baselines with local inference. 
 </p></blockquote></details>
 
 
 
 <details>
-<summary>2. <a href="https://www.aclweb.org/anthology/P14-2136/">Bilingual Event Extraction: a Case Study on Trigger Type Determination</a> by Zhu Zhu, Shoushan Li, Guodong Zhou, Rui Xia</summary><blockquote><p align="justify">
+<summary>2. <a href="https://www.aclweb.org/anthology/P14-2136/">Bilingual Event Extraction: a Case Study on Trigger Type Determination</a> by<i> Zhu Zhu, Shoushan Li, Guodong Zhou, Rui Xia</i></summary><blockquote><p align="justify">
 Event extraction generally suffers from the data sparseness problem. In this paper, we address this problem by utilizing the labeled data from two different languages. As a preliminary study, we mainly focus on the subtask of trigger type determination in event extraction. To make the training data in different languages help each other, we propose a uniform text representation with bilingual features to represent the samples and handle the difficulty of locating the triggers in the translated text from both monolingual and bilingual perspectives. Empirical studies demonstrate the effectiveness of the proposed approach to bilingual classification on trigger type determination. ?
 </p></blockquote></details>
 
@@ -895,7 +895,7 @@ Event extraction generally suffers from the data sparseness problem. In this pap
   
 
 <details>
-<summary>1. <a href="https://www.semanticscholar.org/paper/Modeling-Event-Extraction-via-Multilingual-Data-Hsi-Carbonell/fabcbadcb824a7bbe51f21a8492f9ba234cb695d">Modeling Event Extraction via Multilingual Data Sources</a> by Andrew Hsi, Jaime G. Carbonell, Yiming Yang</summary><blockquote><p align="justify">
+<summary>1. <a href="https://www.semanticscholar.org/paper/Modeling-Event-Extraction-via-Multilingual-Data-Hsi-Carbonell/fabcbadcb824a7bbe51f21a8492f9ba234cb695d">Modeling Event Extraction via Multilingual Data Sources</a> by<i> Andrew Hsi, Jaime G. Carbonell, Yiming Yang</i></summary><blockquote><p align="justify">
 In this paper, we describe our system for the TAC KBP 2015 Event track. We focus in particular on development of multilingual event extraction through the combination of language-dependent and languageindependent features. Our system specifically handles texts in both English and Chinese, but is designed in a manner to be extendable to new languages. Our experiments on the ACE2005 corpus show promising results for future development. 
 </p></blockquote></details>
 
@@ -904,27 +904,27 @@ In this paper, we describe our system for the TAC KBP 2015 Event track. We focus
  
 
 <details>
-<summary>1. <a href="https://www.aclweb.org/anthology/W16-1618/">A Two-stage Approach for Extending Event Detection to New Types via Neural Networks</a> by Thien Huu Nguyen, Lisheng Fu, Kyunghyun Cho, Ralph Grishman</summary><blockquote><p align="justify">
+<summary>1. <a href="https://www.aclweb.org/anthology/W16-1618/">A Two-stage Approach for Extending Event Detection to New Types via Neural Networks</a> by<i> Thien Huu Nguyen, Lisheng Fu, Kyunghyun Cho, Ralph Grishman</i></summary><blockquote><p align="justify">
 We study the event detection problem in the new type extension setting. In particular, our task involves identifying the event instances of a target type that is only specified by a small set of seed instances in text. We want to exploit the large amount of training data available for the other event types to improve the performance of this task. We compare the convolutional neural network model and the feature-based method in this type extension setting to investigate their effectiveness. In addition, we propose a two-stage training algorithm for neural networks that effectively transfers knowledge from the other event types to the target type. The experimental results show that the proposed algorithm outperforms strong baselines for this task.
 </p></blockquote></details>
 
 
 <details>
-<summary>2. <a href="https://www.aclweb.org/anthology/D16-1038/">Event Detection and Co-reference with Minimal Supervision</a> by Haoruo Peng, Yangqiu Song, Dan Roth</summary><blockquote><p align="justify">
+<summary>2. <a href="https://www.aclweb.org/anthology/D16-1038/">Event Detection and Co-reference with Minimal Supervision</a> by<i> Haoruo Peng, Yangqiu Song, Dan Roth</i></summary><blockquote><p align="justify">
 An important aspect of natural language understanding involves recognizing and categorizing events and the relations among them. However, these tasks are quite subtle and annotating training data for machine learning based approaches is an expensive task, resulting in supervised systems that attempt to learn complex models from small amounts of data, which they over-fit. This paper addresses this challenge by developing an event detection and co-reference system with minimal supervision, in the form of a few event examples. We view these tasks as semantic similarity problems between event mentions or event mentions and an ontology of types, thus facilitating the use of large amounts of out of domain text data. Notably, our semantic relatedness function exploits the structure of the text by making use of a semantic-role-labeling based representation of an event. We show that our approach to event detection is competitive with the top supervised methods. More significantly, we outperform stateof-the-art supervised methods for event coreference on benchmark data sets, and support significantly better transfer across domains.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>3. <a href="https://www.aclweb.org/anthology/P16-1201/">Leveraging FrameNet to Improve Automatic Event Detection</a> by Shulin Liu, Yubo Chen, Shizhu He, Kang Liu, Jun Zhao</summary><blockquote><p align="justify">
+<summary>3. <a href="https://www.aclweb.org/anthology/P16-1201/">Leveraging FrameNet to Improve Automatic Event Detection</a> by<i> Shulin Liu, Yubo Chen, Shizhu He, Kang Liu, Jun Zhao</i></summary><blockquote><p align="justify">
 Frames defined in FrameNet (FN) share highly similar structures with events in ACE event extraction program. An event in ACE is composed of an event trigger and a set of arguments. Analogously, a frame in FN is composed of a lexical unit and a set of frame elements, which play similar roles as triggers and arguments of ACE events respectively. Besides having similar structures, many frames in FN actually express certain types of events. The above observations motivate us to explore whether there exists a good mapping from frames to event-types and if it is possible to improve event detection by using FN. In this paper, we propose a global inference approach to detect events in FN. Further, based on the detected results, we analyze possible mappings from frames to event-types. Finally, we improve the performance of event detection and achieve a new state-of-the-art result by using the events automatically detected from FN.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>4. <a href="https://www.aclweb.org/anthology/C16-1114/">Leveraging multilingual training for limited resource event extraction</a> by Andrew Hsi, Yiming Yang, Jaime Carbonell, Ruochen Xu </summary><blockquote><p align="justify">
+<summary>4. <a href="https://www.aclweb.org/anthology/C16-1114/">Leveraging multilingual training for limited resource event extraction</a> by<i> Andrew Hsi, Yiming Yang, Jaime Carbonell, Ruochen Xu </i></summary><blockquote><p align="justify">
 Event extraction has become one of the most important topics in information extraction, but to date, there is very limited work on leveraging cross-lingual training to boost performance. We propose a new event extraction approach that trains on multiple languages using a combination of both language-dependent and language-independent features, with particular focus on the case where target domain training data is of very limited size. We show empirically that multilingual training can boost performance for the tasks of event trigger extraction and event argument extraction on the Chinese ACE 2005 dataset.
 </p></blockquote></details>
 
@@ -933,13 +933,13 @@ Event extraction has become one of the most important topics in information extr
  
 
 <details>
-<summary>1. <a href="https://www.aclweb.org/anthology/P17-1038/">Automatically Labeled Data Generation for Large Scale Event Extraction</a> by Yubo Chen, Shulin Liu, Xiang Zhang, Kang Liu, Jun Zhao</summary><blockquote><p align="justify">
+<summary>1. <a href="https://www.aclweb.org/anthology/P17-1038/">Automatically Labeled Data Generation for Large Scale Event Extraction</a> by<i> Yubo Chen, Shulin Liu, Xiang Zhang, Kang Liu, Jun Zhao</i></summary><blockquote><p align="justify">
 Modern models of event extraction for tasks like ACE are based on supervised learning of events from small hand-labeled data. However, hand-labeled training data is expensive to produce, in low coverage of event types, and limited in size, which makes supervised methods hard to extract large scale of events for knowledge base population. To solve the data labeling problem, we propose to automatically label training data for event extraction via world knowledge and linguistic knowledge, which can detect key arguments and trigger words for each event type and employ them to label events in texts automatically. The experimental results show that the quality of our large scale automatically labeled data is competitive with elaborately human-labeled data. And our automatically labeled data can incorporate with human-labeled data, then improve the performance of models learned from these data.
 </p></blockquote></details>
 
 
 <details>
-<summary>2. <a href="https://arxiv.org/abs/1712.03665">Scale Up Event Extraction Learning via Automatic Training Data Generation</a> by Ying Zeng, Yansong Feng, Rong Ma, Zheng Wang, Rui Yan, Chongde Shi, Dongyan Zhao </summary><blockquote><p align="justify">
+<summary>2. <a href="https://arxiv.org/abs/1712.03665">Scale Up Event Extraction Learning via Automatic Training Data Generation</a> by<i> Ying Zeng, Yansong Feng, Rong Ma, Zheng Wang, Rui Yan, Chongde Shi, Dongyan Zhao </i></summary><blockquote><p align="justify">
 The task of event extraction has long been investigated in a supervised learning paradigm, which is bound by the number and the quality of the training instances. Existing training data must be manually generated through a combination of expert domain knowledge and extensive human involvement. However, due to drastic efforts required in annotating text, the resultant datasets are usually small, which severally affects the quality of the learned model, making it hard to generalize. Our work develops an automatic approach for generating training data for event extraction. Our approach allows us to scale up event extraction training instances from thousands to hundreds of thousands, and it does this at a much lower cost than a manual approach. We achieve this by employing distant supervision to automatically create event annotations from unlabelled text using existing structured knowledge bases or tables.We then develop a neural network model with post inference to transfer the knowledge extracted from structured knowledge bases to automatically annotate typed events with corresponding arguments in text.We evaluate our approach by using the knowledge extracted from Freebase to label texts from Wikipedia articles. Experimental results show that our approach can generate a large number of high quality training instances. We show that this large volume of training data not only leads to a better event extractor, but also allows us to detect multiple typed events. 
 </p></blockquote></details>
 
@@ -948,21 +948,21 @@ The task of event extraction has long been investigated in a supervised learning
  
 
 <details>
-<summary>1. <a href="https://www.aclweb.org/anthology/N18-2058/">Semi-Supervised Event Extraction with Paraphrase Clusters</a> by James Ferguson, Colin Lockard, Daniel Weld, Hannaneh Hajishirzi</summary><blockquote><p align="justify">
+<summary>1. <a href="https://www.aclweb.org/anthology/N18-2058/">Semi-Supervised Event Extraction with Paraphrase Clusters</a> by<i> James Ferguson, Colin Lockard, Daniel Weld, Hannaneh Hajishirzi</i></summary><blockquote><p align="justify">
 Supervised event extraction systems are limited in their accuracy due to the lack of available training data. We present a method for self-training event extraction systems by bootstrapping additional training data. This is done by taking advantage of the occurrence of multiple mentions of the same event instances across newswire articles from multiple sources. If our system can make a high-confidence extraction of some mentions in such a cluster, it can then acquire diverse training examples by adding the other mentions as well. Our experiments show significant performance improvements on multiple event extractors over ACE 2005 and TAC-KBP 2015 datasets.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>2. <a href="https://www.aclweb.org/anthology/P18-1201/">Zero-Shot Transfer Learning for Event Extraction</a> by Lifu Huang, Heng Ji, Kyunghyun Cho, Ido Dagan, Sebastian Riedel, Clare Voss </summary><blockquote><p align="justify">
+<summary>2. <a href="https://www.aclweb.org/anthology/P18-1201/">Zero-Shot Transfer Learning for Event Extraction</a> by<i> Lifu Huang, Heng Ji, Kyunghyun Cho, Ido Dagan, Sebastian Riedel, Clare Voss </i></summary><blockquote><p align="justify">
 Most previous supervised event extraction methods have relied on features derived from manual annotations, and thus cannot be applied to new event types without extra annotation effort. We take a fresh look at event extraction and model it as a generic grounding problem: mapping each event mention to a specific type in a target event ontology. We design a transferable architecture of structural and compositional neural networks to jointly represent and map event mentions and types into a shared semantic space. Based on this new framework, we can select, for each event mention, the event type which is semantically closest in this space as its type. By leveraging manual annotations available for a small set of existing event types, our framework can be applied to new unseen event types without additional manual annotations. When tested on 23 unseen event types, our zero-shot framework, without manual annotations, achieved performance comparable to a supervised model trained from 3,000 sentences annotated with 500 event mentions.
 </p></blockquote></details>
 
  
 
 <details>
-<summary>3. <a href="https://www.aclweb.org/anthology/C18-1075/">Open-domain event detection using distant supervision</a> by Jun Araki, Teruko Mitamura</summary><blockquote><p align="justify">
+<summary>3. <a href="https://www.aclweb.org/anthology/C18-1075/">Open-domain event detection using distant supervision</a> by<i> Jun Araki, Teruko Mitamura</i></summary><blockquote><p align="justify">
 This paper introduces open-domain event detection, a new event detection paradigm to address issues of prior work on restricted domains and event annotation. The goal is to detect all kinds of events regardless of domains. Given the absence of training data, we propose a distant supervision method that is able to generate high-quality training data. Using a manually annotated event corpus as gold standard, our experiments show that despite no direct supervision, the model outperforms supervised models. This result indicates that the distant supervision enables robust event detection in various domains, while obviating the need for human annotation of events.
 </p></blockquote></details>
 
@@ -971,40 +971,40 @@ This paper introduces open-domain event detection, a new event detection paradig
 
 
 <details>
-<summary>1. <a href="https://www.aclweb.org/anthology/N19-1105/">Adversarial Training for Weakly Supervised Event Detection</a> by Xiaozhi Wang, Xu Han, Zhiyuan Liu, Maosong Sun, Peng Li</summary><blockquote><p align="justify">
+<summary>1. <a href="https://www.aclweb.org/anthology/N19-1105/">Adversarial Training for Weakly Supervised Event Detection</a> by<i> Xiaozhi Wang, Xu Han, Zhiyuan Liu, Maosong Sun, Peng Li</i></summary><blockquote><p align="justify">
 Modern weakly supervised methods for event detection (ED) avoid time-consuming human annotation and achieve promising results by learning from auto-labeled data. However, these methods typically rely on sophisticated pre-defined rules as well as existing instances in knowledge bases for automatic annotation and thus suffer from low coverage, topic bias, and data noise. To address these issues, we build a large event-related candidate set with good coverage and then apply an adversarial training mechanism to iteratively identify those informative instances from the candidate set and filter out those noisy ones. The experiments on two real-world datasets show that our candidate selection and adversarial training can cooperate together to obtain more diverse and accurate training data for ED, and significantly outperform the state-of-the-art methods in various weakly supervised scenarios. The datasets and source code can be obtained from https://github.com/thunlp/Adv-ED.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>2. <a href="https://ieeexplore.ieee.org/document/8643786">Joint Event Extraction Based on Hierarchical Event Schemas From FrameNet</a> by  Wei Li ; Dezhi Cheng ; Lei He ; Yuanzhuo Wang ; Xiaolong Jin</summary><blockquote><p align="justify">
+<summary>2. <a href="https://ieeexplore.ieee.org/document/8643786">Joint Event Extraction Based on Hierarchical Event Schemas From FrameNet</a> by<i>  Wei Li ; Dezhi Cheng ; Lei He ; Yuanzhuo Wang ; Xiaolong Jin</i></summary><blockquote><p align="justify">
 Event extraction is useful for many practical applications, such as news summarization and information retrieval. However, the popular automatic context extraction (ACE) event extraction program only defines very limited and coarse event schemas, which may not be suitable for practical applications. FrameNet is a linguistic corpus that defines complete semantic frames and frame-to-frame relations. As frames in FrameNet share highly similar structures with event schemas in ACE and many frames actually express events, we propose to redefine the event schemas based on FrameNet. Specifically, we extract frames expressing event information from FrameNet and leverage the frame-to-frame relations to build a hierarchy of event schemas that are more fine-grained and have much wider coverage than ACE. Based on the new event schemas, we propose a joint event extraction approach that leverages the hierarchical structure of event schemas and frame-to-frame relations in FrameNet. The extensive experiments have verified the advantages of our hierarchical event schemas and the effectiveness of our event extraction model. We further apply the results of our event extraction model on news summarization. The results show that the summarization approach based on our event extraction model achieves significant better performance than several state-of-the-art summarization approaches, which also demonstrates that the hierarchical event schemas and event extraction model are promising to be used in the practical applications.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>3. <a href="https://arxiv.org/abs/1904.07535">Doc2EDAG: An End-to-End Document-level Framework for Chinese Financial Event Extraction</a> by Shun Zheng, Wei Cao, Wei Xu, Jiang Bian </summary><blockquote><p align="justify">
+<summary>3. <a href="https://arxiv.org/abs/1904.07535">Doc2EDAG: An End-to-End Document-level Framework for Chinese Financial Event Extraction</a> by<i> Shun Zheng, Wei Cao, Wei Xu, Jiang Bian </i></summary><blockquote><p align="justify">
 Most existing event extraction (EE) methods merely extract event arguments within the sentence scope. However, such sentence-level EE methods struggle to handle soaring amounts of documents from emerging applications, such as finance, legislation, health, etc., where event arguments always scatter across different sentences, and even multiple such event mentions frequently co-exist in the same document. To address these challenges, we propose a novel end-to-end model, Doc2EDAG, which can generate an entity-based directed acyclic graph to fulfill the document-level EE (DEE) effectively. Moreover, we reformalize a DEE task with the no-trigger-words design to ease the document-level event labeling. To demonstrate the effectiveness of Doc2EDAG, we build a large-scale real-world dataset consisting of Chinese financial announcements with the challenges mentioned above. Extensive experiments with comprehensive analyses illustrate the superiority of Doc2EDAG over state-of-the-art methods. Data and codes can be found at this https URL. 
 </p></blockquote></details>
 
 
 
 <details>
-<summary>4. <a href="https://www.aclweb.org/anthology/N19-4019/">Multilingual Entity, Relation, Event and Human Value Extraction</a> by Manling Li, Ying Lin, Joseph Hoover, Spencer Whitehead, Clare Voss, Morteza Dehghani, Heng Ji </summary><blockquote><p align="justify">
+<summary>4. <a href="https://www.aclweb.org/anthology/N19-4019/">Multilingual Entity, Relation, Event and Human Value Extraction</a> by<i> Manling Li, Ying Lin, Joseph Hoover, Spencer Whitehead, Clare Voss, Morteza Dehghani, Heng Ji </i></summary><blockquote><p align="justify">
 This paper demonstrates a state-of-the-art end-to-end multilingual (English, Russian, and Ukrainian) knowledge extraction system that can perform entity discovery and linking, relation extraction, event extraction, and coreference. It extracts and aggregates knowledge elements across multiple languages and documents as well as provides visualizations of the results along three dimensions: temporal (as displayed in an event timeline), spatial (as displayed in an event heatmap), and relational (as displayed in entity-relation networks). For our system to further support users’ analyses of causal sequences of events in complex situations, we also integrate a wide range of human moral value measures, independently derived from region-based survey, into the event heatmap. This system is publicly available as a docker container and a live demo.
 </p></blockquote></details>
 
 <details>
-<summary>5. <a href="https://www.aclweb.org/anthology/D19-1068/">Neural Cross-Lingual Event Detection with Minimal Parallel Resources</a> by Jian Liu, Yubo Chen, Kang Liu, Jun Zhao</summary><blockquote><p align="justify">
+<summary>5. <a href="https://www.aclweb.org/anthology/D19-1068/">Neural Cross-Lingual Event Detection with Minimal Parallel Resources</a> by<i> Jian Liu, Yubo Chen, Kang Liu, Jun Zhao</i></summary><blockquote><p align="justify">
 The scarcity in annotated data poses a great challenge for event detection (ED). Cross-lingual ED aims to tackle this challenge by transferring knowledge between different languages to boost performance. However, previous cross-lingual methods for ED demonstrated a heavy dependency on parallel resources, which might limit their applicability. In this paper, we propose a new method for cross-lingual ED, demonstrating a minimal dependency on parallel resources. Specifically, to construct a lexical mapping between different languages, we devise a context-dependent translation method; to treat the word order difference problem, we propose a shared syntactic order event detector for multilingual co-training. The efficiency of our method is studied through extensive experiments on two standard datasets. Empirical results indicate that our method is effective in 1) performing cross-lingual transfer concerning different directions and 2) tackling the extremely annotation-poor scenario.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>6. <a href="https://www.aclweb.org/anthology/D19-5102/">Financial Event Extraction Using Wikipedia-Based Weak Supervision</a> by Liat Ein-Dor, Ariel Gera, Orith Toledo-Ronen, Alon Halfon, Benjamin Sznajder, Lena Dankin, Yonatan Bilu, Yoav Katz, Noam Slonim</summary><blockquote><p align="justify">
+<summary>6. <a href="https://www.aclweb.org/anthology/D19-5102/">Financial Event Extraction Using Wikipedia-Based Weak Supervision</a> by<i> Liat Ein-Dor, Ariel Gera, Orith Toledo-Ronen, Alon Halfon, Benjamin Sznajder, Lena Dankin, Yonatan Bilu, Yoav Katz, Noam Slonim</i></summary><blockquote><p align="justify">
 Extraction of financial and economic events from text has previously been done mostly using rule-based methods, with more recent works employing machine learning techniques. This work is in line with this latter approach, leveraging relevant Wikipedia sections to extract weak labels for sentences describing economic events. Whereas previous weakly supervised approaches required a knowledge-base of such events, or corresponding financial figures, our approach requires no such additional data, and can be employed to extract economic events related to companies which are not even mentioned in the training data.
 </p></blockquote></details>
 
@@ -1015,7 +1015,7 @@ Extraction of financial and economic events from text has previously been done m
 
 
 <details>
-<summary>1. <a href="https://dl.acm.org/citation.cfm?doid=290941.290953">A study on retrospective and on-line event detection</a> by Yiming Yang, Tom Pierce, Jaime Carbonell </summary><blockquote><p align="justify">
+<summary>1. <a href="https://dl.acm.org/citation.cfm?doid=290941.290953">A study on retrospective and on-line event detection</a> by<i> Yiming Yang, Tom Pierce, Jaime Carbonell </i></summary><blockquote><p align="justify">
 This paper investigates the use and extension of text retrieval and clustering techniques for event detection. The task is to automatically detect novel events from a temporally-ordered stream of news stories, either retrospectively or as the stories arrive. We applied hierarchical and non-hierarchical document clustering algorithms to a corpus of 15,836 stories, focusing on the exploitation of both content and temporal information. We found the resulting cluster hierarchies highly informative for retrospective detection of previously unidentified events, effectively supporting both query-free and
 query-driven retrieval. We also found that temporal distribution patterns of document clusters provide useful information for improvement in both retrospective detection and on-line detection of novel events. In an evaluation using manually labelled events to judge the system-detected events, we obtained a result of 82% in the Fl measure for retrospective detection, and a F1 value of 42% for on-line detection
 </p></blockquote></details>
@@ -1025,14 +1025,14 @@ query-driven retrieval. We also found that temporal distribution patterns of doc
 
 
 <details>
-<summary>1. <a href="https://dl.acm.org/citation.cfm?doid=383952.384068">Combining Semantic and Syntactic Document Classifiers to Improve First Story Detection</a> by Nicola Stokes, Joe Carthy</summary><blockquote><p align="justify">
+<summary>1. <a href="https://dl.acm.org/citation.cfm?doid=383952.384068">Combining Semantic and Syntactic Document Classifiers to Improve First Story Detection</a> by<i> Nicola Stokes, Joe Carthy</i></summary><blockquote><p align="justify">
 In this paper we describe a type of data fusion involving the combination of evidence derived from multiple document representations. Our aim is to investigate if a composite representation can improve the online detection of novel events in a stream of broadcast news stories. This classification process otherwise known as first story detection FSD (or in the Topic Detection and Tracking pilot study as online new event detection [1]), is one of three main classification tasks defined by the TDT initiative. Our composite document representation consists of a semantic representation (based on the lexical chains derived from a text) and a syntactic representation (using proper nouns). Using the TDT1 evaluation methodology, we evaluate a number of document representation combinations using these document classifiers.
 </p></blockquote></details>
 
 
 
 <details>
-<summary>2. <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.90.9651&rep=rep1&type=pdf">A probabilistic model for retrospective news event detection</a> by Zhiwei Li, Bin Wang, Mingjing Li, Wei-Ying Ma</summary><blockquote><p align="justify">
+<summary>2. <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.90.9651&rep=rep1&type=pdf">A probabilistic model for retrospective news event detection</a> by<i> Zhiwei Li, Bin Wang, Mingjing Li, Wei-Ying Ma</i></summary><blockquote><p align="justify">
 Retrospective news event detection (RED) is defined as the discovery of previously unidentified events in historical news corpus. Although both the contents and time information of news articles are helpful to RED, most researches focus on the utilization of the contents of news articles. Few research works have been carried out on finding better usages of time information. In this paper, we do some explorations on both directions based on the following two characteristics of news articles. On the one hand, news articles are always aroused by events; on the other hand, similar articles reporting the same event often redundantly appear on many news sources. The former hints a generative model of news articles, and the latter provides data enriched environments to perform RED. With consideration of these characteristics, we propose a probabilistic model to incorporate both content and time information in a unified framework. This model gives new representations of both news articles and news events. Furthermore, based on this approach, we build an interactive RED system, HISCOVERY, which provides additional functions to present events, Photo Story and Chronicle.
 </p></blockquote></details>
 
@@ -1041,7 +1041,7 @@ Retrospective news event detection (RED) is defined as the discovery of previous
  
 
 <details>
-<summary>1. <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.152.5641&rep=rep1&type=pdf">Event threading within news topics</a> by Ramesh Nallapati, Ao Feng, Fuchun Peng, James Allan</summary><blockquote><p align="justify">
+<summary>1. <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.152.5641&rep=rep1&type=pdf">Event threading within news topics</a> by<i> Ramesh Nallapati, Ao Feng, Fuchun Peng, James Allan</i></summary><blockquote><p align="justify">
 With the overwhelming volume of online news available today, there is an increasing need for automatic techniques to analyze and present news to the user in a meaningful and efficient manner. Previous research focused only on organizing news stories by their topics into a flat hierarchy. We believe viewing a news topic as a flat collection of stories is too restrictive and inefficient for a user to understand the topic quickly. 
  In this work, we attempt to capture the rich structure of events and their dependencies in a news topic through our event models. We call the process of recognizing events and their dependencies <i>event threading</i>. We believe our perspective of modeling the structure of a topic is more effective in capturing its semantics than a flat list of on-topic stories.
  We formally define the novel problem, suggest evaluation metrics and present a few techniques for solving the problem. Besides the standard word based features, our approaches take into account novel features such as temporal locality of stories for event recognition and time-ordering for capturing dependencies. Our experiments on a manually labeled data sets show that our models effectively identify the events and capture dependencies among them. 
@@ -1052,7 +1052,7 @@ With the overwhelming volume of online news available today, there is an increas
   
 
 <details>
-<summary>1. <a href="https://link.springer.com/chapter/10.1007/11581772_66">A system for detecting and tracking Internet news event</a> by Zhen Lei, Ling-da Wu, Ying Zhang, Yu-chi Liu</summary><blockquote><p align="justify">
+<summary>1. <a href="https://link.springer.com/chapter/10.1007/11581772_66">A system for detecting and tracking Internet news event</a> by<i> Zhen Lei, Ling-da Wu, Ying Zhang, Yu-chi Liu</i></summary><blockquote><p align="justify">
 News event detection is the task of discovering relevant, yet previously unreported real-life events and reporting it to users in human-readable form, while event tracking aims to automatically assign event labels to news stories when they arrive. A new method and system for performing the event detection and tracking task is proposed in this paper. The event detection and tracking method is based on subject extraction and an improved support vector machine (SVM), in which subject concepts can concisely and precisely express the meaning of a longer text. The improved SVM first prunes the negative examples, reserves and deletes a negative sample according to distance and class label, then trains the new set with SVM to obtain a classifier and maps the SVM outputs into probabilities. The experimental results with the real-world data sets indicate the proposed method is feasible and advanced.
 </p></blockquote></details>
 
@@ -1062,7 +1062,7 @@ News event detection is the task of discovering relevant, yet previously unrepor
 
 
 <details>
-<summary>1. <a href="https://www.aclweb.org/anthology/E12-1034/">Skip N-grams and Ranking Functions for Predicting Script Events</a> by Bram Jans, Steven Bethard, Ivan Vulić, Marie Francine Moens</summary><blockquote><p align="justify">
+<summary>1. <a href="https://www.aclweb.org/anthology/E12-1034/">Skip N-grams and Ranking Functions for Predicting Script Events</a> by<i> Bram Jans, Steven Bethard, Ivan Vulić, Marie Francine Moens</i></summary><blockquote><p align="justify">
 In this paper, we extend current state-of-the-art research on unsupervised acquisition of scripts, that is, stereotypical and frequently observed sequences of events. We design, evaluate and compare different methods for constructing models for script event prediction: given a partial chain of events in a script, predict other events that are likely to belong to the script. Our work aims to answer key questions about how best to (1) identify representative event chains from a source text, (2) gather statistics from the event chains, and (3) choose ranking functions for predicting new script events. We make several contributions, introducing skip-grams for collecting event statistics, designing improved methods for ranking event predictions, defining a more reliable evaluation metric for measuring predictiveness, and providing a systematic analysis of the various event prediction models.
 </p></blockquote></details>
 
@@ -1071,6 +1071,6 @@ In this paper, we extend current state-of-the-art research on unsupervised acqui
  
 
 <details>
-<summary>1. <a href="https://www.aclweb.org/anthology/C16-1309/">Event detection with burst information networks</a> by Tao Ge, Lei Cui, Baobao Chang, Zhifang Sui, Ming Zhou</summary><blockquote><p align="justify">
+<summary>1. <a href="https://www.aclweb.org/anthology/C16-1309/">Event detection with burst information networks</a> by<i> Tao Ge, Lei Cui, Baobao Chang, Zhifang Sui, Ming Zhou</i></summary><blockquote><p align="justify">
 Retrospective event detection is an important task for discovering previously unidentified events in a text stream. In this paper, we propose two fast centroid-aware event detection models based on a novel text stream representation – Burst Information Networks (BINets) for addressing the challenge. The BINets are time-aware, efficient and can be easily analyzed for identifying key information (centroids). These advantages allow the BINet-based approaches to achieve the state-of-the-art performance on multiple datasets, demonstrating the efficacy of BINets for the task of event detection.
 </p></blockquote></details>
