@@ -60,6 +60,15 @@ In developing an Information Extraction (IE) system for a new class of events or
 Electronic information grows rapidly as the Internet is widely used in our daily life. In order to identify the exact information for the user query, information extraction is widely researched and investigated. The template, which pertains to events or situations, and contains slots that denote who did what to whom, when, and where, is predefined by a template builder. Therefore, fixed templates are the main obstacles for the information extraction system out of the laboratory. In this paper, a method to automatically discover the event pattern in Chinese from stock market bulletin is introduced. It is based on the tagged corpus and the domain model. The pattern discovery process is independent of the domain model by introducing a link table. The table is the connection between text surface structure and semantic deep structure represented by a domain model. The method can be easily adapted to other domains by changing the link table.
 </p></blockquote></details>
 
+### 2003 
+
+
+<details>
+<summary>1. <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.67.9396&rep=rep1&type=pdf">A System for new event detection</a> by<i> Thorsten Brants, Francine Chen, Ayman  Farahat</i></summary><blockquote><p align="justify">
+We present a new method and system for performing the New Event Detection task, i.e., in one or multiple streams of news stories, all stories on a previously unseen (new) event are marked. The method is based on an incremental TF-IDF model. Our extensions include: generation of source-specific models, similarity score normalization based on document-specific averages, similarity score normalization based on source-pair specific averages, term reweighting based on inverse event frequencies, and segmentation of the documents. We also report on extensions that did not improve results. The system performs very well on TDT3 and TDT4 test data and scored second in the TDT-2002 evaluation.
+</p></blockquote></details>
+
+
 
 ### 2005
 
@@ -67,6 +76,15 @@ Electronic information grows rapidly as the Internet is widely used in our daily
 <summary>1. <a href="https://www.aaai.org/Papers/Workshops/2006/WS-06-07/WS06-07-004.pdf">Automatic event and relation detection with seeds of varying complexity</a> by<i> Feiyu Xu, Hans Uszkoreit and Hong Li</i></summary><blockquote><p align="justify">
 In this paper, we present an approach for automatically detecting events in natural language texts by learning patterns that signal the mentioning of such events.  We construe the relevant event types as relations and start with aset of seeds consisting of representative event instances thath appen to be known and also to be mentioned frequently in easily available training data.  Methods have been developed for the automatic identification of event extents andevent triggers.  We have learned patterns for a particular domain,  i.e.,  prize  award  events.  Currently  we  are systematically investigating the criteria for selecting the most effective patterns for the detection of events in sentences  and  paragraphs.  Although  the  systematic investigation is still under way, we can already report on first very promising results of the method for learning of patterns and for using these patterns in event detection.
 </p></blockquote></details>
+
+
+### 2008
+
+<details>
+<summary>1. <a href="https://link.springer.com/chapter/10.1007/978-3-540-69858-6_21">Real-Time News Event Extraction for Global Crisis Monitoring</a> by<i> Hristo Tanev, Jakub Piskorski, Martin Atkinson</i></summary><blockquote><p align="justify">
+This paper presents a real-time news event extraction system developed by the Joint Research Centre of the European Commission. It is capable of accurately and efficiently extracting violent and disaster events from online news without using much linguistic sophistication. In particular, in our linguistically relatively lightweight approach to event extraction, clustered news have been heavily exploited at various stages of processing. The paper describes the system’s architecture, news geo-tagging, automatic pattern learning, pattern specification language, information aggregation, the issues of integrating event information in a global crisis monitoring system and new experimental evaluation.
+</p></blockquote></details>
+
 
 ### 2009 
 
@@ -153,6 +171,13 @@ Due to today’s information overload, the user is particularly finding it diffi
 <details>
 <summary>1. <a href="https://www.aclweb.org/anthology/W06-0901/">The stages of event extraction</a> by<i> David Ahn</i></summary><blockquote><p align="justify">
 Event detection and recognition is a complex task consisting of multiple sub-tasks of varying difficulty. In this paper, we present a simple, modular approach to event extraction that allows us to experiment with a variety of machine learning methods for these sub-tasks, as well as to evaluate the impact on performance these sub-tasks have on the overall task. 
+</p></blockquote></details>
+
+### 2007 
+
+<details>
+<summary>1. <a href="https://link.springer.com/chapter/10.1007/978-3-540-72035-5_22">Extracting Violent Events From On-Line News for Ontology Population</a> by<i> Jakub Piskorski, Hristo Tanev, Pinar Oezden Wennerberg</i></summary><blockquote><p align="justify">
+This paper presents nexus, an event extraction system, developed at the Joint Research Center of the European Commission utilized for populating violent incident knowledge bases. It automatically extracts security-related facts from on-line news articles. In particular, the paper focuses on a novel bootstrapping algorithm for weakly supervised acquisition of extraction patterns from clustered news, cluster-level information fusion and pattern specification language. Finally, a preliminary evaluation of nexus on real-world data is given which revealed acceptable precision and a strong application potential.
 </p></blockquote></details>
 
 ### 2008
@@ -1043,6 +1068,14 @@ In this paper we describe a type of data fusion involving the combination of evi
 Retrospective news event detection (RED) is defined as the discovery of previously unidentified events in historical news corpus. Although both the contents and time information of news articles are helpful to RED, most researches focus on the utilization of the contents of news articles. Few research works have been carried out on finding better usages of time information. In this paper, we do some explorations on both directions based on the following two characteristics of news articles. On the one hand, news articles are always aroused by events; on the other hand, similar articles reporting the same event often redundantly appear on many news sources. The former hints a generative model of news articles, and the latter provides data enriched environments to perform RED. With consideration of these characteristics, we propose a probabilistic model to incorporate both content and time information in a unified framework. This model gives new representations of both news articles and news events. Furthermore, based on this approach, we build an interactive RED system, HISCOVERY, which provides additional functions to present events, Photo Story and Chronicle.
 </p></blockquote></details>
 
+
+### 2003 
+
+<details>
+<summary>1. <a href="https://www.sciencedirect.com/science/article/pii/S0957417403000629">Ontology-based fuzzy event extraction agent for Chinese e-news summarization</a> by<i> Chang-Shing Lee, Yea-Juan Chen, Zhi-Wei Jian</i></summary><blockquote><p align="justify">
+An Ontology-based Fuzzy Event Extraction (OFEE) agent for Chinese e-news summarization is proposed in this article. The OFEE agent contains Retrieval Agent (RA), Document Processing Agent (DPA) and Fuzzy Inference Agent (FIA) to perform the event extraction for Chinese e-news summarization. First, RA automatically retrieves Internet e-news periodically, stores them into the e-news repository, and sends them to DPA for document processing. Then, the DPA will utilize the Chinese Part-of-speech (POS) tagger provided by Chinese knowledge information processing group to process the retrieved e-news and filter the Chinese term set by Chinese term filter. Next, the FIA and Event Ontology Filter (EOF) extract the e-news event ontology based on the Chinese term set and domain ontology. Finally, the Summarization Agent (SA) will summarize the e-news by the extracted-event ontology. By the simulation, the proposed method can summarize the Chinese weather e-news effectively.
+</p></blockquote></details>
+
 ### 2004
 
  
@@ -1071,6 +1104,14 @@ News event detection is the task of discovering relevant, yet previously unrepor
 <details>
 <summary>1. <a href="https://www.aclweb.org/anthology/E12-1034/">Skip N-grams and Ranking Functions for Predicting Script Events</a> by<i> Bram Jans, Steven Bethard, Ivan Vulić, Marie Francine Moens</i></summary><blockquote><p align="justify">
 In this paper, we extend current state-of-the-art research on unsupervised acquisition of scripts, that is, stereotypical and frequently observed sequences of events. We design, evaluate and compare different methods for constructing models for script event prediction: given a partial chain of events in a script, predict other events that are likely to belong to the script. Our work aims to answer key questions about how best to (1) identify representative event chains from a source text, (2) gather statistics from the event chains, and (3) choose ranking functions for predicting new script events. We make several contributions, introducing skip-grams for collecting event statistics, designing improved methods for ranking event predictions, defining a more reliable evaluation metric for measuring predictiveness, and providing a systematic analysis of the various event prediction models.
+</p></blockquote></details>
+
+### 2014
+
+
+<details>
+<summary>1. <a href="https://www.aclweb.org/anthology/W14-2905/">Unsupervised Techniques for Extracting and Clustering Complex Events in News</a> by<i> Delia Rusu, James Hodson, Anthony Kimball</i></summary><blockquote><p align="justify">
+Structured machine-readable representations of news articles can radically change the way we interact with information. One step towards obtaining these representations is event extraction - the identification of event triggers and arguments in text. With previous approaches mainly focusing on classifying events into a small set of predefined types, we analyze unsupervised techniques for complex event extraction. In addition to extracting event mentions in news articles, we aim at obtaining a more general representation by disambiguating to concepts defined in knowledge bases. These concepts are further used as features in a clustering application. Two evaluation settings highlight the advantages and shortcomings of the proposed approach.
 </p></blockquote></details>
 
 ### 2016 
