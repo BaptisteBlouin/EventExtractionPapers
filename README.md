@@ -835,6 +835,13 @@ Annotating training data for event extraction is tedious and labor-intensive. Mo
 Event extraction involves the identification of instances of a type of event, along with their attributes and participants. Developing a training corpus by annotating events in text is very labor intensive, and so selecting informative instances to annotate can save a great deal of manual work. We present an active learning (AL) strategy, pseudo co-testing, based on one view from a classifier aiming to solve the original problem of event extraction, and another view from a classifier aiming to solve a coarser granularity task. As the second classifier can provide more graded matching from a wider scope, we can build a set of pseudocontention-points which are very informative, and can speed up the AL process. Moreover, we incorporate multiple selection criteria into the pseudo cotesting, seeking training examples that are informative, representative, and varied. Experiments show that pseudo co-testing can reduce annotation labor by 81%; incorporating multiple selection criteria reduces the labor by a further 7%.
 </p></blockquote></details>
 
+
+
+<details>
+<summary>3. <a href="https://www.aclweb.org/anthology/P11-1040/">Event Discovery in Social Media Feeds</a> by<i> Edward Benson, Aria Haghighi, Regina Barzilay</i></summary><blockquote><p align="justify">
+We present a novel method for record extraction from social streams such as Twitter. Unlike typical extraction setups, these environments are characterized by short, one sentence messages with heavily colloquial speech. To further complicate matters, individual messages may not express the full relation to be uncovered, as is often assumed in extraction tasks. We develop a graphical model that addresses these problems by learning a latent set of records and a record-message alignment simultaneously; the output of our model is a set of canonical records, the values of which are consistent with aligned messages. We demonstrate that our approach is able to accurately induce event records from Twitter messages, evaluated against events from a local city guide. Our method achieves significant error reduction over baseline methods.
+</p></blockquote></details>
+
 ### 2013 
 
 
