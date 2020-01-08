@@ -1158,7 +1158,13 @@ Event extraction is one of the most challenging tasks in the field of informatio
 </p></blockquote></details>
 
 <details>
-<summary>7. <a href="https://ieeexplore.ieee.org/document/8918013">A Survey of Event Extraction From Text </a> by<i> Wei Xiang, Bang Wang </i></summary><blockquote><p align="justify">
+<summary>7. <a href="https://ieeexplore.ieee.org/document/8918013">Temporal Information Extraction Extracting Events and Temporal Expressions A Literature Survey </a> by<i> Naman Gupta </i></summary><blockquote><p align="justify">
+Information  on  web  is  increasing  at  infinitum.   There  exists  plethora  of  data  on  World  Wide  Web (WWW) in various electronic and digital form.  Thus, web has become an unstructured global area where information even if available, cannot be directly used for desired applications.  One is often faced with an information overload and demands for some automated help.  Information extraction (IE) is the task of automatically extracting structured information from unstructured and/or semi-structured machine-readable  documents  by  means  of  Text  Mining  and  Natural  Language  Processing  (NLP)  techniques. Extracted structured information can be used for variety of enterprise or personal level task of varying complexity.   In  this  survey  report  we  will  discuss  literature  related  to  temporal  expressions  and  event extraction
+</p></blockquote></details>
+
+
+<details>
+<summary>8. <a href="https://ieeexplore.ieee.org/document/8918013">A Survey of Event Extraction From Text </a> by<i> Wei Xiang, Bang Wang </i></summary><blockquote><p align="justify">
 Numerous important events happen everyday and everywhere but are reported in different media sources with different narrative styles. How to detect whether real-world events have been reported in articles and posts is one of the main tasks of event extraction. Other tasks include extracting event arguments and identifying their roles, as well as clustering and tracking similar events from different texts. As one of the most important research themes in natural language processing and understanding, event extraction has a wide range of applications in diverse domains and has been intensively researched for decades. This article provides a comprehensive yet up-to-date survey for event extraction from text. We not only summarize the task definitions, data sources and performance evaluations for event extraction, but also provide a taxonomy for its solution approaches. In each solution group, we provide detailed analysis for the most representative methods, especially their origins, basics, strengths and weaknesses. Last, we also present our envisions about future research directions.
 </p></blockquote></details>
 
