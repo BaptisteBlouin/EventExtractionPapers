@@ -1,5 +1,3 @@
-# Event Extraction papers
-
 This repository contains resources for Natural Language Processing (NLP) with a focus on the task of Event Extraction.
 
 # Table of Contents
@@ -306,9 +304,15 @@ Currently, Chinese event extraction systems suffer much from the low quality of 
 </p></blockquote></details>
 
 <details>
-<summary>5. <a href="https://www.aclweb.org/anthology/C12-1033/">Joint Modeling for Chinese Event Extraction with Rich Linguistic Features</a> by<i> Chen Chen, Vincent Ng</i></summary><blockquote><p align="justify">
+<summary>5. <a href="https://www.aclweb.org/anthology/N12-1008/">Joint Modeling for Chinese Event Extraction with Rich Linguistic Features</a> by<i> Chen Chen, Vincent Ng</i></summary><blockquote><p align="justify">
 Compared to the amount of research that has been done on English event extraction, there exists relatively little work on Chinese event extraction. We seek to push the frontiers of supervised Chinese event extraction research by proposing two extension to Li et al.'s (2012) state-of-the-art event extraction system. First, we employ a joint modeling approach to event extraction, aiming to address the error propagation problem inherent in Li et al.'s pipeline system architecture. Second, we investigate a variety of rich knowledge sources for Chinese event extraction that encode knowledge ranging from the character level to the discourse level. Experimental results on the ACE 2005 dataset show that our joint-modeling, knowledge-rich approach significantly outperforms Li et al.'s approach.
 </p></blockquote></details>
+
+<details>
+<summary>5. <a href="https://www.aclweb.org/anthology/C12-1033/">Multi-Event Extraction Guided by Global Constraints</a> by<i> Roi Reichart, Regina Barzilay</i></summary><blockquote><p align="justify">
+This  paper  addresses  the  extraction of  eventrecords from documents that describe multi-ple  events.   Specifically,  we  aim  to  identify the fields of information contained in a document and aggregate together those fields that describe  the  same  event.   To  exploit  the  inherent  connections  between  field  extraction and event identification, we propose to model them  jointly.   Our  model  is  novel  in  that  it integrates information from separate sequential  models,  using  global  potentials  that  encourage  the  extracted  event  records  to  have desired  properties. While  the  model  contains high-order potentials,  efficient approximate  inference  can  be  performed with  dual decomposition. We experiment with two datasets  that  consist  of  newspaper  articles  describing multiple terrorism events,  and show that our model substantially outperforms tra-ditional pipeline models.
+</p></blockquote></details>
+
 
 ### 2013 
 
@@ -536,6 +540,11 @@ We propose a novel, Abstract Meaning Representation (AMR) based approach to iden
 <details>
 <summary>5. <a href="https://www.aclweb.org/anthology/P17-1164/">Exploiting Argument Information to Improve Event Detection via Supervised Attention Mechanisms</a> by<i> Shulin Liu, Yubo Chen, Kang Liu, Jun Zhao</i></summary><blockquote><p align="justify">
 This paper tackles the task of event detection (ED), which involves identifying and categorizing events. We argue that arguments provide significant clues to this task, but they are either completely ignored or exploited in an indirect manner in existing detection approaches. In this work, we propose to exploit argument information explicitly for ED via supervised attention mechanisms. In specific, we systematically investigate the proposed model under the supervision of different attention strategies. Experimental results show that our approach advances state-of-the-arts and achieves the best F1 score on ACE 2005 dataset.
+</p></blockquote></details>
+
+<details>
+<summary>. <a href="https://www.aclweb.org/anthology/D17-1163/">Identifying civilians killed by police with distantly supervised entity-event extraction</a> by<i> Katherine Keith, Abram Handler, Michael Pinkham, Cara Magliozzi, Joshua McDuffie, Brendan O’Connor</i></summary><blockquote><p align="justify">
+We propose a new, socially-impactful task for natural language processing: from a news corpus, extract names of persons who have been killed by police. We present a newly collected police fatality corpus, which we release publicly, and present a model to solve this problem that uses EM-based distant supervision with logistic regression and convolutional neural network classifiers. Our model outperforms two off-the-shelf event extractor systems, and it can suggest candidate victim names in some cases faster than one of the major manually-collected police fatality databases.
 </p></blockquote></details>
 
 ### 2018 
@@ -1107,6 +1116,11 @@ News event detection is the task of discovering relevant, yet previously unrepor
 In this paper, we extend current state-of-the-art research on unsupervised acquisition of scripts, that is, stereotypical and frequently observed sequences of events. We design, evaluate and compare different methods for constructing models for script event prediction: given a partial chain of events in a script, predict other events that are likely to belong to the script. Our work aims to answer key questions about how best to (1) identify representative event chains from a source text, (2) gather statistics from the event chains, and (3) choose ranking functions for predicting new script events. We make several contributions, introducing skip-grams for collecting event statistics, designing improved methods for ranking event predictions, defining a more reliable evaluation metric for measuring predictiveness, and providing a systematic analysis of the various event prediction models.
 </p></blockquote></details>
 
+<details>
+<summary>2. <a href="https://www.aclweb.org/anthology/P12-1088/">Automatic Event Extraction with Structured Preference Modeling</a> by<i> Wei Lu, Dan Roth</i></summary><blockquote><p align="justify">
+This  paper  presents  a  novel  sequence  labeling model based on the latent-variable semi-Markov conditional random fields for jointly extracting argument roles of events from texts. The model takes in coarse mention and type information and predicts argument roles for a given event template. This paper addresses the event extraction problem in a primarily  unsupervised  setting, where no labeled training instances are available. Our key contribution is a novel learning framework called structured preference modeling (PM), that  allows  arbitrary  preference to be assigned to certain structures during the learning procedure.  We establish and discuss connections between this framework and other existing works. We show empirically that the structured preferences are crucial to the success of our task. Our  model,  trained  without  annotated  data  and  with  a  small  number of structured preferences, yields performance competitive to some baseline supervised  approaches.
+</p></blockquote></details>
+
 ### 2014
 
 
@@ -1167,4 +1181,3 @@ Information  on  web  is  increasing  at  infinitum.   There  exists  plethora  
 <summary>8. <a href="https://ieeexplore.ieee.org/document/8918013">A Survey of Event Extraction From Text </a> by<i> Wei Xiang, Bang Wang </i></summary><blockquote><p align="justify">
 Numerous important events happen everyday and everywhere but are reported in different media sources with different narrative styles. How to detect whether real-world events have been reported in articles and posts is one of the main tasks of event extraction. Other tasks include extracting event arguments and identifying their roles, as well as clustering and tracking similar events from different texts. As one of the most important research themes in natural language processing and understanding, event extraction has a wide range of applications in diverse domains and has been intensively researched for decades. This article provides a comprehensive yet up-to-date survey for event extraction from text. We not only summarize the task definitions, data sources and performance evaluations for event extraction, but also provide a taxonomy for its solution approaches. In each solution group, we provide detailed analysis for the most representative methods, especially their origins, basics, strengths and weaknesses. Last, we also present our envisions about future research directions.
 </p></blockquote></details>
-
