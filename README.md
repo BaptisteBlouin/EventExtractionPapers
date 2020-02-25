@@ -8,12 +8,12 @@ This repository contains resources for Natural Language Processing (NLP) with a 
 
 <summary><b>Expand Table of Contents</b></summary><blockquote><p align="justify">
 
-- [Pattern Matching](#pattern-matching)
-- [Machine Learning](#machine-learning)
-- [Deep Learning](#deep-learning)
-- [Semi-supervised Learning](#semi-supervised-learning)
-- [Unsupervised Learning](#unsupervised-learning)
-- [Event Coreference](#event-coreference)
+- [Pattern matching](#pattern-matching)
+- [Machine learning](#machine-learning)
+- [Deep learning](#deep-learning)
+- [Semi-supervised learning](#semi-supervised-learning)
+- [Unsupervised learning](#unsupervised-learning)
+- [Event coreference](#event-coreference)
 - [Surveys](#surveys)
 - [Others](#others)
 - [Data](#data)
@@ -1259,7 +1259,7 @@ Event extraction from texts aims to detect structured information such as what h
 </p></blockquote></details>
 
 
-## EVENT COREFERENCE
+## Event coreference
 [:arrow_up:](#table-of-contents)
 
 ### 1997
