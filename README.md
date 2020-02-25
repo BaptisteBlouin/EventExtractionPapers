@@ -16,12 +16,13 @@ This repository contains resources for Natural Language Processing (NLP) with a 
 - [Event Coreference](#event-coreference)
 - [Surveys](#surveys)
 - [Others](#others)
+- [Data](#data)
 </p></blockquote></details>
 
 ---
 
 
-## Pattern Matching
+## Pattern matching
 
 
 ### 1993
@@ -222,7 +223,7 @@ Due to today’s information overload, the user is particularly finding it diffi
 
 
 
-## Machine Learning 
+## Machine learning 
 [:arrow_up:](#table-of-contents)
 ### 2006 
 
@@ -520,7 +521,7 @@ Event extraction is a difficult information extraction task. Li et al. (2014) ex
 Events and entities are closely related; entities are often actors or participants in events and events without entities are uncommon. The interpretation of events and entities is highly contextually dependent. Existing work in information extraction typically models events separately from entities, and performs inference at the sentence level, ignoring the rest of the document. In this paper, we propose a novel approach that models the dependencies among variables of events, entities, and their relations, and performs joint inference of these variables across a document. The goal is to enable access to document-level contextual information and facilitate context-aware predictions. We demonstrate that our approach substantially outperforms the state-of-the-art methods for event extraction as well as a strong baseline for entity extraction.
 </p></blockquote></details>
 
-## Deep Learning 
+## Deep learning 
 [:arrow_up:](#table-of-contents)
 ### 2015 
 
@@ -945,7 +946,7 @@ We examine the capabilities of a unified, multi-task framework for three informa
 </p></blockquote></details>
 
 
-## SEMI-SUPERVISED LEARNING 
+## Semi-supervised learning 
 [:arrow_up:](#table-of-contents)
 ### 2009
 
@@ -1159,7 +1160,7 @@ Extraction of financial and economic events from text has previously been done m
 </p></blockquote></details>
 
 
-## UNSUPERVISED LEARNING 
+## Unsupervised learning
 [:arrow_up:](#table-of-contents)
 ### 1998
 
@@ -1447,7 +1448,7 @@ We describe UTD’s participating system in the event nugget detection and coref
 </p></blockquote></details>
 
 
-## SURVEYS 
+## Surveys
 [:arrow_up:](#table-of-contents)
 <details>
 <summary>1. <a href="https://www.sciencedirect.com/science/article/pii/S0167923616300173">A Survey of event extraction methods from text for decision support systems</a> by<i> Frederik Hogenboom, Flavius Frasincar, Uzay Kaymak, Franciska de Jong, Emiel Carona</i></summary><blockquote><p align="justify">
@@ -1495,7 +1496,7 @@ Numerous important events happen everyday and everywhere but are reported in dif
 Many applications in information extraction, natural language understanding, information retrieval require an understanding of the semantic relations between entities. We present a comprehensive review of various aspects of the entity relation extraction task. Some of the most important supervised and semi-supervised classiﬁcation approaches to the relation extraction task are covered in sufﬁcient detail along with critical analyses. We also discuss extensions to higher-order relations. Evaluation methodologies for both supervised and semi-supervised methods are described along with pointers to the commonly used performance evaluation datasets. Finally, we also give short descriptions of two important applications of relation extraction, namely question answering and biotext mining.
 </p></blockquote></details>
 
-## OTHERS 
+## Others 
 [:arrow_up:](#table-of-contents)
 
 
@@ -1584,4 +1585,34 @@ Today’s extraction of temporal information for events heavily depends on annot
 This paper describes an approach to determine whether people participate in the events they tweet about. Speciﬁcally, we determine whether people are participants in events with respect to the tweet timestamp. We target all events expressed by verbs in tweets, including past, present and events that may occur in the future. We present new annotations using 1,096 event mentions, and experimental results showing that the task is challenging.
 </p></blockquote></details>
 
+
+## Data
 [:arrow_up:](#table-of-contents)
+
+* <a href="https://www-nlpir.nist.gov/related_projects/muc/muc_data/muc_data_index.html">MUC Data Sets</a>
+* Automatic Content Extraction (ACE) 
+	* <a href="https://www.ldc.upenn.edu/collaborations/past-projects/ace">Program</a>
+	* <a href="https://catalog.ldc.upenn.edu/LDC2003T11">ACE-2 corpus</a>
+	* <a href="https://catalog.ldc.upenn.edu/LDC2006T06">ACE 05 corpus</a>
+* Light & Rich ERE
+	* <a href="http://www.aclweb.org/old_anthology/W/W15/W15-0812.pdf">Paper</a> 
+* <a href="http://www.newsreader-project.eu/results/data/the-ecb-corpus/">The ECB+ Corpus</a>
+* <a href="http://www.newsreader-project.eu/results/data/wikinews/">The NewsReader MEANTIME corpus</a>
+* <a href="https://tac.nist.gov//2015/KBP/Event/index.html">TAC KBP 2015 Event Track</a>
+* <a href="https://tac.nist.gov/">Text Analysis Conference</a>
+* <a href="https://framenet.icsi.berkeley.edu/fndrupal/">FrameNet</a>
+* <a href="https://catalog.ldc.upenn.edu/LDC2013T19">OntoNotes Release 5.0</a>
+* <a href="https://catalog.ldc.upenn.edu/LDC2008T23">NomBank v 1.0</a>
+* <a href="https://catalog.ldc.upenn.edu/LDC2004T14">Proposition Bank I</a>
+* <a href="https://catalog.ldc.upenn.edu/LDC99T42">Treebank-3</a>
+* <a href="https://catalog.ldc.upenn.edu/LDC2014T12">Abstract Meaning Representation (AMR) Annotation Release 1.0</a>
+* <a href="https://catalog.ldc.upenn.edu/LDC2006T08">TimeBank 1.2</a>
+* <a href="http://universal.elra.info/product_info.php?cPath=42_43&products_id=2333">
+AQUAINT TimeML</a>  ( <a href="https://github.com/cnorthwood/ternip/tree/master/sample_data/aquaint_timeml_1.0">data</a> )
+* <a href="https://www.cs.york.ac.uk/semeval-2013/task1/index.html">TempEval-3</a>
+* <a href="https://catalog.ldc.upenn.edu/LDC2009T23">FactBank 1.0</a>
+* <a href="https://catalog.ldc.upenn.edu/LDC2011T08">Datasets for Generic Relation Extraction (reACE)</a>
+* <a href="https://catalog.ldc.upenn.edu/LDC2016T23">Richer Event Description</a>
+* <a href="https://catalog.ldc.upenn.edu/LDC2005T16">TDT4 Multilingual Text and Annotations</a>
+* <a href="https://catalog.ldc.upenn.edu/LDC2017T09">The EventStatus Corpus</a>
+* <a href="https://catalog.ldc.upenn.edu/LDC2009T10">Language Understanding Annotation Corpus</a>
