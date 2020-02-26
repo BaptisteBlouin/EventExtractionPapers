@@ -8,12 +8,12 @@ This repository contains resources for Natural Language Processing (NLP) with a 
 
 <summary><b>Expand Table of Contents</b></summary><blockquote><p align="justify">
 
-- [Pattern matching](#pattern-matching)
-- [Machine learning](#machine-learning)
-- [Deep learning](#deep-learning)
-- [Semi-supervised learning](#semi-supervised-learning)
-- [Unsupervised learning](#unsupervised-learning)
-- [Event coreference](#event-coreference)
+- [Pattern Matching](#pattern-matching)
+- [Machine Learning](#machine-learning)
+- [Deep Learning](#deep-learning)
+- [Semi-supervised Learning](#semi-supervised-learning)
+- [Unsupervised Learning](#unsupervised-learning)
+- [Event Coreference](#event-coreference)
 - [Surveys](#surveys)
 - [Others](#others)
 - [Data](#data)
@@ -86,7 +86,7 @@ In developing an Information Extraction (IE) system for a new class of events or
 
 
 <details>
-<summary>1. <a href="https://www.semanticscholar.org/paper/Adaptive-Information-Extraction-from-Text-by-Rule-Ciravegna/436087083293ca8728fb96d2e05c011fff2c7751">Adaptive Information Extraction from Text by Rule Induction and Generalisation</a> by<i> Adaptive Information Extraction from Text by Rule Induction and Generalisation</i></summary><blockquote><p align="justify">
+<summary>1. <a href="https://www.semanticscholar.org/paper/Adaptive-Information-Extraction-from-Text-by-Rule-Ciravegna/436087083293ca8728fb96d2e05c011fff2c7751">Adaptive Information Extraction from Text by Rule Induction and Generalisation</a> by<i> Fabio Ciravegna</i></summary><blockquote><p align="justify">
 (LP)2 is a covering algorithm for adaptive Information Extraction from text (IE). It induces symbolic rules that insert SGML tags into texts by learning from examples found in a user-defined tagged corpus. Training is performed in two steps: initially a set of tagging rules is learned; then additional rules are induced to correct mistakes and imprecision in tagging. Induction is performed by bottom-up generalization of examples in the training corpus. Shallow knowledge about Natural Language Processing (NLP) is used in the generalization process. The algorithm has a considerable success story. From a scientific point of view, experiments report excellent results with respect to the current state of the art on two publicly available corpora. From an application point of view, a successful industrial IE tool has been based on (LP)2. Real world applications have been developed and licenses have been released to external companies for building other applications. This paper presents (LP)2, experimental results and applications, and discusses the role of shallow NLP in rule induction. 
 </p></blockquote></details>
 
@@ -945,6 +945,13 @@ Existing event extraction methods classify each argument role independently, ign
 We examine the capabilities of a unified, multi-task framework for three information extraction tasks: named entity recognition, relation extraction, and event extraction. Our framework (called DyGIE++) accomplishes all tasks by enumerating, refining, and scoring text spans designed to capture local (within-sentence) and global (cross-sentence) context. Our framework achieves state-of-the-art results across all tasks, on four datasets from a variety of domains. We perform experiments comparing different techniques to construct span representations. Contextualized embeddings like BERT perform well at capturing relationships among entities in the same or adjacent sentences, while dynamic span graph updates model long-range cross-sentence relationships. For instance, propagating span representations via predicted coreference links can enable the model to disambiguate challenging entity mentions. Our code is publicly available at this https URL and can be easily adapted for new tasks or datasets. 
 </p></blockquote></details>
 
+## 2020
+
+<details>
+<summary>1. <a href="https://arxiv.org/abs/2002.10757">Event Detection with Relation-Aware Graph Convolutional Neural Networks</a> by<i> Shiyao Cui, Bowen Yu, Tingwen Liu, Zhenyu Zhang, Xuebin Wang, Jinqiao Shi</i></summary><blockquote><p align="justify">
+Event detection (ED), a key subtask of information extraction, aims to recognize instances of specific types of events in text. Recently, graph convolutional networks (GCNs) over dependency trees have been widely used to capture syntactic structure information and get convincing performances in event detection. However, these works ignore the syntactic relation labels on the tree, which convey rich and useful linguistic knowledge for event detection. In this paper, we investigate a novel architecture named Relation-Aware GCN (RA-GCN), which efficiently exploits syntactic relation labels and models the relation between words specifically. We first propose a relation-aware aggregation module to produce expressive word representation by aggregating syntactically connected words through specific relation. Furthermore, a context-aware relation update module is designed to explicitly update the relation representation between words, and these two modules work in the mutual promotion way. Experimental results on the ACE2005 dataset show that our model achieves a new state-of-the-art performance for event detection. 
+</p></blockquote></details>
+
 
 ## Semi-supervised learning 
 [:arrow_up:](#table-of-contents)
@@ -1259,7 +1266,7 @@ Event extraction from texts aims to detect structured information such as what h
 </p></blockquote></details>
 
 
-## Event coreference
+## EVENT COREFERENCE
 [:arrow_up:](#table-of-contents)
 
 ### 1997
@@ -1607,7 +1614,8 @@ This paper describes an approach to determine whether people participate in the 
 * <a href="https://catalog.ldc.upenn.edu/LDC99T42">Treebank-3</a>
 * <a href="https://catalog.ldc.upenn.edu/LDC2014T12">Abstract Meaning Representation (AMR) Annotation Release 1.0</a>
 * <a href="https://catalog.ldc.upenn.edu/LDC2006T08">TimeBank 1.2</a>
-* <a href="http://universal.elra.info/product_info.php?cPath=42_43&products_id=2333">AQUAINT TimeML</a>  ( <a href="https://github.com/cnorthwood/ternip/tree/master/sample_data/aquaint_timeml_1.0">data</a> )
+* <a href="http://universal.elra.info/product_info.php?cPath=42_43&products_id=2333">
+AQUAINT TimeML</a>  ( <a href="https://github.com/cnorthwood/ternip/tree/master/sample_data/aquaint_timeml_1.0">data</a> )
 * <a href="https://www.cs.york.ac.uk/semeval-2013/task1/index.html">TempEval-3</a>
 * <a href="https://catalog.ldc.upenn.edu/LDC2009T23">FactBank 1.0</a>
 * <a href="https://catalog.ldc.upenn.edu/LDC2011T08">Datasets for Generic Relation Extraction (reACE)</a>
