@@ -1266,7 +1266,7 @@ Event extraction from texts aims to detect structured information such as what h
 </p></blockquote></details>
 
 
-## EVENT COREFERENCE
+## Event coreference
 [:arrow_up:](#table-of-contents)
 
 ### 1997
@@ -1614,8 +1614,7 @@ This paper describes an approach to determine whether people participate in the 
 * <a href="https://catalog.ldc.upenn.edu/LDC99T42">Treebank-3</a>
 * <a href="https://catalog.ldc.upenn.edu/LDC2014T12">Abstract Meaning Representation (AMR) Annotation Release 1.0</a>
 * <a href="https://catalog.ldc.upenn.edu/LDC2006T08">TimeBank 1.2</a>
-* <a href="http://universal.elra.info/product_info.php?cPath=42_43&products_id=2333">
-AQUAINT TimeML</a>  ( <a href="https://github.com/cnorthwood/ternip/tree/master/sample_data/aquaint_timeml_1.0">data</a> )
+* <a href="http://universal.elra.info/product_info.php?cPath=42_43&products_id=2333">AQUAINT TimeML</a>  ( <a href="https://github.com/cnorthwood/ternip/tree/master/sample_data/aquaint_timeml_1.0">data</a> )
 * <a href="https://www.cs.york.ac.uk/semeval-2013/task1/index.html">TempEval-3</a>
 * <a href="https://catalog.ldc.upenn.edu/LDC2009T23">FactBank 1.0</a>
 * <a href="https://catalog.ldc.upenn.edu/LDC2011T08">Datasets for Generic Relation Extraction (reACE)</a>
