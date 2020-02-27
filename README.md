@@ -16,6 +16,7 @@ This repository contains resources for Natural Language Processing (NLP) with a 
 - [Event Coreference](#event-coreference)
 - [Surveys](#surveys)
 - [Others](#others)
+- [Linguistics](#linguistics)
 - [Data](#data)
 </p></blockquote></details>
 
@@ -1597,7 +1598,51 @@ Today’s extraction of temporal information for events heavily depends on annot
 This paper describes an approach to determine whether people participate in the events they tweet about. Speciﬁcally, we determine whether people are participants in events with respect to the tweet timestamp. We target all events expressed by verbs in tweets, including past, present and events that may occur in the future. We present new annotations using 1,096 event mentions, and experimental results showing that the task is challenging.
 </p></blockquote></details>
 
+<details>
+<summary>2. <a href="https://www.aclweb.org/anthology/W17-2712/">The Rich Event Ontology</a> by<i> Susan Brown, Claire Bonial, Leo Obrst, Martha Palmer </i></summary><blockquote><p align="justify">
+In this paper we describe a new lexical semantic resource, The Rich Event On-tology, which provides an independent conceptual backbone to unify existing semantic role labeling (SRL) schemas and augment them with event-to-event causal and temporal relations. By unifying the FrameNet, VerbNet, Automatic Content Extraction, and Rich Entities, Relations and Events resources, the ontology serves as a shared hub for the disparate annotation schemas and therefore enables the combination of SRL training data into a larger, more diverse corpus. By adding temporal and causal relational information not found in any of the independent resources, the ontology facilitates reasoning on and across documents, revealing relationships between events that come together in temporal and causal chains to build more complex scenarios. We envision the open resource serving as a valuable tool for both moving from the ontology to text to query for event types and scenarios of interest, and for moving from text to the ontology to access interpretations of events using the combined semantic information housed there.
+</p></blockquote></details>
 
+### Linguistics
+[:arrow_up:](#table-of-contents)
+
+1. <a href="http://semantics.uchicago.edu/scalarchange/vendler57.pdf">Verbs and times</a> by<i> Zeno Vendler </i>
+
+2. <a href="https://user.phil.hhu.de/~filip/Mourelatos%2078:81.PDF">Events, processes, and states</a> by<i> Alexander P. D. Mourelatos </i>
+
+3. <a href="https://brill.com/view/book/edcoll/9789004373112/BP000004.xml">Aspect and Quantification</a> by<i> Lauri Carlson </i>
+
+4. <a href="https://www.researchgate.net/publication/226895496_The_Algebra_of_Events">The Algebra of Events</a> by<i> Emmon Bach </i>
+
+<details>
+<summary>5. <a href="https://www.aclweb.org/anthology/J88-2003.pdf">Temporal Ontology and Temporal Reference</a> by<i> Marc Moens, Mark Steedman </i></summary><blockquote><p align="justify">
+A semantics of temporal categories in language and a theory of their use in defining the temporal relations between events both require a more complex structure on the domain underlying the meaning representations than is commonly assumed. This paper proposes an ontology based on such notions as causation and consequence, rather than on purely temporal primitives. A central notion in the ontology is that of an elementary event-complex called a "nucleus." A nucleus can be thought of as an association of a goal event, or "culmination," with a "preparatory process" by which it is accomplished, and a "consequent state," which ensues. Natural-language categories like aspects, futurates, adverbials, and when-clauses are argued to change the temporal/aspectual category of propositions under the control of such a nucleic knowledge representation structure. The same concept of a nucleus plays a central role in a theory of temporal reference, and of the semantics of tense, which we follow McCawley, Partee, and Isard in regarding as an anaphoric category. We claim that any manageable formalism for natural- language temporal descriptions will have to embody such an ontology, as will any usable temporal database for knowledge about events which is to be interrogated using natural language. 
+</p></blockquote></details>
+
+<details>
+<summary>6. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/1467-968X.00020">Aspectual Shift as Type Coercion</a> by<i> Stephen G. Pulman </i></summary><blockquote><p align="justify">
+The phenomenon of aspectual shift has been discussed by several people over the last ten years using an analogy with type coercion in programming languages. This paper tries to take the analogy literally and to spell out the details for an analysis of some common kinds of aspectual shift in English under the influence of some types of temporal modification. A model‐theoretic basis for this kind of type coercion is supplied, and an illustrative fragment is worked out.
+</p></blockquote></details>
+
+<details>
+<summary>7. <a href="https://www.press.uchicago.edu/ucp/books/book/distributed/E/bo3645761.html">Events as Grammatical Objects : The Converging Perspectives of Lexical Semantics and Syntax</a> by<i> Carol L. Tenny and James Pustejovsky </i></summary><blockquote><p align="justify">
+Researchers in lexical semantics, logical semantics, and syntax have traditionally employed different approaches in their study of natural languages. Yet, recent research in all three fields have demonstrated a growing recognition that the grammars of natural languages structure and refer to events in particular ways. This convergence on the theory of events as grammatical objects is the motivation for this volume, which brings together premiere researchers in these disciplines to specifically address the topic of event structure. The selection of works presented in this volume originated from a 1997 workshop funded by the National Science Foundation regarding Events as Grammatical Objects, from the Combined Perspectives of Lexical Semantics, Logical Semantics and Syntax.
+</p></blockquote></details>
+
+8. <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.550.9185&rep=rep1&type=pdf">The Origins of Telicity</a> by<i> Manfred Krifka </i>
+
+9. <a href="https://www.cs.rochester.edu/u/james/Papers/Pustejovsky-event-structure.pdf">The Syntax of Event Structure</a> by<i> James Pustejovsky </i>
+
+10. <a href="http://semantics.uchicago.edu/kennedy/classes/s07/events/krifka90.pdf">Four thousand ships passed through the lock: object-induced measure functions on events</a> by<i> Manfred Krifka  </i>
+
+11. <a href="https://pdfs.semanticscholar.org/aa5a/5634bca33fab72c287b9594d6bbe2b0593ee.pdf">Nominal reference, temporal constitution and quantification in event semantics</a> by<i> Manfred Krifka  </i>
+
+12. <a href="https://www.degruyter.com/view/product/21691?lang=en">Event Structures in Linguistic Form and Interpretation</a> by<i> Dölling Johannes, Heyde-Zybatow Tatjana, Schäfer Martin  </i>
+
+13. <a href="https://www.researchgate.net/publication/257924792_Event_Structures_in_Linguistic_Form_and_Interpretation_Introduction">Event Structures in Linguistic Form and Interpretation (Introduction)</a> by<i> Dölling Johannes, Heyde-Zybatow Tatjana, Schäfer Martin  </i>
+
+14. <a href="https://www.researchgate.net/publication/290107347_Time_in_Language_Language_in_Time">Time in Language, Language in Time</a> by<i> Wolfgang Klein  </i>
+ 
 ## Data
 [:arrow_up:](#table-of-contents)
 
