@@ -18,6 +18,7 @@ This repository contains resources for Natural Language Processing (NLP) with a 
 - [Others](#others)
 - [Linguistics](#linguistics)
 - [Data](#data)
+- [Tools and Repos](#tools-and-repos)
 </p></blockquote></details>
 
 ---
@@ -1672,3 +1673,67 @@ Researchers in lexical semantics, logical semantics, and syntax have traditional
 * <a href="https://catalog.ldc.upenn.edu/LDC2005T16">TDT4 Multilingual Text and Annotations</a>
 * <a href="https://catalog.ldc.upenn.edu/LDC2017T09">The EventStatus Corpus</a>
 * <a href="https://catalog.ldc.upenn.edu/LDC2009T10">Language Understanding Annotation Corpus</a>
+* <a href="http://nactem.ac.uk/MLEE/">Multi-Level Event Extraction </a>
+
+
+## Tools and Repos
+
+<details>
+<summary>* <a href="https://github.com/dwadden/dygiepp">DyGIE++</a><p align="justify">
+Implements the model described in the paper Entity, Relation, and Event Extraction with Contextualized Span Representations.
+
+This repository is under construction and we're in the process of adding support for more datasets.
+</p></blockquote></details>
+
+<details>
+<summary>* <a href="http://www.newsreader-project.eu/results/software/">NewsReader project</a><p align="justify">
+On this page, you can find the different software modules developed by the NewsReader project. The easiest setup is provided by the virtual machine package that contains the complete pipelines. For those interested in trying out different parts of the pipelines, all separate modules are listed below as well. Please note that the pipelines take NAF files as input, for which we have made available Java and Python libraries.
+
+With each module, we specify who developed it. The quickest way to get help with a module is to contact that person. If a publication is associated with a module, it will be specified on the module’s page.
+</p></blockquote></details>
+
+
+<details>
+<summary>* <a href="http://wit.istc.cnr.it/stlab-tools/fred/">FRED : Machine Reading for the Semantic Web </a><p align="justify">
+FRED is a machine reader for the Semantic Web: it is able to parse natural language text in 48 different languages and transform it to linked data. It is implemented in Python and available as REST service and as a Python library suite [fredlib]. FRED background theories are: Combinatory Categorial Grammar [C&C], Discourse Representation Theory [DRT, Boxer], Frame Semantics [Fillmore 1976] and Ontology Design Patterns [Ontology Handbook]. FRED leverages Natural Language Processing components for performing Named Entity Resolution [Stanbol, TagMe], Coreference Resolution [CoreNLP], and Word Sense Disambiguation [Boxer, IMS]. All FRED graphs include textual annotations and represent textual segmentation, expressed by means of EARMARK and NIF.
+</p></blockquote></details>
+
+<details>
+<summary>* <a href="https://github.com/jbjorne/TEES">Turku Event Extraction System 2.3</a><p align="justify">
+Turku Event Extraction System (TEES) is a free and open source natural language processing system developed for the extraction of events and relations from  biomedical text. It is written mostly in Python, and should work in generic Unix/Linux environments.
+</p></blockquote></details>
+
+<details>
+<summary>* <a href="https://github.com/nlpcl-lab/bert-event-extraction">bert-event-extraction</a><p align="justify">
+Pytorch Solution of Event Extraction Task using BERT on ACE 2005 corpus
+</p></blockquote></details>
+
+<details>
+<summary>* <a href="https://github.com/nlpcl-lab/ace2005-preprocessing">ACE2005 preprocessing</a><p align="justify">
+This is a simple code for preprocessing ACE 2005 corpus for Event Extraction task.
+</p></blockquote></details>
+
+<details>
+<summary>* <a href="https://github.com/Hanlard/Transformer-based-pretrained-model-for-event-extraction">Transformer-based-pretrained-model-for-event-extraction</a><p align="justify">
+Pre-trained language models such as BERT / OpenAI-GPT2 / ALBERT / XLM / Roberta / XLNet / Ctrl / DistilBert / TransfoXL are used to perform event extraction tasks on the ace2005 dataset.
+</p></blockquote></details>
+
+<details>
+<summary>* <a href="https://github.com/hltcoe/EventMiner">EventMiner</a><p align="justify">
+EventMiner aims to serve, primarily, as an interface to various NLP analytics to extract event information from text. This project is setup with a REST frontend interface, which accepts text input, that is then further passed via a RabbitMQ messaging queue to various analytics as appropriate. The project is comprised of Docker containers, with orchestration handled by docker-compose. This, combined with RabbitMQ as the messaging layer, allows for clean definitions of interactions between services and minimal setup for the end user.
+</p></blockquote></details>
+
+<details>
+<summary>* <a href="https://github.com/lx865712528/EMNLP2018-JMEE">Jointly Multiple Events Extraction</a><p align="justify">
+This is the code of the Jointly Multiple Events Extraction (JMEE) in our EMNLP 2018 paper.
+</p></blockquote></details>
+
+<details>
+<summary>* <a href="https://github.com/lx865712528/ACL2019-ODEE">Open Domain Event Extraction Using Neural Latent Variable Models</a><p align="justify">
+This is the python3 code for the paper "Open Domain Event Extraction Using Neural Latent Variable Models" in ACL 2019.
+</p></blockquote></details>
+
+<details>
+<summary>* <a href="https://github.com/ahsi/Multilingual_Event_Extraction">CMU Multilingual Event Extractor</a><p align="justify">
+Python code to run ACE-style event extraction on English, Chinese, or Spanish texts 
+</p></blockquote></details>
