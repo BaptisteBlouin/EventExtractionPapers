@@ -1714,7 +1714,7 @@ This is a simple code for preprocessing ACE 2005 corpus for Event Extraction tas
 </p></blockquote></details>
 
 <details>
-<summary><a href="https://github.com/Hanlard/Transformer-based-pretrained-model-for-event-extraction">Transformer-based-pretrained-model-for-event-extraction</a><p align="justify">
+<summary><a href="https://github.com/Hanlard/Transformer-based-pretrained-model-for-event-extraction">Transformer-based-pretrained-model-for-event-extraction</a></summary><blockquote><p align="justify">
 Pre-trained language models such as BERT / OpenAI-GPT2 / ALBERT / XLM / Roberta / XLNet / Ctrl / DistilBert / TransfoXL are used to perform event extraction tasks on the ace2005 dataset.
 </p></blockquote></details>
 
