@@ -796,10 +796,9 @@ Document-level information is very important for event detection even at sentenc
 
 
 <details>
-<summary>21. <a href="https://www.aclweb.org/anthology/D18-1158/">Collective Event Detection via a Hierarchical and Bias Tagging Networks with Gated Multi-level Attention Mechanisms</a> by<i> Yubo Chen, Hang Yang, Kang Liu, Jun Zhao, Yantao Jia</i></summary><blockquote><p align="justify">
+<summary>21. <a href="https://www.aclweb.org/anthology/D18-1158/">Collective Event Detection via a Hierarchical and Bias Tagging Networks with Gated Multi-level Attention Mechanisms</a> by<i> Yubo Chen, Hang Yang, Kang Liu, Jun Zhao, Yantao Jia</i> (<a href="https://github.com/yubochen/NBTNGMA4ED">Github</a>)</summary><blockquote><p align="justify">
 Traditional approaches to the task of ACE event detection primarily regard multiple events in one sentence as independent ones and recognize them separately by using sentence-level information. However, events in one sentence are usually interdependent and sentence-level information is often insufficient to resolve ambiguities for some types of events. This paper proposes a novel framework dubbed as Hierarchical and Bias Tagging Networks with Gated Multi-level Attention Mechanisms (HBTNGMA) to solve the two problems simultaneously. Firstly, we propose a hierachical and bias tagging networks to detect multiple events in one sentence collectively. Then, we devise a gated multi-level attention to automatically extract and dynamically fuse the sentence-level and document-level information. The experimental results on the widely used ACE 2005 dataset show that our approach significantly outperforms other state-of-the-art methods.
 </p></blockquote></details>
-
  
 
 <details>
