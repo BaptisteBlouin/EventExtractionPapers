@@ -1681,7 +1681,7 @@ Researchers in lexical semantics, logical semantics, and syntax have traditional
 
 <details>
 <summary> <a href="https://github.com/ll0iecas/MOGANED">MOGANED</a></summary><blockquote><p align="justify">
-Implements the model described in the paper "Event Detection with Multi-Order Graph Convolution and Aggregated Attention. 2019. Yan et al. EMNLP19 Proceedings." for event trigger detection on classification in ACE2005.
+Implements the model described in the paper "Event Detection with Multi-Order Graph Convolution and Aggregated Attention. 2019. Yan et al. EMNLP19 Proceedings." for event trigger detection and type classification in ACE2005.
 </p></blockquote></details>
 
 <details>
