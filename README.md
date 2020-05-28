@@ -952,6 +952,11 @@ Existing event extraction methods classify each argument role independently, ign
 We examine the capabilities of a unified, multi-task framework for three information extraction tasks: named entity recognition, relation extraction, and event extraction. Our framework (called DyGIE++) accomplishes all tasks by enumerating, refining, and scoring text spans designed to capture local (within-sentence) and global (cross-sentence) context. Our framework achieves state-of-the-art results across all tasks, on four datasets from a variety of domains. We perform experiments comparing different techniques to construct span representations. Contextualized embeddings like BERT perform well at capturing relationships among entities in the same or adjacent sentences, while dynamic span graph updates model long-range cross-sentence relationships. For instance, propagating span representations via predicted coreference links can enable the model to disambiguate challenging entity mentions. Our code is publicly available at this https URL and can be easily adapted for new tasks or datasets. 
 </p></blockquote></details>
 
+<details>
+<summary>21. <a href="https://www.aclweb.org/anthology/D19-1582/">Event Detection with Multi-Order Graph Convolution and Aggregated Attention</a> by<i> Haoran Yan, Xiaolong Jin, Xiangbin Meng, Jiafeng Guo, Xueqi Cheng</i> (<a href="https://github.com/ll0iecas/MOGANED">Github</a>)</summary><blockquote><p align="justify">
+Syntactic relations are broadly used in many NLP tasks. For event detection, syntactic relation representations based on dependency tree can better capture the interrelations between candidate trigger words and related entities than sentence representations. But, existing studies only use first-order syntactic relations (i.e., the arcs) in dependency trees to identify trigger words. For this reason, this paper proposes a new method for event detection, which uses a dependency tree based graph convolution network with aggregative attention to explicitly model and aggregate multi-order syntactic representations in sentences. Experimental comparison with state-of-the-art baselines shows the superiority of the proposed method.
+</p></blockquote></details>
+
 ## 2020
 
 <details>
