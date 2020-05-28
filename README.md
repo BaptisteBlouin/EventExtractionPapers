@@ -796,10 +796,9 @@ Document-level information is very important for event detection even at sentenc
 
 
 <details>
-<summary>21. <a href="https://www.aclweb.org/anthology/D18-1158/">Collective Event Detection via a Hierarchical and Bias Tagging Networks with Gated Multi-level Attention Mechanisms</a> by<i> Yubo Chen, Hang Yang, Kang Liu, Jun Zhao, Yantao Jia</i></summary><blockquote><p align="justify">
+<summary>21. <a href="https://www.aclweb.org/anthology/D18-1158/">Collective Event Detection via a Hierarchical and Bias Tagging Networks with Gated Multi-level Attention Mechanisms</a> by<i> Yubo Chen, Hang Yang, Kang Liu, Jun Zhao, Yantao Jia</i> (<a href="https://github.com/yubochen/NBTNGMA4ED">Github</a>)</summary><blockquote><p align="justify">
 Traditional approaches to the task of ACE event detection primarily regard multiple events in one sentence as independent ones and recognize them separately by using sentence-level information. However, events in one sentence are usually interdependent and sentence-level information is often insufficient to resolve ambiguities for some types of events. This paper proposes a novel framework dubbed as Hierarchical and Bias Tagging Networks with Gated Multi-level Attention Mechanisms (HBTNGMA) to solve the two problems simultaneously. Firstly, we propose a hierachical and bias tagging networks to detect multiple events in one sentence collectively. Then, we devise a gated multi-level attention to automatically extract and dynamically fuse the sentence-level and document-level information. The experimental results on the widely used ACE 2005 dataset show that our approach significantly outperforms other state-of-the-art methods.
 </p></blockquote></details>
-
  
 
 <details>
@@ -953,7 +952,7 @@ We examine the capabilities of a unified, multi-task framework for three informa
 </p></blockquote></details>
 
 <details>
-<summary>21. <a href="https://www.aclweb.org/anthology/D19-1582/">Event Detection with Multi-Order Graph Convolution and Aggregated Attention</a> by<i> Haoran Yan, Xiaolong Jin, Xiangbin Meng, Jiafeng Guo, Xueqi Cheng</i> (<a href="https://github.com/ll0iecas/MOGANED">Github</a>)</summary><blockquote><p align="justify">
+<summary>21. <a href="https://www.aclweb.org/anthology/D19-1582/">Event Detection with Multi-Order Graph Convolution and Aggregated Attention</a> by<i> Haoran Yan, Xiaolong Jin, Xiangbin Meng, Jiafeng Guo, Xueqi Cheng</i> (<a href="https://github.com/ll0iecas/MOGANED">Github TensorFlow Unofficial</a>, <a href="https://github.com/wzq016/MOGANED-Implementation">Github Pytorch Unofficial</a>)</summary><blockquote><p align="justify">
 Syntactic relations are broadly used in many NLP tasks. For event detection, syntactic relation representations based on dependency tree can better capture the interrelations between candidate trigger words and related entities than sentence representations. But, existing studies only use first-order syntactic relations (i.e., the arcs) in dependency trees to identify trigger words. For this reason, this paper proposes a new method for event detection, which uses a dependency tree based graph convolution network with aggregative attention to explicitly model and aggregate multi-order syntactic representations in sentences. Experimental comparison with state-of-the-art baselines shows the superiority of the proposed method.
 </p></blockquote></details>
 
