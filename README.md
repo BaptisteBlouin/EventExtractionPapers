@@ -953,7 +953,7 @@ We examine the capabilities of a unified, multi-task framework for three informa
 </p></blockquote></details>
 
 <details>
-<summary>21. <a href="https://www.aclweb.org/anthology/D19-1582/">Event Detection with Multi-Order Graph Convolution and Aggregated Attention</a> by<i> Haoran Yan, Xiaolong Jin, Xiangbin Meng, Jiafeng Guo, Xueqi Cheng</i> (<a href="https://github.com/ll0iecas/MOGANED">Github</a>)</summary><blockquote><p align="justify">
+<summary>21. <a href="https://www.aclweb.org/anthology/D19-1582/">Event Detection with Multi-Order Graph Convolution and Aggregated Attention</a> by<i> Haoran Yan, Xiaolong Jin, Xiangbin Meng, Jiafeng Guo, Xueqi Cheng</i> (<a href="https://github.com/ll0iecas/MOGANED">Github TensorFlow Unofficial</a>, <a href="https://github.com/wzq016/MOGANED-Implementation">Github Pytorch Unofficial</a>)</summary><blockquote><p align="justify">
 Syntactic relations are broadly used in many NLP tasks. For event detection, syntactic relation representations based on dependency tree can better capture the interrelations between candidate trigger words and related entities than sentence representations. But, existing studies only use first-order syntactic relations (i.e., the arcs) in dependency trees to identify trigger words. For this reason, this paper proposes a new method for event detection, which uses a dependency tree based graph convolution network with aggregative attention to explicitly model and aggregate multi-order syntactic representations in sentences. Experimental comparison with state-of-the-art baselines shows the superiority of the proposed method.
 </p></blockquote></details>
 
