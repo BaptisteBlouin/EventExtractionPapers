@@ -1678,6 +1678,7 @@ Researchers in lexical semantics, logical semantics, and syntax have traditional
 * <a href="https://catalog.ldc.upenn.edu/LDC2017T09">The EventStatus Corpus</a>
 * <a href="https://catalog.ldc.upenn.edu/LDC2009T10">Language Understanding Annotation Corpus</a>
 * <a href="http://nactem.ac.uk/MLEE/">Multi-Level Event Extraction </a>
+* <a href="https://osf.io/enu2k/">SentiFM company-specific economic news event dataset (English)</a>
 
 
 ## Tools and Repos
