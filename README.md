@@ -1535,8 +1535,10 @@ We describe UTD’s participating system in the event nugget detection and coref
 Event extraction, a specialized stream of information extraction rooted back into the 1980s, has greatly gained in popularity due to the advent of big data and the developments in the related fields of text mining and natural language processing. However, up to this date, an overview of this particular field remains elusive. Therefore, we give a summarization of event extraction techniques for textual data, distinguishing between data-driven, knowledge-driven, and hybrid methods, and present a qualitative evaluation of these. Moreover, we discuss common decision support applications of event extraction from text corpora. Last, we elaborate on the evaluation of event extraction systems and identify current research issues.
 </p></blockquote></details>
 
+http://www.cfilt.iitb.ac.in/resources/surveys/Temporal_Information_Extraction-Naman-June15.pdf
+
 <details>
-<summary>2. <a href="https://pdfs.semanticscholar.org/0eef/643c744ac3e4ffd68d4328b5f445dbf9e10e.pdf">A Survey of Event Extraction From Text </a> by<i> Zecheng Zhang, Yuncheng Wu, Zesheng Wang </i></summary><blockquote><p align="justify">
+<summary>2. <a href="https://pdfs.semanticscholar.org/0eef/643c744ac3e4ffd68d4328b5f445dbf9e10e.pdf">A Survey of Open Domain Event Extraction </a> by<i> Zecheng Zhang, Yuncheng Wu, Zesheng Wang </i></summary><blockquote><p align="justify">
 The development of the Internet and social media have insti-gated the increasing of text information communication andsharing.  Tremendous volume of text data is generated everysecond.  To mine useful and structured knowledge from theunstructured text corpus, many information extraction sys-tems have been created.  One of the crucial methods of thosesystems is the open domain event extraction, which aims atextracting  meaningful  event  information  without  any  pre-defined  domain  assumption.   Combining  with  some  recentpromising  techniques  including  Question  Answer  pairing,entity linking, entity coreference and deep learning, the re-sult of open domain extraction seems to be improved. In thissurvey, we will first briefly give introduction to the pipelineof event extraction.  Then we will give relatively detailed de-scription on recent promising open domain event extractionapproaches including examination of some recent papers.
 </p></blockquote></details>
 
@@ -1561,7 +1563,7 @@ Event extraction is one of the most challenging tasks in the field of informatio
 </p></blockquote></details>
 
 <details>
-<summary>7. <a href="https://ieeexplore.ieee.org/document/8918013">Temporal Information Extraction Extracting Events and Temporal Expressions A Literature Survey </a> by<i> Naman Gupta </i></summary><blockquote><p align="justify">
+<summary>7. <a href="http://www.cfilt.iitb.ac.in/resources/surveys/Temporal_Information_Extraction-Naman-June15.pdf">Temporal Information Extraction Extracting Events and Temporal Expressions A Literature Survey </a> by<i> Naman Gupta </i></summary><blockquote><p align="justify">
 Information  on  web  is  increasing  at  infinitum.   There  exists  plethora  of  data  on  World  Wide  Web (WWW) in various electronic and digital form.  Thus, web has become an unstructured global area where information even if available, cannot be directly used for desired applications.  One is often faced with an information overload and demands for some automated help.  Information extraction (IE) is the task of automatically extracting structured information from unstructured and/or semi-structured machine-readable  documents  by  means  of  Text  Mining  and  Natural  Language  Processing  (NLP)  techniques. Extracted structured information can be used for variety of enterprise or personal level task of varying complexity.   In  this  survey  report  we  will  discuss  literature  related  to  temporal  expressions  and  event extraction
 </p></blockquote></details>
 
