@@ -825,6 +825,10 @@ Identifying event instance in text plays a critical role in building NLP applica
 Recently, end-to-end models based on recurrent neural networks (RNN) have gained great success in event detection. However these methods cannot deal with long-distance dependency and internal structure information well. They are also hard to be controlled in process of learning since lacking of prior knowledge integration. In this paper, we present an effective framework for event detection which aims to address these problems. Our model based on self-attention can ignore the distance between any two words to obtain their relationship and leverage internal event argument information to improve event detection. In order to control the process of learning, we first collect keywords from corpus and then use a prior knowledge integration network to encode keywords to a prior knowledge representation. Experimental results demonstrate that our model has significant improvement of 3.9 F1 over the previous state-of-the-art on ACE 2005 dataset.
 </p></blockquote></details>
 
+<details>
+<summary>24. <a href="https://www.aclweb.org/anthology/P18-1048.pdf">Self-regulation: Employing a Generative Adversarial Network to Improve Event Detection </a> by<i> Tongtao Zhang, Heng Ji and Avirup Sil</i></summary><blockquote><p align="justify">Due to the ability of encoding and map-ping semantic information into a high-dimensional latent feature space, neuralnetworks have been successfully used fordetecting events to a certain extent. How-ever, such a feature space can be easilycontaminated by spurious features inher-ent in event detection. In this paper, wepropose a self-regulated learning approachby utilizing a generative adversarial net-work to generate spurious features. On thebasis, we employ a recurrent network toeliminate the fakes. Detailed experimentson the ACE 2005 and TAC-KBP 2015 cor-pora show that our proposed method ishighly effective and adaptable.
+</p></blockquote></details>
+
 
 ### 2019
 
@@ -977,6 +981,12 @@ Biomedical event extraction plays an important role in the field of biomedical t
 <summary>23. <a href="https://arxiv.org/abs/1910.11621">Meta-Learning with Dynamic-Memory-Based Prototypical Network for Few-Shot Event Detection</a> by<i>  Shumin Deng, Ningyu Zhang, Jiaojian Kang, Yichi Zhang, Wei Zhang, Huajun Chen </i></summary><blockquote><p align="justify">
 Event detection (ED), a sub-task of event extraction, involves identifying triggers and categorizing event mentions. Existing methods primarily rely upon supervised learning and require large-scale labeled event datasets which are unfortunately not readily available in many real-life applications. In this paper, we consider and reformulate the ED task with limited labeled data as a Few-Shot Learning problem. We propose a Dynamic-Memory-Based Prototypical Network (DMB-PN), which exploits Dynamic Memory Network (DMN) to not only learn better prototypes for event types, but also produce more robust sentence encodings for event mentions. Differing from vanilla prototypical networks simply computing event prototypes by averaging, which only consume event mentions once, our model is more robust and is capable of distilling contextual information from event mentions for multiple times due to the multi-hop mechanism of DMNs. The experiments show that DMB-PN not only deals with sample scarcity better than a series of baseline models but also performs more robustly when the variety of event types is relatively large and the instance quantity is extremely small. 
 </p></blockquote></details>
+<details>
+	
+<summary>24. <a href="https://www.mitpressjournals.org/doi/full/10.1162/dint_a_00014">Joint entity and event extraction with generative adversarial imitation learning</a> by<i> Tongtao Zhang, Heng Ji and Avirup Sil</i></summary><blockquote><p align="justify">
+We propose a new framework for entity and event extraction based on generative adversarial imitation learning—an inverse reinforcement learning method using a generative adversarial network (GAN). We assume that instances and labels yield to various extents of difficulty and the gains and penalties (rewards) are expected to be diverse. We utilize discriminators to estimate proper rewards according to the difference between the labels committed by the ground-truth (expert) and the extractor (agent). Our experiments demonstrate that the proposed framework outperforms state-of-the-art methods.
+</p></blockquote></details>
+
 
 ## 2020
 
