@@ -1047,7 +1047,7 @@ In this work, we explore the implicit event argument detection task, which studi
 </p></blockquote></details>
 
 <details>
-<summary>10. <a href="https://www.aclweb.org/anthology/2020.nuse-1.5/">Extensively Matching for Few-shot Learning Event Detection</a> by<i> Viet Dac Lai, Thien Huu Nguyen, Frank Dernoncourt</i></summary><blockquote><p align="justify">
+<summary>10. <a href="https://www.aclweb.org/anthology/2020.nuse-1.5/">Extensively Matching for Few-shot Learning Event Detection</a> by<i> Viet Dac Lai, Thien Huu Nguyen, Franck Dernoncourt</i></summary><blockquote><p align="justify">
 Current event detection models under supervised learning settings fail to transfer to new event types. Few-shot learning has not been explored in event detection even though it allows a model to perform well with high generalization on new event types. In this work, we formulate event detection as a few-shot learning problem to enable to extend event detection to new event types. We propose two novel loss factors that matching examples in the support set to provide more training signals to the model. Moreover, these training signals can be applied in many metric-based few-shot learning models. Our extensive experiments on the ACE-2005 dataset (under a few-shot learning setting) show that the proposed method can improve the performance of few-shot learning.
 </p></blockquote></details>
 
