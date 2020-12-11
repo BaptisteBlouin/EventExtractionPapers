@@ -19,6 +19,7 @@ This repository contains resources for Natural Language Processing (NLP) with a 
 - [Linguistics](#linguistics)
 - [Data](#data)
 - [Tools and Repos](#tools-and-repos)
+- [Other lists](#other-lists)
 </p></blockquote></details>
 
 ---
@@ -2054,3 +2055,10 @@ This is the python3 code for the paper "Open Domain Event Extraction Using Neura
 <summary><a href="https://github.com/ahsi/Multilingual_Event_Extraction">CMU Multilingual Event Extractor</a></summary><blockquote><p align="justify">
 Python code to run ACE-style event extraction on English, Chinese, or Spanish texts 
 </p></blockquote></details>
+
+
+## Other lists
+
+* <a href="https://github.com/carrie0307/DL_EventExtractionPapers">DL_EventExtractionPapers</a>
+* <a href="https://github.com/ll0iecas/event-extraction-paper">event-extraction-paper</a>
+* <a href="https://github.com/Clearailhc/KG-NLP-Papers">KG-NLP-Papers</a>
