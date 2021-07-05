@@ -831,6 +831,11 @@ Recently, end-to-end models based on recurrent neural networks (RNN) have gained
 </p></blockquote></details>
 
 
+<details>
+<summary>25. <a href="https://tel.archives-ouvertes.fr/tel-01943841/document/">Neural Methods for Event Extraction </a> by<i> Emanuela Boros</i> </summary><blockquote><p align="justify">
+Neural Methods for Event Extraction thesis
+</p></blockquote></details>
+
 ### 2019
 
  
