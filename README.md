@@ -1248,6 +1248,13 @@ Using the attention map based probing frame-work from (Clark et al., 2019), we o
 </p></blockquote></details>
 
 
+## 2021
+
+<details>
+<summary>1. <a href="https://arxiv.org/abs/2104.06969">
+Event Detection as Question Answering with Entity Information</a> by<i> Emanuela Boros, Jose G. Moreno, Antoine Doucet</i></summary><blockquote><p align="justify">
+In this paper, we propose a recent and under-researched paradigm for the task of event detection (ED) by casting it as a question-answering (QA) problem with the possibility of multiple answers and the support of entities. The extraction of event triggers is, thus, transformed into the task of identifying answer spans from a context, while also focusing on the surrounding entities. The architecture is based on a pre-trained and fine-tuned language model, where the input context is augmented with entities marked at different levels, their positions, their types, and, finally, the argument roles. Experiments on the ACE~2005 corpus demonstrate that the proposed paradigm is a viable solution for the ED task and it significantly outperforms the state-of-the-art models. Moreover, we prove that our methods are also able to extract unseen event types.  
+</p></blockquote></details>
 
 ## Semi-supervised learning 
 [:arrow_up:](#table-of-contents)
