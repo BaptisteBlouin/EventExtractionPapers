@@ -1256,6 +1256,14 @@ Event Detection as Question Answering with Entity Information</a> by<i> Emanuela
 In this paper, we propose a recent and under-researched paradigm for the task of event detection (ED) by casting it as a question-answering (QA) problem with the possibility of multiple answers and the support of entities. The extraction of event triggers is, thus, transformed into the task of identifying answer spans from a context, while also focusing on the surrounding entities. The architecture is based on a pre-trained and fine-tuned language model, where the input context is augmented with entities marked at different levels, their positions, their types, and, finally, the argument roles. Experiments on the ACE~2005 corpus demonstrate that the proposed paradigm is a viable solution for the ED task and it significantly outperforms the state-of-the-art models. Moreover, we prove that our methods are also able to extract unseen event types.  
 </p></blockquote></details>
 
+## 2022
+
+<details>
+<summary>1. <a href="https://aclanthology.org/2022.coling-1.238/">
+Text-to-Text Extraction and Verbalization of Biomedical Event Graphs</a> by<i> Giacomo Frisoni, Gianluca Moro, Lorenzo Balzani</i></summary><blockquote><p align="justify">
+Biomedical events represent complex, graphical, and semantically rich interactions expressed in the scientific literature. Almost all contributions in the event realm orbit around semantic parsing, usually employing discriminative architectures and cumbersome multi-step pipelines limited to a small number of target interaction types. We present the first lightweight framework to solve both event extraction and event verbalization with a unified text-to-text approach, allowing us to fuse all the resources so far designed for different tasks. To this end, we present a new event graph linearization technique and release highly comprehensive event-text paired datasets, covering more than 150 event types from multiple biology subareas (English language). By streamlining parsing and generation to translations, we propose baseline transformer model results according to multiple biomedical text mining benchmarks and NLG metrics. Our extractive models achieve greater state-of-the-art performance than single-task competitors and show promising capabilities for the controlled generation of coherent natural language utterances from structured data.
+</p></blockquote></details>
+
 ## Semi-supervised learning 
 [:arrow_up:](#table-of-contents)
 ### 2009
