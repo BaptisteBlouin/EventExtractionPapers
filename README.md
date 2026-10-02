@@ -1925,6 +1925,12 @@ This paper describes an approach to determine whether people participate in the 
 In this paper we describe a new lexical semantic resource, The Rich Event On-tology, which provides an independent conceptual backbone to unify existing semantic role labeling (SRL) schemas and augment them with event-to-event causal and temporal relations. By unifying the FrameNet, VerbNet, Automatic Content Extraction, and Rich Entities, Relations and Events resources, the ontology serves as a shared hub for the disparate annotation schemas and therefore enables the combination of SRL training data into a larger, more diverse corpus. By adding temporal and causal relational information not found in any of the independent resources, the ontology facilitates reasoning on and across documents, revealing relationships between events that come together in temporal and causal chains to build more complex scenarios. We envision the open resource serving as a valuable tool for both moving from the ontology to text to query for event types and scenarios of interest, and for moving from text to the ontology to access interpretations of events using the combined semantic information housed there.
 </p></blockquote></details>
 
+### 2024
+
+<details><summary>1. <a href="https://arxiv.org/abs/2004.13590">A comprehensive review of existing corpora and methods for creating annotated corpora for event extraction tasks</a> by<i> Mohd Hafizul Afifi Abdullah, Norshakirah Aziz, Said Jadid Abdulkadir, Kashif Hussain, Hitham Alhussian, Noureen Talpur </i></summary><blockquote><p align="justify">
+This comprehensive review explores the landscape of annotated corpora for event extraction, with a focus on English datasets. Highlighting gaps in availability and access, we provide practical guidelines for creating high-quality corpora, offering a roadmap to advance research and AI applications.
+</p></blockquote></details>
+
 ### Linguistics
 [:arrow_up:](#table-of-contents)
 
@@ -2024,6 +2030,10 @@ Event detection (ED), which identifies event trigger words and classifies event 
 
 <details><summary><a href="https://www.aclweb.org/anthology/2020.emnlp-main.433/">Introducing a New Dataset for Event Detection in Cybersecurity Texts</a> by<i> Hieu Man Duc Trong, Duc Trong Le, Amir Pouran Ben Veyseh, Thuat Nguyen, Thien Huu Nguyen </i></summary><blockquote><p align="justify">
 Detecting cybersecurity events is necessary to keep us informed about the fast growing number of such events reported in text. In this work, we focus on the task of event detection (ED) to identify event trigger words for the cybersecurity domain. In particular, to facilitate the future research, we introduce a new dataset for this problem, characterizing the manual annotation for 30 important cybersecurity event types and a large dataset size to develop deep learning models. Comparing to the prior datasets for this task, our dataset involves more event types and supports the modeling of document-level information to improve the performance. We perform extensive evaluation with the current state-of-the-art methods for ED on the proposed dataset. Our experiments reveal the challenges of cybersecurity ED and present many research opportunities in this area for the future work. 
+</p></blockquote></details>
+
+<details><summary><a href="https://arxiv.org/abs/2004.13590">A comprehensive review of existing corpora and methods for creating annotated corpora for event extraction tasks</a> by<i> Mohd Hafizul Afifi Abdullah, Norshakirah Aziz, Said Jadid Abdulkadir, Kashif Hussain, Hitham Alhussian, Noureen Talpur </i></summary><blockquote><p align="justify">
+This comprehensive review explores the landscape of annotated corpora for event extraction, with a focus on English datasets. Highlighting gaps in availability and access, we provide practical guidelines for creating high-quality corpora, offering a roadmap to advance research and AI applications.
 </p></blockquote></details>
 
 ## Tools and Repos
